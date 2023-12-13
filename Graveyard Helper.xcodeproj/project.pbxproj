@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */; };
+		EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111432B276F2800A2ABF3 /* ContentView.swift */; };
+		EF9111462B276F2900A2ABF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9111452B276F2900A2ABF3 /* Assets.xcassets */; };
+		EF9111492B276F2900A2ABF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9111482B276F2900A2ABF3 /* Preview Assets.xcassets */; };
+		EF9111562B2770C700A2ABF3 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111552B2770C700A2ABF3 /* TaskStore.swift */; };
+		EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */; };
+		EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */; };
+		EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */; };
+		EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DC2B29F41100559A24 /* ListView.swift */; };
+		EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DF2B29F63C00559A24 /* Todo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF91113E2B276F2800A2ABF3 /* Graveyard Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graveyard Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graveyard_HelperApp.swift; sourceTree = "<group>"; };
+		EF9111432B276F2800A2ABF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF9111452B276F2900A2ABF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF9111482B276F2900A2ABF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF91114A2B276F2900A2ABF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9111552B2770C700A2ABF3 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailObjectView.swift; sourceTree = "<group>"; };
+		EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRowView.swift; sourceTree = "<group>"; };
+		EFD7C9DC2B29F41100559A24 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EFD7C9DF2B29F63C00559A24 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF91113B2B276F2800A2ABF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9111352B276F2800A2ABF3 = {
+			isa = PBXGroup;
+			children = (
+				EF9111402B276F2800A2ABF3 /* Graveyard Helper */,
+				EF91113F2B276F2800A2ABF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF91113F2B276F2800A2ABF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF91113E2B276F2800A2ABF3 /* Graveyard Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9111402B276F2800A2ABF3 /* Graveyard Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */,
+				EF9111522B27704A00A2ABF3 /* ViewModel */,
+				EF9111532B27705500A2ABF3 /* Model */,
+				EF9111542B27705D00A2ABF3 /* Views */,
+				EF9111452B276F2900A2ABF3 /* Assets.xcassets */,
+				EF91114A2B276F2900A2ABF3 /* Info.plist */,
+				EF9111472B276F2900A2ABF3 /* Preview Content */,
+			);
+			path = "Graveyard Helper";
+			sourceTree = "<group>";
+		};
+		EF9111472B276F2900A2ABF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF9111482B276F2900A2ABF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF9111522B27704A00A2ABF3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF9111552B2770C700A2ABF3 /* TaskStore.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF9111532B27705500A2ABF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7C9DF2B29F63C00559A24 /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF9111542B27705D00A2ABF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF9111432B276F2800A2ABF3 /* ContentView.swift */,
+				EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */,
+				EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */,
+				EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */,
+				EFD7C9DC2B29F41100559A24 /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF91113D2B276F2800A2ABF3 /* Graveyard Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF91114D2B276F2900A2ABF3 /* Build configuration list for PBXNativeTarget "Graveyard Helper" */;
+			buildPhases = (
+				EF91113A2B276F2800A2ABF3 /* Sources */,
+				EF91113B2B276F2800A2ABF3 /* Frameworks */,
+				EF91113C2B276F2800A2ABF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Graveyard Helper";
+			productName = "Graveyard Helper";
+			productReference = EF91113E2B276F2800A2ABF3 /* Graveyard Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9111362B276F2800A2ABF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EF91113D2B276F2800A2ABF3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EF9111392B276F2800A2ABF3 /* Build configuration list for PBXProject "Graveyard Helper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9111352B276F2800A2ABF3;
+			productRefGroup = EF91113F2B276F2800A2ABF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF91113D2B276F2800A2ABF3 /* Graveyard Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF91113C2B276F2800A2ABF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9111492B276F2900A2ABF3 /* Preview Assets.xcassets in Resources */,
+				EF9111462B276F2900A2ABF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF91113A2B276F2800A2ABF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */,
+				EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */,
+				EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */,
+				EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */,
+				EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */,
+				EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */,
+				EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */,
+				EF9111562B2770C700A2ABF3 /* TaskStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF91114B2B276F2900A2ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF91114C2B276F2900A2ABF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF91114E2B276F2900A2ABF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Graveyard Helper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Graveyard Helper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lasalle.edu.Graveyard-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF91114F2B276F2900A2ABF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Graveyard Helper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Graveyard Helper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lasalle.edu.Graveyard-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9111392B276F2800A2ABF3 /* Build configuration list for PBXProject "Graveyard Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF91114B2B276F2900A2ABF3 /* Debug */,
+				EF91114C2B276F2900A2ABF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF91114D2B276F2900A2ABF3 /* Build configuration list for PBXNativeTarget "Graveyard Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF91114E2B276F2900A2ABF3 /* Debug */,
+				EF91114F2B276F2900A2ABF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9111362B276F2800A2ABF3 /* Project object */;
+}
