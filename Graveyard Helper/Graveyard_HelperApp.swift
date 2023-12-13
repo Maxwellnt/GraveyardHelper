@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Graveyard_HelperApp: App {
+    @StateObject private var taskStore = TaskStore()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(taskStore)
         }
     }
 }
