@@ -17,6 +17,7 @@
 		EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */; };
 		EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DC2B29F41100559A24 /* ListView.swift */; };
 		EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DF2B29F63C00559A24 /* Todo.swift */; };
+		EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRowView.swift; sourceTree = "<group>"; };
 		EFD7C9DC2B29F41100559A24 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		EFD7C9DF2B29F63C00559A24 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */,
 				EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */,
 				EFD7C9DC2B29F41100559A24 /* ListView.swift */,
+				EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */,
 				EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */,
 				EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */,
+				EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */,
 				EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */,
 				EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */,
 				EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */,
