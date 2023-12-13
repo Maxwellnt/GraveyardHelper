@@ -16,7 +16,7 @@ struct ObjectRowView: View {
 
 struct FruitRowView_Previews: PreviewProvider {
     static var previews: some View {
-        ObjectRowView(todo: TaskStore.defaultTask)
+        ObjectRowView(todo: TaskStore.defaultTask).previewLayout(.sizeThatFits)
     }
     
 }

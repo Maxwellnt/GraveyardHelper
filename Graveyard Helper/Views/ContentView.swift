@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            ListView().environmentObject(TaskStore())
+                .tabItem({
+            Image(systemName: "icloud.and.arrow.down") .resizable()
+            Text("Buildings")
+            })
+            ListView().environmentObject(TaskStore())
+                .tabItem({
+            Image(systemName: "icloud.and.arrow.up") .resizable()
+            Text("Tasks")
+            })
+            ListView().environmentObject(TaskStore())
+                .tabItem({
+            Image(systemName: "icloud.and.arrow.down") .resizable()
+            Text("Items")
+            })
+        }
+        
     }
 }
 
