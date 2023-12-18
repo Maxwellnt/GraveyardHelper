@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct Todo: Hashable, Identifiable{
     var id: some Hashable{title}
     var title:String
@@ -17,7 +18,6 @@ struct Todo: Hashable, Identifiable{
 }
 
 enum Entry:String, CaseIterable {
-  case apple = "🍎"
   case banana = "🍌"
   case coco =  "🥥"
   case grape = "🍇"
@@ -30,3 +30,4 @@ enum Entry:String, CaseIterable {
   case watermelon = "🍉"
 
 }
+

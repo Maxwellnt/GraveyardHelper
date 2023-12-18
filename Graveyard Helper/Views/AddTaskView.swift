@@ -40,6 +40,7 @@ struct AddTaskView: View {
                     }.disabled(newTask.title.isEmpty)
                 }
             }
+            
         }
         
     }

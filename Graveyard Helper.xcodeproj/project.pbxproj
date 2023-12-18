@@ -15,6 +15,10 @@
 		EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */; };
 		EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */; };
 		EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */; };
+		EFC55BC92B30A201009387EE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BC82B30A201009387EE /* SwiftUIView.swift */; };
+		EFC55BCC2B30A30E009387EE /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BCB2B30A30E009387EE /* Objects.swift */; };
+		EFC55BCF2B30A335009387EE /* Constructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BCE2B30A335009387EE /* Constructions.swift */; };
+		EFC55BD62B30A548009387EE /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BD52B30A548009387EE /* Entry.swift */; };
 		EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DC2B29F41100559A24 /* ListView.swift */; };
 		EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DF2B29F63C00559A24 /* Todo.swift */; };
 		EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */; };
@@ -591,6 +595,10 @@
 		EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailObjectView.swift; sourceTree = "<group>"; };
 		EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRowView.swift; sourceTree = "<group>"; };
+		EFC55BC82B30A201009387EE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EFC55BCB2B30A30E009387EE /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		EFC55BCE2B30A335009387EE /* Constructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructions.swift; sourceTree = "<group>"; };
+		EFC55BD52B30A548009387EE /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		EFD7C9DC2B29F41100559A24 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		EFD7C9DF2B29F63C00559A24 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
@@ -1218,6 +1226,9 @@
 			isa = PBXGroup;
 			children = (
 				EFD7C9DF2B29F63C00559A24 /* Todo.swift */,
+				EFC55BCB2B30A30E009387EE /* Objects.swift */,
+				EFC55BCE2B30A335009387EE /* Constructions.swift */,
+				EFC55BD52B30A548009387EE /* Entry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1231,6 +1242,7 @@
 				EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */,
 				EFD7C9DC2B29F41100559A24 /* ListView.swift */,
 				EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */,
+				EFC55BC82B30A201009387EE /* SwiftUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -2447,10 +2459,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC55BCF2B30A335009387EE /* Constructions.swift in Sources */,
 				EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */,
+				EFC55BD62B30A548009387EE /* Entry.swift in Sources */,
 				EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */,
+				EFC55BCC2B30A30E009387EE /* Objects.swift in Sources */,
 				EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */,
 				EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */,
+				EFC55BC92B30A201009387EE /* SwiftUIView.swift in Sources */,
 				EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */,
 				EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */,
 				EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */,
