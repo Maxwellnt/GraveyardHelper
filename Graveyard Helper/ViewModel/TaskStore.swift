@@ -8,11 +8,11 @@ class TaskStore:ObservableObject{
     }
     
     static let defaultTasks = [
-        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .strawberry, quantity: 2),
-        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .banana, quantity: 2),
-        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .coco, quantity: 2),
+        Todo(title: "Task 2", icon: "hola", finished: true, selectedEntry: .candle_02, quantity: 2),
+        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .mug_of_mead, quantity: 2),
+        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .black_jelly, quantity: 2),
     ]
     
-    static let defaultTask =  Todo(title: "", icon: "", finished: false, selectedEntry: .strawberry, quantity: 0)
+    static let defaultTask =  Todo(title: "Strawberry", icon: "", finished: false, selectedEntry: .candle_02, quantity: 0)
     
 }

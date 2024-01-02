@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import SwiftUI
 
 struct Todo: Hashable, Identifiable{
     var id: some Hashable{title}
@@ -15,19 +15,17 @@ struct Todo: Hashable, Identifiable{
     var finished:Bool
     var selectedEntry:Entry
     var quantity:Int
+    
+    
+    func showIcon() -> Image {
+        return Image(self.selectedEntry.rawValue)
+    }
+
 }
 
 enum Entry:String, CaseIterable {
-  case banana = "🍌"
-  case coco =  "🥥"
-  case grape = "🍇"
-  case kiwi = "🥝"
-  case lemon = "🍋"
-  case orange = "🍊"
-  case pear = "🍐"
-  case pineapple = "🍍"
-  case strawberry = "🍓"
-  case watermelon = "🍉"
-
+    case candle_02 = "02_candle_item"
+    case mug_of_mead = "A_mug_of_mead_item"
+    case black_jelly = "Black_jelly_item"
 }
 

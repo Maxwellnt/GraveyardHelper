@@ -13,18 +13,18 @@ struct ContentView: View {
         TabView{
             ListView().environmentObject(TaskStore())
                 .tabItem({
-            Image(systemName: "icloud.and.arrow.down") .resizable()
-            Text("Buildings")
+            Image(systemName: "checklist") .resizable()
+            Text("To-Do List")
             })
-            ListView().environmentObject(TaskStore())
+            ObjectListView(objectList: ObjectsControler.defaultItems)
                 .tabItem({
-            Image(systemName: "icloud.and.arrow.up") .resizable()
-            Text("Tasks")
+            Image(systemName: "house") .resizable()
+            Text("Constucciones")
             })
-            ListView().environmentObject(TaskStore())
+            ObjectListView(objectList: ObjectsControler.defaultBlueprints)
                 .tabItem({
-            Image(systemName: "icloud.and.arrow.down") .resizable()
-            Text("Items")
+            Image(systemName: "hammer") .resizable()
+            Text("Objetos")
             })
         }
         

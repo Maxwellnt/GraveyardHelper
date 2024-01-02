@@ -13,7 +13,7 @@ struct ImagePickerView: View {
   var body: some View {
     Picker(selection: $entry, label: Text("")) {
       ForEach(Entry.allCases, id: \.self) {
-        Text($0.rawValue).font(.largeTitle)
+          Image($0.rawValue).font(.title)
       }
     }
     .pickerStyle(WheelPickerStyle())
@@ -22,6 +22,6 @@ struct ImagePickerView: View {
 
 struct EntryPicker_Previews: PreviewProvider {
     static var previews: some View {
-        ImagePickerView(entry: .constant(Entry.apple))
+        ImagePickerView(entry: .constant(Entry.black_jelly))
     }
 }

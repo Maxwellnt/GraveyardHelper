@@ -12,12 +12,14 @@ struct ListView: View {
     @State private var sheetIsVisible = false
     @State private var sheetAction = SheetAction.cancel
     @State private var newTask = TaskStore.defaultTask
+    
     var body: some View{
-        NavigationView{
+        NavigationView {
             List {
                 ForEach(taskStore.tasks){ todo in
-                    NavigationLink(destination: DetailObjectView(todo:todo)){
-                      ObjectRowView(todo:todo)
+                    NavigationLink(destination: DetailTodoView(item:todo)){
+                        TaskRowView(task: todo
+                        )
                     }
 
                 }.onDelete(perform: remove).onMove(perform: move)
