@@ -8,18 +8,38 @@
 import Foundation
 import SwiftUI
 
-struct Todo: Hashable, Identifiable{
+struct Todo: Identifiable{
     var id: some Hashable{title}
     var title:String
     var icon:String
     var finished:Bool
     var selectedEntry:Entry
     var quantity:Int
+    var tasks:[Task] = []
     
     
     func showIcon() -> Image {
         return Image(self.selectedEntry.rawValue)
     }
+    
+    func quantityOfTask() -> Int {
+        return tasks.count
+    }
+    
+    func quantityOfFinishedTask() -> Int {
+        return tasks.filter { task in
+            task.finished == true
+        }.count
+    }
+    
+    func percentajeOfFinishedTask()->Float {
+        return Float(self.quantityOfFinishedTask()/self.quantityOfTask())
+    }
+    
+    mutating func isFinished() {
+         self.finished.toggle()
+    }
+
 
 }
 

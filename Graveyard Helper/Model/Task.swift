@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Task:Identifiable {
+    let id:UUID = UUID()
+    let object:Objects
+    var finished:Bool = false
+}

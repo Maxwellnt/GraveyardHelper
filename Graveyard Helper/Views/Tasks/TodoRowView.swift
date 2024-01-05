@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TaskRowView: View {
+struct TodoRowView: View {
     let task:Todo
     var body: some View{
         
@@ -27,11 +27,11 @@ struct TaskRowView: View {
 
 
 
-struct TaskRowView_Previews: PreviewProvider {
+struct TodoRowView_Previews: PreviewProvider {
     static var previews: some View {
-        TaskRowView(task: TaskStore.defaultTask
+        TodoRowView(task: TaskStore.defaultTask
         ).previewLayout(.sizeThatFits)
-        TaskRowView(task: TaskStore.defaultTask
+        TodoRowView(task: TaskStore.defaultTask
         ).previewLayout(.sizeThatFits)
     }
     

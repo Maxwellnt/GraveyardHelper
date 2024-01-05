@@ -12,13 +12,16 @@ import SwiftUI
 
 
 struct Objects: Identifiable{
-    var id: some Hashable{title}
+    let id = UUID()
     let title:String
-    var icon:Image
+    let icon:Image
     let recipe:[Recipe]
-    var location:String
+    let location:String
+    let dlc:dlc
+    var quantity:Int = 1
     
-    
+
+
 }
 
 struct Recipe: Identifiable{
@@ -28,6 +31,10 @@ struct Recipe: Identifiable{
     let quantity_produced:Int
 }
 
-
-
-
+enum dlc:String {
+    case base = "Graveyard Keeper"
+    case bss = "Better Save Soul"
+    case bd = "Breaking Dead"
+    case goc = "Game of Crone"
+    case ss = "Stranger sins"
+}

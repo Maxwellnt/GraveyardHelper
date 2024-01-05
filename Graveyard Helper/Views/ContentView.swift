@@ -8,20 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     var body: some View {
         TabView{
-            ListView().environmentObject(TaskStore())
+            ListView()
                 .tabItem({
             Image(systemName: "checklist") .resizable()
             Text("To-Do List")
             })
-            ObjectListView(objectList: ObjectsControler.defaultItems)
+            ObjectListView(objectsList: ObjectsControler.defaultBlueprints)
                 .tabItem({
             Image(systemName: "house") .resizable()
             Text("Constucciones")
             })
-            ObjectListView(objectList: ObjectsControler.defaultBlueprints)
+            ObjectListView(objectsList: ObjectsControler.defaultItems)
                 .tabItem({
             Image(systemName: "hammer") .resizable()
             Text("Objetos")
@@ -33,7 +33,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(TaskStore()).environmentObject(ObjectsControler())
         ContentView()
             .previewLayout(.fixed(width: 480, height: 320))
         ContentView()

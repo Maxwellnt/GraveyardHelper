@@ -18,12 +18,15 @@ struct AddTaskView: View {
                 Section(header: Text("Name")) {
                     TextField("Name", text: $newTask.title)
                 }
-                Section(header: Text("Icon")) {
-                    TextEditor(text: $newTask.icon)
-                }
                 Section(header: Text("Image")) {
                     ImagePickerView(entry: $newTask.selectedEntry)
                         .listRowInsets(EdgeInsets())
+                }
+                Section(header: Text("Task")) {
+                    ForEach(newTask.tasks){ task in
+                        ObjectRowView(object: task.object)
+                        
+                    }
                 }
             }.navigationTitle("Add Task")
             .navigationBarTitleDisplayMode(.inline)

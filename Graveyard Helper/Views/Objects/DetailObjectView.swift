@@ -10,70 +10,50 @@ struct DetailObjectView: View {
     var item:Objects
     var body: some View {
         VStack {
-            
-            CircleItemView(image: item.icon)
-            
-            // Item info
-            VStack(alignment: .leading) {
-                Text(item.title).font(.title)
+            ScrollView {
                 
-                HStack {
-                    Text("Joshua Tree National Park")
-                    Spacer()
-                    Text("Graveyard Keeper")
+                ZStack {
+                    Image("blueprint").resizable().mask( LinearGradient(gradient: Gradient(colors: [.white,.white,.clear]), startPoint: .top, endPoint: .bottom))
+                    
+                    CircleItemView(image: item.icon)
+                }.frame(maxHeight:180)
+                
+                // Item info
+                LazyVStack(alignment: .leading) {
+                    Text(item.title).font(.title)
+                    
+                    HStack {
+                        Text("Herramienta")
+                        Spacer()
+                        Text(item.dlc.rawValue)
+                    }
+                    .font(.subheadline)
                 }
-                .font(.subheadline)
-            }
-            .padding()
-            
-            GroupBox(label: Text("Recipes")){
-                    ForEach(item.recipe){ recipe in
+                .padding()
+                
+                
+                GroupBox(label: Text("Recipes")){
+                    if !item.recipe.isEmpty {
                         
-                        GroupBox(){
-                            HStack(){
-                                
-                                Text(item.title)
-                                Spacer()
-                                Text(" x" + String(recipe.quantity_produced))
-                            }
-
-                                    if (recipe.table != nil){
-                                        GroupBox(label:Text("Table")){
-                                            HStack{
-                                                recipe.table!.icon
-                                                Text(recipe.table!.title)
-                                                Spacer()
-                                            }
-                                        }
-                                        
-                                        
-                                    }
-                            GroupBox(label: Text("Materials")){
-                                ForEach(recipe.materials){material in
-                                    
-                                    HStack{
-                                        material.object.icon
-                                        Text(material.object.title)
-                                        
-                                        Spacer()
-                                        Text("x" + String(material.quantity)).font(.headline)
-                                    }
-                                    
-                                    
-                                }
-                            }
- 
+                        ForEach(item.recipe){ recipe in
+                            RecipeItenView(item: item, recipe: recipe)
+                            
                         }
-                       
-                    }
-               
+                        
+                        
+                    }else{
+                        Text("No Recipes")
                     }
                 }
+                
+                Spacer()
+                
+                
             }
-
-            
-            
         }
+    
+    }
+}
     
         
     

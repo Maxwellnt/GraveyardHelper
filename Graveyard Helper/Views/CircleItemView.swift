@@ -13,7 +13,7 @@ struct CircleItemView: View {
         VStack(spacing:20.0) {
             GeometryReader{g in
                 ZStack {
-                    Circle().foregroundColor(Color.clear)
+                    Circle().foregroundColor(Color.white)
                     Circle()
                         .strokeBorder(Color.gray.opacity(0.5), lineWidth: 10)
                         .shadow(radius: 5, x:2, y:2)

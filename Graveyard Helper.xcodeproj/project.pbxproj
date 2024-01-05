@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16903DAB2B41DE9E00570B11 /* ObjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16903DAA2B41DE9E00570B11 /* ObjectListView.swift */; };
+		16903DAD2B41F17700570B11 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16903DAC2B41F17700570B11 /* BackgroundView.swift */; };
+		16903DAF2B41FCDC00570B11 /* DetailTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16903DAE2B41FCDC00570B11 /* DetailTodoView.swift */; };
+		16AB6BF72B4480250082A684 /* CircleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AB6BF62B4480250082A684 /* CircleItemView.swift */; };
+		16B04F702B41A7F700F33EFB /* ObjectsControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B04F6F2B41A7F700F33EFB /* ObjectsControler.swift */; };
+		16B04F722B41B1B200F33EFB /* Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B04F712B41B1B200F33EFB /* Materials.swift */; };
+		16B0927B2B4440FD00B383CF /* TodoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0927A2B4440FD00B383CF /* TodoRowView.swift */; };
+		16B0D6F82B471E8800803929 /* RecipeItenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0D6F72B471E8800803929 /* RecipeItenView.swift */; };
+		16B0D6FA2B472EAE00803929 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0D6F92B472EAE00803929 /* Task.swift */; };
 		EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */; };
 		EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111432B276F2800A2ABF3 /* ContentView.swift */; };
 		EF9111462B276F2900A2ABF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9111452B276F2900A2ABF3 /* Assets.xcassets */; };
@@ -15,11 +24,8 @@
 		EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */; };
 		EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */; };
 		EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */; };
-		EFC55BC92B30A201009387EE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BC82B30A201009387EE /* SwiftUIView.swift */; };
-		EFC55BCC2B30A30E009387EE /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BCB2B30A30E009387EE /* Objects.swift */; };
-		EFC55BCF2B30A335009387EE /* Constructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BCE2B30A335009387EE /* Constructions.swift */; };
-		EFC55BD62B30A548009387EE /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BD52B30A548009387EE /* Entry.swift */; };
-		EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DC2B29F41100559A24 /* ListView.swift */; };
+		EFC55BCC2B30A30E009387EE /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55BCB2B30A30E009387EE /* Object.swift */; };
+		EFD7C9DD2B29F41100559A24 /* ListTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DC2B29F41100559A24 /* ListTaskView.swift */; };
 		EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9DF2B29F63C00559A24 /* Todo.swift */; };
 		EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */; };
 		EFD7CC1B2B2A14B200559A24 /* Vine_press_item.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7C9EA2B2A14B000559A24 /* Vine_press_item.png */; };
@@ -585,6 +591,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16903DAA2B41DE9E00570B11 /* ObjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectListView.swift; sourceTree = "<group>"; };
+		16903DAC2B41F17700570B11 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		16903DAE2B41FCDC00570B11 /* DetailTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTodoView.swift; sourceTree = "<group>"; };
+		16AB6BF62B4480250082A684 /* CircleItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleItemView.swift; sourceTree = "<group>"; };
+		16B04F6F2B41A7F700F33EFB /* ObjectsControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsControler.swift; sourceTree = "<group>"; };
+		16B04F712B41B1B200F33EFB /* Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materials.swift; sourceTree = "<group>"; };
+		16B0927A2B4440FD00B383CF /* TodoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowView.swift; sourceTree = "<group>"; };
+		16B0D6F72B471E8800803929 /* RecipeItenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItenView.swift; sourceTree = "<group>"; };
+		16B0D6F92B472EAE00803929 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		EF91113E2B276F2800A2ABF3 /* Graveyard Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graveyard Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graveyard_HelperApp.swift; sourceTree = "<group>"; };
 		EF9111432B276F2800A2ABF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -595,11 +610,8 @@
 		EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailObjectView.swift; sourceTree = "<group>"; };
 		EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRowView.swift; sourceTree = "<group>"; };
-		EFC55BC82B30A201009387EE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		EFC55BCB2B30A30E009387EE /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
-		EFC55BCE2B30A335009387EE /* Constructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructions.swift; sourceTree = "<group>"; };
-		EFC55BD52B30A548009387EE /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		EFD7C9DC2B29F41100559A24 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EFC55BCB2B30A30E009387EE /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		EFD7C9DC2B29F41100559A24 /* ListTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskView.swift; sourceTree = "<group>"; };
 		EFD7C9DF2B29F63C00559A24 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		EFD7C9EA2B2A14B000559A24 /* Vine_press_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vine_press_item.png; sourceTree = "<group>"; };
@@ -1175,6 +1187,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B0927C2B44410900B383CF /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */,
+				EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */,
+				16903DAA2B41DE9E00570B11 /* ObjectListView.swift */,
+				16B0D6F72B471E8800803929 /* RecipeItenView.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		16B0927D2B44411E00B383CF /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */,
+				EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */,
+				16903DAE2B41FCDC00570B11 /* DetailTodoView.swift */,
+				EFD7C9DC2B29F41100559A24 /* ListTaskView.swift */,
+				16B0927A2B4440FD00B383CF /* TodoRowView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
 		EF9111352B276F2800A2ABF3 = {
 			isa = PBXGroup;
 			children = (
@@ -1218,6 +1253,7 @@
 			isa = PBXGroup;
 			children = (
 				EF9111552B2770C700A2ABF3 /* TaskStore.swift */,
+				16B04F6F2B41A7F700F33EFB /* ObjectsControler.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1226,9 +1262,9 @@
 			isa = PBXGroup;
 			children = (
 				EFD7C9DF2B29F63C00559A24 /* Todo.swift */,
-				EFC55BCB2B30A30E009387EE /* Objects.swift */,
-				EFC55BCE2B30A335009387EE /* Constructions.swift */,
-				EFC55BD52B30A548009387EE /* Entry.swift */,
+				EFC55BCB2B30A30E009387EE /* Object.swift */,
+				16B04F712B41B1B200F33EFB /* Materials.swift */,
+				16B0D6F92B472EAE00803929 /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1236,13 +1272,11 @@
 		EF9111542B27705D00A2ABF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				16B0927D2B44411E00B383CF /* Tasks */,
+				16B0927C2B44410900B383CF /* Objects */,
 				EF9111432B276F2800A2ABF3 /* ContentView.swift */,
-				EF9111592B2770F500A2ABF3 /* DetailObjectView.swift */,
-				EF91115C2B27710B00A2ABF3 /* AddTaskView.swift */,
-				EF9111602B27714B00A2ABF3 /* ObjectRowView.swift */,
-				EFD7C9DC2B29F41100559A24 /* ListView.swift */,
-				EFD7C9E52B2A09C500559A24 /* ImagePickerView.swift */,
-				EFC55BC82B30A201009387EE /* SwiftUIView.swift */,
+				16903DAC2B41F17700570B11 /* BackgroundView.swift */,
+				16AB6BF62B4480250082A684 /* CircleItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -2459,18 +2493,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC55BCF2B30A335009387EE /* Constructions.swift in Sources */,
+				16903DAD2B41F17700570B11 /* BackgroundView.swift in Sources */,
 				EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */,
-				EFC55BD62B30A548009387EE /* Entry.swift in Sources */,
 				EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */,
-				EFC55BCC2B30A30E009387EE /* Objects.swift in Sources */,
+				16903DAF2B41FCDC00570B11 /* DetailTodoView.swift in Sources */,
+				16B04F722B41B1B200F33EFB /* Materials.swift in Sources */,
+				EFC55BCC2B30A30E009387EE /* Object.swift in Sources */,
 				EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */,
+				16B0D6FA2B472EAE00803929 /* Task.swift in Sources */,
+				16903DAB2B41DE9E00570B11 /* ObjectListView.swift in Sources */,
 				EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */,
-				EFC55BC92B30A201009387EE /* SwiftUIView.swift in Sources */,
+				16AB6BF72B4480250082A684 /* CircleItemView.swift in Sources */,
 				EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */,
-				EFD7C9DD2B29F41100559A24 /* ListView.swift in Sources */,
+				16B04F702B41A7F700F33EFB /* ObjectsControler.swift in Sources */,
+				EFD7C9DD2B29F41100559A24 /* ListTaskView.swift in Sources */,
 				EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */,
+				16B0927B2B4440FD00B383CF /* TodoRowView.swift in Sources */,
 				EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */,
+				16B0D6F82B471E8800803929 /* RecipeItenView.swift in Sources */,
 				EF9111562B2770C700A2ABF3 /* TaskStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,7 +18,7 @@ struct ListView: View {
             List {
                 ForEach(taskStore.tasks){ todo in
                     NavigationLink(destination: DetailTodoView(item:todo)){
-                        TaskRowView(task: todo
+                        TodoRowView(task: todo
                         )
                     }
 
@@ -52,7 +52,7 @@ struct ListView: View {
 
             let allGood = taskStore.tasks.contains{ $0.title == newTask.title}
             if !allGood {
-                taskStore.tasks.append(newTask)
+                taskStore.addTask(newTask: newTask)
                 self.newTask = TaskStore.defaultTask
                 self.sheetAction = SheetAction.cancel
             } else {
