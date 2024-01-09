@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ObjectListView: View {
-    var objectsList: [Objects]
     @State private var multiSelection = Set<UUID>()
-
+    var isBuilding:Bool
     @EnvironmentObject private var taskStore:TaskStore
+    @EnvironmentObject private var objectsController:ObjectsControler
     @State private var sheetIsVisible = false
     @State private var sheetAction = SheetAction.cancel
     @State private var newTask = TaskStore.defaultTask
     var body: some View {
         NavigationView {
-            List(objectsList, selection: $multiSelection) {
-                ObjectRowView(object: $0)
+            if isBuilding == false {
+                List($objectsController.items, selection: $multiSelection) {
+                    ObjectRowView(object: $0)
                 }
                 .navigationTitle("Objetos")
                 .toolbar{
@@ -30,27 +31,66 @@ struct ObjectListView: View {
                         Button("Create Task") {
                             createTask()
                             sheetIsVisible = true
-
+                            
                         }.disabled(multiSelection.isEmpty).sheet(isPresented: $sheetIsVisible, onDismiss: onSheetDismiss){
                             AddTaskView(newTask: $newTask, sheetIsVisible: $sheetIsVisible,
-                                         sheetAction: $sheetAction)
+                                        sheetAction: $sheetAction)
                         }
                         
                     }
                 }
-            
-            DetailObjectView(item: objectsList[0])
+                
+                
+                DetailObjectView(item: objectsController.items[0])
+            } else {
+                List($objectsController.blueprints, selection: $multiSelection) {
+                    ObjectRowView(object: $0)
+                }
+                .navigationTitle("Objetos")
+                .toolbar{
+                    
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        EditButton()
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button("Create Task") {
+                            createTask()
+                            sheetIsVisible = true
+                            
+                        }.disabled(multiSelection.isEmpty).sheet(isPresented: $sheetIsVisible, onDismiss: onSheetDismiss){
+                            AddTaskView(newTask: $newTask, sheetIsVisible: $sheetIsVisible,
+                                        sheetAction: $sheetAction)
+                        }
+                        
+                    }
+                }
+                
+                
+                DetailObjectView(item: objectsController.blueprints[0])
+            }
         }
+        
     }
     
     private func createTask() {
         newTask.tasks = []
         
         // We mactch the selected id whit the object array
+        
+        
         for index in multiSelection {
-            if let selectedObject = objectsList.first(where: { $0.id == index }) {
-                newTask.tasks.append(Task(object: selectedObject))
+            if isBuilding == true {
+                if let selectedObject = objectsController.blueprints.first(where: { $0.id == index }) {
+                    
+                    newTask.tasks.append(Task(object: selectedObject))
+                }
+            } else {
+                if let selectedObject = objectsController.items.first(where: { $0.id == index }) {
+                    
+                    newTask.tasks.append(Task(object: selectedObject))
+                }
             }
+            
         }
     }
     
@@ -74,5 +114,5 @@ struct ObjectListView: View {
 }
 
 #Preview {
-    ObjectListView(objectsList: ObjectsControler.defaultItems).environmentObject(TaskStore()).environmentObject(ObjectsControler())
+    ObjectListView(isBuilding: true).environmentObject(TaskStore()).environmentObject(ObjectsControler())
 }

@@ -24,7 +24,7 @@ struct AddTaskView: View {
                 }
                 Section(header: Text("Task")) {
                     ForEach(newTask.tasks){ task in
-                        ObjectRowView(object: task.object)
+                        ObjectRowView(object: .constant(task.object))
                         
                     }
                 }

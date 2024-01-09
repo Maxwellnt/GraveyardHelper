@@ -5,11 +5,12 @@ import SwiftUI
 struct ObjectRowView: View {
     @EnvironmentObject private var objectsControler:ObjectsControler
     
-    @State var object:Objects
+    @Binding var object:Objects
+    @State var value:Int = 1
     let step = 1
     let range = 1...50
     
-
+    
     var body: some View{
         
         
@@ -19,11 +20,12 @@ struct ObjectRowView: View {
           
             
             Spacer()
-            Stepper(
+            Stepper (
                 value: $object.quantity,
                 in: range,
-                step: step
-            )  {
+                step: step) {
+                
+                
                 if object.quantity <= 1 {
                     
                     Text(object.title)
@@ -37,7 +39,9 @@ struct ObjectRowView: View {
         }
     }
     
-  
+    func statsChage(){
+        
+    }
 
 }
 
@@ -45,10 +49,10 @@ struct ObjectRowView: View {
 
 struct FruitRowView_Previews: PreviewProvider {
     static var previews: some View {
-        ObjectRowView(object: ObjectsControler.defaultObject
-        )
-        ObjectRowView(object: ObjectsControler.defaultObject)
-        .previewLayout(.sizeThatFits)
+        ObjectRowView(object: .constant(ObjectsControler.defaultItems[1])
+        ).environmentObject(ObjectsControler())
+        ObjectRowView(object: .constant(ObjectsControler.defaultObject))
+            .previewLayout(.sizeThatFits).environmentObject(ObjectsControler())
     }
     
 }

@@ -23,7 +23,20 @@ class ObjectsControler:ObservableObject{
         return ObjectsControler.defaultBlueprints
     }
     
+    func changeQuantity(val id:UUID, val quantity:Int){
+        
+        if let foo = ObjectsControler.loadItems().firstIndex(where: {$0.id == id}) {
+            ObjectsControler.defaultItems[foo].quantity = quantity
+        } else {
+            if let foo = ObjectsControler.loadBlueprints().firstIndex(where: {$0.id == id}) {
+                ObjectsControler.defaultBlueprints[foo].quantity = quantity
+            } else {
+               // item could not be found
+            }
+        }
+    }
     
+    	
     static var defaultItems = [
         wooden_stick,
         log,

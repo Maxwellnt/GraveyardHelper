@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+
     var body: some View {
         TabView{
             ListView()
@@ -16,12 +16,12 @@ struct ContentView: View {
             Image(systemName: "checklist") .resizable()
             Text("To-Do List")
             })
-            ObjectListView(objectsList: ObjectsControler.defaultBlueprints)
+            ObjectListView(isBuilding: true)
                 .tabItem({
             Image(systemName: "house") .resizable()
             Text("Constucciones")
             })
-            ObjectListView(objectsList: ObjectsControler.defaultItems)
+            ObjectListView(isBuilding: false)
                 .tabItem({
             Image(systemName: "hammer") .resizable()
             Text("Objetos")
