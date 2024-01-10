@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Materials:Identifiable {
+struct Materials: Hashable, Identifiable {
     let id:UUID = UUID()
     let object:Objects
     let quantity:Int

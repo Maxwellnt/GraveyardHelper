@@ -15,7 +15,7 @@ struct ObjectRowView: View {
         
         
         HStack {
-            object.icon.resizable()
+            object.showIcon().resizable()
                 .frame(width: 45, height: 45)
           
             
@@ -28,9 +28,9 @@ struct ObjectRowView: View {
                 
                 if object.quantity <= 1 {
                     
-                    Text(object.title)
+                    Text(object.title).fixedSize(horizontal: false, vertical: true)
                 } else {
-                    Text(object.title + " x" + String(object.quantity))
+                    Text(object.title + " x" + String(object.quantity))  .fixedSize(horizontal: false, vertical: true)
                 }
                 
             }

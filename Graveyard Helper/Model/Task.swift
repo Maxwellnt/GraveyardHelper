@@ -7,8 +7,10 @@
 
 import Foundation
 
-struct Task:Identifiable {
+struct Task: Hashable, Identifiable {
     let id:UUID = UUID()
-    let object:Objects
+    var object:Objects
     var finished:Bool = false
+    
+
 }

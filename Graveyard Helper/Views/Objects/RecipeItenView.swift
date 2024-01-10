@@ -14,7 +14,7 @@ struct RecipeItenView: View {
         GroupBox(){ // Recipe Item
             
             HStack(){ // Recipe Produced
-                item.icon
+                item.showIcon()
                 Text(item.title)
                 
                 let qp = String(recipe.quantity_produced)
@@ -28,7 +28,7 @@ struct RecipeItenView: View {
                 
                 GroupBox(label:Text("Table")){
                     HStack {
-                        recipe.table!.icon
+                        recipe.table!.showIcon()
                         Text(recipe.table!.title)
                         
                         Spacer()
@@ -48,7 +48,7 @@ struct RecipeItenView: View {
                 ForEach(recipe.materials) { material in
                     
                     HStack{
-                        material.object.icon
+                        material.object.showIcon()
                         Text(material.object.title)
                         
                         Spacer()
@@ -63,6 +63,8 @@ struct RecipeItenView: View {
     }
 }
 
-#Preview {
+struct RecipeItenView_Previews: PreviewProvider {
+        static var previews: some View {
     RecipeItenView(item: ObjectsControler.defaultObject, recipe: ObjectsControler.defaultObject.recipe.first!)
+}
 }

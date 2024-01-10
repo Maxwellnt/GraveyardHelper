@@ -13,7 +13,7 @@ struct ContentView: View {
         TabView{
             ListView()
                 .tabItem({
-            Image(systemName: "checklist") .resizable()
+            Image(systemName: "checkmark") .resizable()
             Text("To-Do List")
             })
             ObjectListView(isBuilding: true)
@@ -34,9 +34,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environmentObject(TaskStore()).environmentObject(ObjectsControler())
-        ContentView()
+        ContentView().environmentObject(TaskStore()).environmentObject(ObjectsControler())
             .previewLayout(.fixed(width: 480, height: 320))
-        ContentView()
+        ContentView().environmentObject(TaskStore()).environmentObject(ObjectsControler())
             .preferredColorScheme(.dark)
     }
 }

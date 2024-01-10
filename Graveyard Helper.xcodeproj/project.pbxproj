@@ -588,6 +588,7 @@
 		EFD7CE482B2A14B300559A24 /* Moth_item.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7CC182B2A14B200559A24 /* Moth_item.png */; };
 		EFD7CE492B2A14B300559A24 /* Silver_book_item.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7CC192B2A14B200559A24 /* Silver_book_item.png */; };
 		EFD7CE4A2B2A14B300559A24 /* Water_item.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD7CC1A2B2A14B200559A24 /* Water_item.png */; };
+		EFE153DA2B4EFC14008D2116 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE153D92B4EFC14008D2116 /* TaskRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1174,6 +1175,7 @@
 		EFD7CC182B2A14B200559A24 /* Moth_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moth_item.png; sourceTree = "<group>"; };
 		EFD7CC192B2A14B200559A24 /* Silver_book_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silver_book_item.png; sourceTree = "<group>"; };
 		EFD7CC1A2B2A14B200559A24 /* Water_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Water_item.png; sourceTree = "<group>"; };
+		EFE153D92B4EFC14008D2116 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1206,6 +1208,7 @@
 				16903DAE2B41FCDC00570B11 /* DetailTodoView.swift */,
 				EFD7C9DC2B29F41100559A24 /* ListTaskView.swift */,
 				16B0927A2B4440FD00B383CF /* TodoRowView.swift */,
+				EFE153D92B4EFC14008D2116 /* TaskRowView.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -2503,6 +2506,7 @@
 				16B0D6FA2B472EAE00803929 /* Task.swift in Sources */,
 				16903DAB2B41DE9E00570B11 /* ObjectListView.swift in Sources */,
 				EFD7C9E02B29F63C00559A24 /* Todo.swift in Sources */,
+				EFE153DA2B4EFC14008D2116 /* TaskRowView.swift in Sources */,
 				16AB6BF72B4480250082A684 /* CircleItemView.swift in Sources */,
 				EFD7C9E62B2A09C500559A24 /* ImagePickerView.swift in Sources */,
 				16B04F702B41A7F700F33EFB /* ObjectsControler.swift in Sources */,

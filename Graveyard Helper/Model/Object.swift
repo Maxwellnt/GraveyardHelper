@@ -11,20 +11,23 @@ import Foundation
 import SwiftUI
 
 
-struct Objects: Identifiable{
+struct Objects: Hashable, Identifiable{
     let id = UUID()
     let title:String
-    let icon:Image
-    let recipe:[Recipe]
+    let icon:String
+    var recipe:[Recipe] = []
     let location:String
     let dlc:dlc
     var quantity:Int = 1
     
-
+    func showIcon() -> Image {
+        return Image(self.icon)
+    }
+    
 
 }
 
-struct Recipe: Identifiable{
+struct Recipe:Hashable, Identifiable{
     let id:UUID = UUID()
     let table:Objects?
     let materials:[Materials]

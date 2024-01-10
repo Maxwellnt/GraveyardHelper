@@ -18,8 +18,11 @@ struct ObjectListView: View {
     var body: some View {
         NavigationView {
             if isBuilding == false {
-                List($objectsController.items, selection: $multiSelection) {
-                    ObjectRowView(object: $0)
+                List(objectsController.items, selection: $multiSelection) { item in
+                
+                    let index = objectsController.items.firstIndex(where: {$0.id == item.id})
+                    
+                    ObjectRowView(object: $objectsController.items[index!])
                 }
                 .navigationTitle("Objetos")
                 .toolbar{
@@ -43,8 +46,12 @@ struct ObjectListView: View {
                 
                 DetailObjectView(item: objectsController.items[0])
             } else {
-                List($objectsController.blueprints, selection: $multiSelection) {
-                    ObjectRowView(object: $0)
+                List(objectsController.blueprints, selection: $multiSelection) { item in
+                    
+                    
+                    let index = objectsController.blueprints.firstIndex(where: {$0.id == item.id})
+                    
+                    ObjectRowView(object: $objectsController.blueprints[index!])
                 }
                 .navigationTitle("Objetos")
                 .toolbar{
@@ -85,7 +92,7 @@ struct ObjectListView: View {
                     newTask.tasks.append(Task(object: selectedObject))
                 }
             } else {
-                if let selectedObject = objectsController.items.first(where: { $0.id == index }) {
+                if let selectedObject = objectsController.items.first(where: { $0.id == index}) {
                     
                     newTask.tasks.append(Task(object: selectedObject))
                 }
@@ -113,6 +120,10 @@ struct ObjectListView: View {
     }
 }
 
-#Preview {
+
+struct ObjectListView_Previews: PreviewProvider {
+        static var previews: some View {
+    ObjectListView(isBuilding: false).environmentObject(TaskStore()).environmentObject(ObjectsControler())
     ObjectListView(isBuilding: true).environmentObject(TaskStore()).environmentObject(ObjectsControler())
+}
 }

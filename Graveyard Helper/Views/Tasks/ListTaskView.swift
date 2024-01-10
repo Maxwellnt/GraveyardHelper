@@ -16,14 +16,15 @@ struct ListView: View {
     var body: some View{
         NavigationView {
             List {
-                ForEach(taskStore.tasks){ todo in
-                    NavigationLink(destination: DetailTodoView(item:todo)){
-                        TodoRowView(task: todo
+                ForEach(taskStore.tasks){ task in
+                    let index = taskStore.tasks.firstIndex(where: {$0.id == task.id})
+                    NavigationLink(destination: DetailTodoView(item:  $taskStore.tasks[index!])){
+                        TodoRowView(task: task
                         )
                     }
 
                 }.onDelete(perform: remove).onMove(perform: move)
-            }.navigationBarTitle(Text("Cambiar"))
+            }.navigationBarTitle(Text("To-Do"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -52,9 +53,10 @@ struct ListView: View {
 
             let allGood = taskStore.tasks.contains{ $0.title == newTask.title}
             if !allGood {
-                taskStore.addTask(newTask: newTask)
+                taskStore.tasks.append(newTask)
                 self.newTask = TaskStore.defaultTask
                 self.sheetAction = SheetAction.cancel
+                
             } else {
                 self.newTask = TaskStore.defaultTask
                 self.sheetAction = SheetAction.cancel

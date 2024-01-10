@@ -27,6 +27,8 @@ struct CircleItemView: View {
     }
 }
 
-#Preview {
-    CircleItemView(image: ObjectsControler.defaultObject.icon)
+struct CircleItemView_Previews: PreviewProvider {
+    static var previews: some View {
+    CircleItemView(image: ObjectsControler.defaultObject.showIcon())
+}
 }

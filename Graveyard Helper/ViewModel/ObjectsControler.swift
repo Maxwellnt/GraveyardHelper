@@ -60,8 +60,7 @@ class ObjectsControler:ObservableObject{
 
 var furnace: Objects = Objects(
     title: "Fragua I",
-    icon: Image("Furnace_II_item"),
-    recipe: [],
+    icon: "Furnace_II_item",
     location: "Patio de Trabajo",
     dlc: .base,
     quantity: 2
@@ -69,7 +68,7 @@ var furnace: Objects = Objects(
 
 var sawhorse = Objects(
     title: "Caballete",
-    icon: Image("Sawhorse_item"),
+    icon: "Sawhorse_item",
     recipe: [
         Recipe(
             table: nil,
@@ -83,8 +82,7 @@ var sawhorse = Objects(
 
 var log = Objects(
     title: "Tronco",
-    icon: Image("Log_item"),
-    recipe: [],
+    icon: "Log_item",
     location: "Zona de Talar",
     dlc: .base,
     quantity: 2
@@ -92,15 +90,14 @@ var log = Objects(
 
 var wooden_stick:Objects = Objects(
     title: "Palo de Madera",
-    icon: Image("Wooden_stick_item"),
-    recipe: [],
+    icon: "Wooden_stick_item",
     location: "Arbustos",
     dlc: .base
 )
 
 var wood_billet = Objects(
     title: "Zoquete",
-    icon: Image("Wood_billet_item"),
+    icon: "Wood_billet_item",
     recipe: [
         Recipe(
             table: sawhorse,
@@ -114,15 +111,14 @@ var wood_billet = Objects(
 
 var simple_iron_part = Objects(
     title: "Piezas de hierro",
-    icon: Image("Simple_iron_parts_item"),
-    recipe: [],
+    icon: "Simple_iron_parts_item",
     location: "Patio de Trabajo",
     dlc: .base
 )
 
 var wooden_anvil = Objects(
-    title: "Yunque de Madera",
-    icon: Image("Wooden_anvil_item"),
+    title: "Yunque de M.",
+    icon: "Wooden_anvil_item",
     recipe: [
         Recipe(
             table: nil,
@@ -139,7 +135,7 @@ var wooden_anvil = Objects(
 
 var iron_ingot = Objects(
     title: "Lingote de hierro",
-    icon: Image("Iron_ingot_item"),
+    icon: "Iron_ingot_item",
     recipe: [
         Recipe(
             table: furnace,
@@ -159,7 +155,7 @@ var iron_ingot = Objects(
 
 var iron_ore = Objects(
     title: "Mineral de hierro",
-    icon: Image("ore_metal_item"),
+    icon: "ore_metal_item",
     recipe: [],
     location: "Cantera",
     dlc: .base
@@ -167,7 +163,7 @@ var iron_ore = Objects(
 
 var axe_i = Objects(
     title: "Hacha I",
-    icon: Image("Axe_i_item"),
+    icon: "Axe_i_item",
     recipe: [
         Recipe(
             table: wooden_anvil,

@@ -16,18 +16,30 @@ struct AddTaskView: View {
         NavigationView{
             Form {
                 Section(header: Text("Name")) {
-                    TextField("Name", text: $newTask.title)
+                    TextField("Add a name to the task", text: $newTask.title)
                 }
-                Section(header: Text("Image")) {
+                Section(header: Text("Description")) {
+                    TextField("Add a description", text: $newTask.description)
+                        
+                }
+                Section(header: Text("Select an Image")) {
                     ImagePickerView(entry: $newTask.selectedEntry)
                         .listRowInsets(EdgeInsets())
                 }
-                Section(header: Text("Task")) {
-                    ForEach(newTask.tasks){ task in
-                        ObjectRowView(object: .constant(task.object))
-                        
+               
+                if (!newTask.tasks.isEmpty){
+                    Section(header: Text("Task")) {
+                        ForEach(newTask.tasks){ task in
+                            HStack {
+                            task.object.showIcon()
+                                Text(task.object.title + " x\(task.object.quantity)")
+                            Spacer()
+                            }
+                            
+                        }
                     }
                 }
+                
             }.navigationTitle("Add Task")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar{

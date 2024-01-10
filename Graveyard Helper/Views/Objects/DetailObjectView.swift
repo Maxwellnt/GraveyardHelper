@@ -15,7 +15,7 @@ struct DetailObjectView: View {
                 ZStack {
                     Image("blueprint").resizable().mask( LinearGradient(gradient: Gradient(colors: [.white,.white,.clear]), startPoint: .top, endPoint: .bottom))
                     
-                    CircleItemView(image: item.icon)
+                    CircleItemView(image: item.showIcon())
                 }.frame(maxHeight:180)
                 
                 // Item info

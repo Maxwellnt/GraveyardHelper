@@ -16,12 +16,8 @@ class TaskStore:ObservableObject{
     
     
     
-    static var defaultTasks = [
-        Todo(title: "Task 2", icon: "hola", finished: true, selectedEntry: .candle_02, quantity: 2),
-        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .mug_of_mead, quantity: 2),
-        Todo(title: "Task", icon: "hola", finished: true, selectedEntry: .black_jelly, quantity: 2),
-    ]
+    static var defaultTasks:[Todo] = []
     
-    static let defaultTask =  Todo(title: "Strawberry", icon: "", finished: false, selectedEntry: .candle_02, quantity: 0, tasks: [])
+    static let defaultTask =  Todo(title: "",description: "", icon: "", finished: false, selectedEntry: .candle_02, quantity: 0, tasks:[])
     
 }

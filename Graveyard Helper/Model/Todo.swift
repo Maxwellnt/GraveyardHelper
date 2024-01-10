@@ -8,9 +8,10 @@
 import Foundation
 import SwiftUI
 
-struct Todo: Identifiable{
+struct Todo: Hashable, Identifiable{
     var id: some Hashable{title}
     var title:String
+    var description:String
     var icon:String
     var finished:Bool
     var selectedEntry:Entry

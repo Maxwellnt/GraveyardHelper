@@ -10,23 +10,23 @@ import SwiftUI
 
 
 struct DetailTodoView: View {
-    var item:Todo
+    @Binding var item:Todo
     
     var body: some View {
         
-       
-            
                 VStack {
-                    VStack(alignment: .leading) {
+                   
+                    ScrollView{
+                        VStack{
+                   
                         HStack{
                             item.showIcon()
                             Text(item.title).font(.title)
+                            Spacer()
                         }
                         
                         if !(item.tasks.isEmpty) {
                         HStack {
-                           
-                                
                                 Text("Tascas fetas \(item.quantityOfFinishedTask())/\(item.quantityOfTask())")
                            
                                        
@@ -36,41 +36,64 @@ struct DetailTodoView: View {
                         
                         ProgressView(value: item.percentajeOfFinishedTask())
                         }
+                            HStack{
+        
+                                Text("Description").font(.title2)
+                                Spacer()
+                              
+                            }
+                            
+                            
+                            HStack {
+                               
+                                    
+                                Text(item.description)
+                               
+                                           
+                                Spacer()
+                            }
+                            .font(.subheadline)
+                        
                        
                     }
                     .padding()
                    
-                        
                     
+                    }
+                   
+                    VStack {
                         List {
                             if !(item.tasks.isEmpty) {
                                 Section(header:Text("Task ToDo").font(.headline)) {
-                                    ForEach(item.tasks){task in
-                                        
-                                        NavigationLink(destination: DetailObjectView(item:task.object)){
-                                            
-                                            HStack {
-                                                task.object.icon
-                                                Text(task.object.title)
-                                                Text("x" + String(task.object.quantity))
-                                                
-                                                Spacer()
+                                    ForEach(item.tasks.indices){i in
+
+                                            NavigationLink(destination: DetailObjectView(item: item.tasks[i].object)){
+                                                TaskRowView(task: $item.tasks[i])
                                                 
                                                 
                                             }
-                                        }
+                                                
+                                            
+                                            
+                                        
+
                                     }
                                 }
+                            
                             }else{
                                 Text("No Task")
                             }
                         }
-                    
-                        
                             
-                        
+                        }
                     
-                }
+                    Spacer()
+                    
+                            
+                    
+                    }
+                
+                
            
         
         
@@ -79,10 +102,10 @@ struct DetailTodoView: View {
 
 struct DetailTodoView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailTodoView(item: TaskStore.defaultTask)
-        DetailTodoView(item: TaskStore.defaultTask)
+        DetailTodoView(item: .constant(TaskStore.defaultTask))
+        DetailTodoView(item: .constant(TaskStore.defaultTask))
             .preferredColorScheme(.dark)
-        DetailTodoView(item: TaskStore.defaultTask)
+        DetailTodoView(item: .constant(TaskStore.defaultTask))
             .previewLayout(.fixed(width: 480, height: 320))
     }
 }
