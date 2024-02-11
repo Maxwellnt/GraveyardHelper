@@ -16,6 +16,8 @@
 		16B0927B2B4440FD00B383CF /* TodoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0927A2B4440FD00B383CF /* TodoRowView.swift */; };
 		16B0D6F82B471E8800803929 /* RecipeItenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0D6F72B471E8800803929 /* RecipeItenView.swift */; };
 		16B0D6FA2B472EAE00803929 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0D6F92B472EAE00803929 /* Task.swift */; };
+		16B48CDB2B79355F00D98D3E /* ObjectRecipesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B48CDA2B79355F00D98D3E /* ObjectRecipesStore.swift */; };
+		16B48CDD2B79358B00D98D3E /* ConstruccionRecipesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B48CDC2B79358B00D98D3E /* ConstruccionRecipesStore.swift */; };
 		EF538E492B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF538E472B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld */; };
 		EF538E4C2B86400900DB20D9 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = EF538E4B2B86400900DB20D9 /* db.json */; };
 		EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */; };
@@ -603,6 +605,8 @@
 		16B0927A2B4440FD00B383CF /* TodoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowView.swift; sourceTree = "<group>"; };
 		16B0D6F72B471E8800803929 /* RecipeItenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItenView.swift; sourceTree = "<group>"; };
 		16B0D6F92B472EAE00803929 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		16B48CDA2B79355F00D98D3E /* ObjectRecipesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecipesStore.swift; sourceTree = "<group>"; };
+		16B48CDC2B79358B00D98D3E /* ConstruccionRecipesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstruccionRecipesStore.swift; sourceTree = "<group>"; };
 		EF538E482B863F7D00DB20D9 /* GraveyardHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraveyardHelper.xcdatamodel; sourceTree = "<group>"; };
 		EF538E4B2B86400900DB20D9 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		EF91113E2B276F2800A2ABF3 /* Graveyard Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graveyard Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1271,6 +1275,8 @@
 			children = (
 				EF9111552B2770C700A2ABF3 /* TaskStore.swift */,
 				16B04F6F2B41A7F700F33EFB /* ObjectsControler.swift */,
+				16B48CDA2B79355F00D98D3E /* ObjectRecipesStore.swift */,
+				16B48CDC2B79358B00D98D3E /* ConstruccionRecipesStore.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -2516,6 +2522,7 @@
 				EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */,
 				EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */,
 				16903DAF2B41FCDC00570B11 /* DetailTodoView.swift in Sources */,
+				16B48CDD2B79358B00D98D3E /* ConstruccionRecipesStore.swift in Sources */,
 				16B04F722B41B1B200F33EFB /* Materials.swift in Sources */,
 				EFC55BCC2B30A30E009387EE /* Object.swift in Sources */,
 				EF91115D2B27710B00A2ABF3 /* AddTaskView.swift in Sources */,
@@ -2529,6 +2536,7 @@
 				EFD7C9DD2B29F41100559A24 /* ListTaskView.swift in Sources */,
 				EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */,
 				16B0927B2B4440FD00B383CF /* TodoRowView.swift in Sources */,
+				16B48CDB2B79355F00D98D3E /* ObjectRecipesStore.swift in Sources */,
 				EF91115A2B2770F500A2ABF3 /* DetailObjectView.swift in Sources */,
 				16B0D6F82B471E8800803929 /* RecipeItenView.swift in Sources */,
 				EF9111562B2770C700A2ABF3 /* TaskStore.swift in Sources */,
