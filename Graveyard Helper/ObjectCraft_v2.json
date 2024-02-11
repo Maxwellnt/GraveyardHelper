@@ -1,0 +1,6001 @@
+[
+  {
+    "Index": 299,
+    "ID": "wooden_plank_2",
+    "craft_in": "mf_saw_1",
+    "needs": "[id:wood,value:1]",
+    "output": "[id:wooden_plank,value:-1], [id:r,value:2]",
+    "icon": "i_wooden_plank"
+  },
+  {
+    "Index": 300,
+    "ID": "wooden_plank",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:flitch,value:1]",
+    "output": "[id:wooden_plank,value:1], [id:r,value:1]",
+    "icon": "i_wooden_plank"
+  },
+  {
+    "Index": 301,
+    "ID": "wooden_plank_3",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:flitch,value:1]",
+    "output": "[id:wooden_plank,value:1], [id:r,value:1]",
+    "icon": "i_wooden_plank"
+  },
+  {
+    "Index": 307,
+    "ID": "wood_magic_1",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:wooden_plank,value:1], [id:faith,value:5]",
+    "output": "[id:wood_magic_1,value:1], [id:r,value:5], [id:b,value:10]",
+    "icon": "i_wood_magic_1"
+  },
+  {
+    "Index": 306,
+    "ID": "wood_constr_1",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:wood_balk_1,value:1], [id:wooden_plank,value:1], [id:detail_2,value:2]",
+    "output": "[id:wood_constr_1,value:1], [id:r,value:3]",
+    "icon": "i_wood_constr_1"
+  },
+  {
+    "Index": 304,
+    "ID": "wood_balk_1",
+    "craft_in": "mf_saw_1",
+    "needs": "[id:wood,value:1], [id:detail_2,value:1]",
+    "output": "[id:wood_balk_1,value:-1], [id:r,value:3]",
+    "icon": "i_wood_balk_1"
+  },
+  {
+    "Index": 295,
+    "ID": "wood1",
+    "craft_in": "mf_beam_gantry_1",
+    "needs": "[id:wood,value:1]",
+    "output": "[id:wood1,value:3], [id:r,value:1]",
+    "icon": "i_wood1"
+  },
+  {
+    "Index": 297,
+    "ID": "wood1_2",
+    "craft_in": "mf_saw_1",
+    "needs": "[id:wood,value:1]",
+    "output": "[id:wood1,value:-1], [id:r,value:3]",
+    "icon": "i_wood1"
+  },
+  {
+    "Index": 763,
+    "ID": "mix:mf_alchemy_craft_02:powder_white:drop_oil::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:powder_white,value:1], [id:drop_oil,value:1]",
+    "output": "[id:white_paint,value:1]",
+    "icon": "i_vessel_paint_white"
+  },
+  {
+    "Index": 764,
+    "ID": "mix:mf_alchemy_craft_02:drop_alcohol:alchemy_2_brown::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:drop_alcohol,value:1], [id:alchemy_2_brown,value:1]",
+    "output": "[id:white_paint,value:1]",
+    "icon": "i_vessel_paint_white"
+  },
+  {
+    "Index": 765,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_yellow_electro:water::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_yellow_electro,value:1], [id:water,value:1]",
+    "output": "[id:white_paint,value:1]",
+    "icon": "i_vessel_paint_white"
+  },
+  {
+    "Index": 760,
+    "ID": "mix:mf_alchemy_craft_02:ash:drop_oil::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:ash,value:1], [id:drop_oil,value:1]",
+    "output": "[id:black_paint,value:1]",
+    "icon": "i_vessel_paint_black"
+  },
+  {
+    "Index": 761,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_d_violet:water::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_d_violet,value:1], [id:water,value:1]",
+    "output": "[id:black_paint,value:1]",
+    "icon": "i_vessel_paint_black"
+  },
+  {
+    "Index": 762,
+    "ID": "mix:mf_alchemy_craft_02:powder_graphite:water::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:powder_graphite,value:1], [id:water,value:1]",
+    "output": "[id:black_paint,value:1]",
+    "icon": "i_vessel_paint_black"
+  },
+  {
+    "Index": 190,
+    "ID": "ex:autopsi_table:tongue",
+    "craft_in": "autopsi_table",
+    "needs": "",
+    "output": "[id:tongue,value:1]",
+    "icon": "i_tongue"
+  },
+  {
+    "Index": 755,
+    "ID": "mix:mf_alchemy_craft_02:taste_booster:salt:alchemy_2_d_green::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:taste_booster:salt,value:1], [id:alchemy_2_d_green,value:1]",
+    "output": "[id:taste_booster:alchemy_1_spice,value:1]",
+    "icon": "i_taste_booster:alchemy_1_spice"
+  },
+  {
+    "Index": 269,
+    "ID": "sword_steel_gem",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:stick,value:2], [id:ingot_steel,value:2], [id:detail_3,value:2]",
+    "output": "[id:sword_steel_gem,value:1], [id:r,value:3]",
+    "icon": "i_sword_steel_gem"
+  },
+  {
+    "Index": 267,
+    "ID": "sword_steel",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:stick,value:2], [id:ingot_steel,value:2], [id:detail_3,value:2]",
+    "output": "[id:sword_steel,value:1], [id:r,value:2]",
+    "icon": "i_sword_steel"
+  },
+  {
+    "Index": 270,
+    "ID": "sword_damask_gem",
+    "craft_in": "mf_jewelry",
+    "needs": "[id:stick,value:2], [id:ingot_steel,value:2], [id:detail_3,value:2]",
+    "output": "[id:sword_damask_gem,value:1], [id:r,value:3]",
+    "icon": "i_sword_damask_gem"
+  },
+  {
+    "Index": 242,
+    "ID": "sword_1",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:wooden_plank,value:1], [id:detail_2,value:4], [id:rope_hemp,value:2]",
+    "output": "[id:sword_1,value:1], [id:r,value:2]",
+    "icon": "i_sword_1"
+  },
+  {
+    "Index": 243,
+    "ID": "sword_1_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:wooden_plank,value:1], [id:detail_2,value:4], [id:rope_hemp,value:2]",
+    "output": "[id:sword_1,value:1], [id:r,value:2]",
+    "icon": "i_sword_1"
+  },
+  {
+    "Index": 292,
+    "ID": "broken_to_sword",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:broken_sword,value:1], [id:whetstone,value:1]",
+    "output": "[id:sword_0,value:1], [id:r,value:1]",
+    "icon": "i_sword_0"
+  },
+  {
+    "Index": 321,
+    "ID": "stone_plate_3",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:chisel:chisel_1,value:1], [id:stone_plate_2,value:1], [id:faith,value:2]",
+    "output": "[id:stone_plate_3,value:-1], [id:r,value:2], [id:g,value:1]",
+    "icon": "i_stone_plate_3"
+  },
+  {
+    "Index": 314,
+    "ID": "stone_plate_2",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:polishing_paste,value:1], [id:stone_plate_1,value:1]",
+    "output": "[id:stone_plate_2,value:1], [id:r,value:3], [id:g,value:1]",
+    "icon": "i_stone_plate_2"
+  },
+  {
+    "Index": 315,
+    "ID": "stone_plate_2_2",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:chisel:chisel_1,value:1], [id:stone_plate_1,value:1]",
+    "output": "[id:stone_plate_2,value:1], [id:r,value:3], [id:g,value:1], [id:b,value:1]",
+    "icon": "i_stone_plate_2"
+  },
+  {
+    "Index": 316,
+    "ID": "stone_plate_2_3",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:polishing_paste,value:1], [id:stone_plate_1,value:1]",
+    "output": "[id:stone_plate_2,value:1], [id:r,value:3], [id:g,value:1]",
+    "icon": "i_stone_plate_2"
+  },
+  {
+    "Index": 317,
+    "ID": "stone_plate_2_4",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:chisel:chisel_1,value:1], [id:stone_plate_1,value:1]",
+    "output": "[id:stone_plate_2,value:1], [id:r,value:3], [id:g,value:1], [id:b,value:1]",
+    "icon": "i_stone_plate_2"
+  },
+  {
+    "Index": 310,
+    "ID": "stone_plate_1",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:stone,value:1]",
+    "output": "[id:stone_plate_1,value:-1], [id:r,value:3], [id:g,value:1]",
+    "icon": "i_stone_plate_1"
+  },
+  {
+    "Index": 311,
+    "ID": "stone_plate_1_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone,value:1]",
+    "output": "[id:stone_plate_1,value:-1], [id:r,value:3], [id:g,value:1]",
+    "icon": "i_stone_plate_1"
+  },
+  {
+    "Index": 303,
+    "ID": "spike_1",
+    "craft_in": "mf_chocks_1",
+    "needs": "[id:wood1,value:1]",
+    "output": "[id:spike_1,value:10], [id:r,value:1]",
+    "icon": "i_spike_1"
+  },
+  {
+    "Index": 57,
+    "ID": "soup_fish",
+    "craft_in": "oven",
+    "needs": "[id:fillet_fish_white,value:4], [id:carrot_crop,value:2], [id:water,value:5]",
+    "output": "[id:meal:soup_fish,value:4], [id:g,value:2]",
+    "icon": "i_soup_fish"
+  },
+  {
+    "Index": 194,
+    "ID": "soap_pinc",
+    "craft_in": "table_book_constr",
+    "needs": "[id:freshener,value:1]",
+    "output": "[id:soap_pinc,value:1], [id:g,value:10], [id:b,value:3]",
+    "icon": "i_soap_pinc"
+  },
+  {
+    "Index": 14,
+    "ID": "skull_candle",
+    "craft_in": "crafting_skull",
+    "needs": "[id:candle,value:1]",
+    "output": "[id:skull_candle,value:1]",
+    "icon": "i_skull_candle"
+  },
+  {
+    "Index": 15,
+    "ID": "skull_brain",
+    "craft_in": "crafting_skull_2",
+    "needs": "[id:brain,value:1]",
+    "output": "[id:skull,value:1]",
+    "icon": "i_skull"
+  },
+  {
+    "Index": 160,
+    "ID": "ex:mf_preparation_1:skull",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:skull,value:1], [id:g,value:1]",
+    "icon": "i_skull"
+  },
+  {
+    "Index": 161,
+    "ID": "ex:mf_preparation_2:skull",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:skull,value:1], [id:g,value:1]",
+    "icon": "i_skull"
+  },
+  {
+    "Index": 341,
+    "ID": "skroll_skin_pig",
+    "craft_in": "table_book_constr",
+    "needs": "[id:skin,value:1]",
+    "output": "[id:skroll_skin_pig,value:4], [id:r,value:1]",
+    "icon": "i_skroll_skin_pig"
+  },
+  {
+    "Index": 342,
+    "ID": "skroll_skin_pig_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:skin_pig,value:1]",
+    "output": "[id:skroll_skin_pig,value:4], [id:r,value:1]",
+    "icon": "i_skroll_skin_pig"
+  },
+  {
+    "Index": 168,
+    "ID": "ex:mf_preparation_1:skin",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:skin,value:1], [id:g,value:1]",
+    "icon": "i_skin"
+  },
+  {
+    "Index": 169,
+    "ID": "ex:mf_preparation_2:skin",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:skin,value:1], [id:g,value:1]",
+    "icon": "i_skin"
+  },
+  {
+    "Index": 256,
+    "ID": "shovel_2",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:1], [id:detail_2,value:2], [id:ingot_steel,value:1]",
+    "output": "[id:shovel_2,value:1], [id:r,value:3]",
+    "icon": "i_shovel_2"
+  },
+  {
+    "Index": 285,
+    "ID": "sharp_shovel_2",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:shovel_2,value:1], [id:whetstone,value:1]",
+    "output": "[id:shovel_2,value:1], [id:r,value:1]",
+    "icon": "i_shovel_2"
+  },
+  {
+    "Index": 227,
+    "ID": "shovel_1",
+    "craft_in": "mf_anvil_1",
+    "needs": "[id:stick,value:2], [id:detail_1,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:shovel_1,value:1], [id:r,value:1]",
+    "icon": "i_shovel_1"
+  },
+  {
+    "Index": 228,
+    "ID": "shovel_1_2",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:stick,value:2], [id:detail_1,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:shovel_1,value:1], [id:r,value:1]",
+    "icon": "i_shovel_1"
+  },
+  {
+    "Index": 229,
+    "ID": "shovel_1_3",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:2], [id:detail_1,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:shovel_1,value:1], [id:r,value:1]",
+    "icon": "i_shovel_1"
+  },
+  {
+    "Index": 284,
+    "ID": "sharp_shovel_1",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:shovel_1,value:1], [id:whetstone,value:1]",
+    "output": "[id:shovel_1,value:1], [id:r,value:1]",
+    "icon": "i_shovel_1"
+  },
+  {
+    "Index": 283,
+    "ID": "sharp_shovel_0",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:shovel_0,value:1], [id:whetstone,value:1]",
+    "output": "[id:shovel_0,value:1], [id:r,value:1]",
+    "icon": "i_shovel_0"
+  },
+  {
+    "Index": 155,
+    "ID": "seed_oil",
+    "craft_in": "mf_vine_press",
+    "needs": "[id:hamp_crop:1,value:4]",
+    "output": "[id:seed_oil,value:2], [id:g,value:2]",
+    "icon": "i_seed_oil"
+  },
+  {
+    "Index": 350,
+    "ID": "flyer_bad",
+    "craft_in": "desk",
+    "needs": "[id:pen:ink_pen,value:1], [id:paper_clean,value:1]",
+    "output": "[id:flyer:flyer_bad,value:5], [id:b,value:1]",
+    "icon": "i_scroll_white_graph_1"
+  },
+  {
+    "Index": 351,
+    "ID": "flyer_bad_2",
+    "craft_in": "desk_2",
+    "needs": "[id:pen:ink_pen,value:1], [id:paper_clean,value:1]",
+    "output": "[id:flyer:flyer_bad,value:5], [id:b,value:1]",
+    "icon": "i_scroll_white_graph_1"
+  },
+  {
+    "Index": 352,
+    "ID": "flyer_good",
+    "craft_in": "mf_printing_press",
+    "needs": "[id:paper_clean,value:2], [id:ink:ink_jar,value:1]",
+    "output": "[id:flyer:flyer_bad,value:10], [id:b,value:1]",
+    "icon": "i_scroll_white_graph_1"
+  },
+  {
+    "Index": 353,
+    "ID": "flyer_good_2",
+    "craft_in": "mf_printing_press_2",
+    "needs": "[id:paper_clean,value:2], [id:ink:ink_jar,value:1]",
+    "output": "[id:flyer:flyer_bad,value:10], [id:b,value:1]",
+    "icon": "i_scroll_white_graph_1"
+  },
+  {
+    "Index": 358,
+    "ID": "story",
+    "craft_in": "desk",
+    "needs": "[id:pen:ink_pen,value:1], [id:paper_clean,value:1], [id:faith,value:3]",
+    "output": "[id:story,value:1], [id:b,value:1]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 359,
+    "ID": "story_2",
+    "craft_in": "desk_2",
+    "needs": "[id:pen:ink_pen,value:1], [id:paper_clean,value:1], [id:faith,value:3]",
+    "output": "[id:story,value:1], [id:b,value:1]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 562,
+    "ID": "surv:crop_waste",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:crop_waste,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 563,
+    "ID": "surv:wheat_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:wheat_seed,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 564,
+    "ID": "surv:wheat_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:wheat_crop,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 565,
+    "ID": "surv:cabbage_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:cabbage_seed,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 566,
+    "ID": "surv:cabbage_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:cabbage_crop,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 567,
+    "ID": "surv:carrot_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:carrot_seed,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 568,
+    "ID": "surv:carrot_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:carrot_crop,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 569,
+    "ID": "surv:onion_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:onion_seed,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 570,
+    "ID": "surv:onion_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:onion_crop,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 571,
+    "ID": "surv:beet_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:beet_seed,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 572,
+    "ID": "surv:beet_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:beet_crop,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 573,
+    "ID": "surv:lentils_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:lentils_seed,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 574,
+    "ID": "surv:lentils_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:lentils_crop,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 575,
+    "ID": "surv:pumpkin_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pumpkin_seed,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 576,
+    "ID": "surv:pumpkin_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pumpkin_crop,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 577,
+    "ID": "surv:hamp_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:hamp_seed,value:1], [id:faith,value:4]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:40]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 578,
+    "ID": "surv:hamp_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:hamp_crop,value:1], [id:faith,value:4]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:40]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 579,
+    "ID": "surv:hop_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:hop_seed,value:1], [id:faith,value:4]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:40]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 580,
+    "ID": "surv:hop_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:hop_crop,value:1], [id:faith,value:4]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:40]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 581,
+    "ID": "surv:grapes_seed",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grapes_seed,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 582,
+    "ID": "surv:fruit:grapes_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fruit:grapes_crop,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 583,
+    "ID": "surv:sack_clock_gold",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sack_clock_gold,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 584,
+    "ID": "surv:sack_clock_silver",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sack_clock_silver,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 585,
+    "ID": "surv:sack_star_gold",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sack_star_gold,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 586,
+    "ID": "surv:sack_star_silver",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sack_star_silver,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 587,
+    "ID": "surv:peat",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:peat,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 588,
+    "ID": "surv:rope_hemp",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:rope_hemp,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 589,
+    "ID": "surv:skin_pig",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:skin_pig,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 590,
+    "ID": "surv:fish_frog_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_frog_green,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 591,
+    "ID": "surv:fish_gudgeon",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_gudgeon,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 592,
+    "ID": "surv:fish_anchovy",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_anchovy,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 593,
+    "ID": "surv:fish_bream",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_bream,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 594,
+    "ID": "surv:fish_carp",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_carp,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 595,
+    "ID": "surv:fish_perch",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_perch,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 596,
+    "ID": "surv:fish_eel",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_eel,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 597,
+    "ID": "surv:fish_tilapia",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_tilapia,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 598,
+    "ID": "surv:fish_tuna",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_tuna,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 599,
+    "ID": "surv:fish_sardine",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_sardine,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 600,
+    "ID": "surv:fish_pike",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_pike,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 601,
+    "ID": "surv:fish_sturgeon",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_sturgeon,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 602,
+    "ID": "surv:fish_salmon",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_salmon,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 603,
+    "ID": "surv:fish_crucian_silver",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_crucian_silver,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 604,
+    "ID": "surv:fish_crucian_gold",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_crucian_gold,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 605,
+    "ID": "surv:fish_goldfish",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fish_goldfish,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 606,
+    "ID": "surv:fruit:berry",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fruit:berry,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 607,
+    "ID": "surv:fruit:apple_red_crop",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fruit:apple_red_crop,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 608,
+    "ID": "surv:nori",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:nori,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 609,
+    "ID": "surv:butterfly",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:butterfly,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 610,
+    "ID": "surv:moth",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:moth,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 611,
+    "ID": "surv:honey",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:honey,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 612,
+    "ID": "surv:beeswax",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:beeswax,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 613,
+    "ID": "surv:flw_chamomile",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:flw_chamomile,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 614,
+    "ID": "surv:flw_dandelion",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:flw_dandelion,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 615,
+    "ID": "surv:flw_poppy",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:flw_poppy,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 616,
+    "ID": "surv:shr_boletus",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:shr_boletus,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 617,
+    "ID": "surv:bee",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:bee,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 618,
+    "ID": "surv:shr_agaric",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:shr_agaric,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 619,
+    "ID": "surv:bat_wing",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:bat_wing,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 620,
+    "ID": "surv:jelly_slug",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:jelly_slug,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 621,
+    "ID": "surv:slime",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:slime,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 622,
+    "ID": "surv:ash",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ash,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 623,
+    "ID": "surv:sand_river",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sand_river,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 624,
+    "ID": "surv:1h_ore_metal",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:1h_ore_metal,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 625,
+    "ID": "surv:ingot_metal",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ingot_metal,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 626,
+    "ID": "surv:nails",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:nails,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 627,
+    "ID": "surv:detail_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:detail_1,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 628,
+    "ID": "surv:glass_0",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:glass_0,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 629,
+    "ID": "surv:hammer_0",
+    "craft_in": "",
+    "needs": "[id:hammer_0,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 630,
+    "ID": "surv:axe_0",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:axe_0,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 631,
+    "ID": "surv:pickaxe_0",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pickaxe_0,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 632,
+    "ID": "surv:shovel_0",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:shovel_0,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 633,
+    "ID": "surv:sword_0",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sword_0,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 634,
+    "ID": "surv:nugget_silver",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:nugget_silver,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 635,
+    "ID": "surv:nugget_gold",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:nugget_gold,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 636,
+    "ID": "surv:lifestone",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:lifestone,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 637,
+    "ID": "surv:maggot",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:maggot,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 638,
+    "ID": "surv:detail_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:detail_2,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 639,
+    "ID": "surv:graphite",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:graphite,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 640,
+    "ID": "surv:glass_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:glass_1,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 641,
+    "ID": "surv:ingot_steel",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ingot_steel,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 642,
+    "ID": "surv:axe_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:axe_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 643,
+    "ID": "surv:pickaxe_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pickaxe_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 644,
+    "ID": "surv:shovel_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:shovel_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 645,
+    "ID": "surv:chisel:chisel_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:chisel:chisel_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 646,
+    "ID": "surv:sword_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sword_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 647,
+    "ID": "surv:armor_lamellar_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:armor_lamellar_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 648,
+    "ID": "surv:ingot_silver",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ingot_silver,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 649,
+    "ID": "surv:ingot_gold",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ingot_gold,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 650,
+    "ID": "surv:detail_3",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:detail_3,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 651,
+    "ID": "surv:glass_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:glass_2,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 652,
+    "ID": "surv:chisel:chisel_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:chisel:chisel_2,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 653,
+    "ID": "surv:hammer_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:hammer_2,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 654,
+    "ID": "surv:jewelry_detail_gold",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:jewelry_detail_gold,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 655,
+    "ID": "surv:jewelry_detail_silver",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:jewelry_detail_silver,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 656,
+    "ID": "surv:faceted_emerald",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:faceted_emerald,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 657,
+    "ID": "surv:axe_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:axe_2,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 658,
+    "ID": "surv:pickaxe_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pickaxe_2,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 659,
+    "ID": "surv:shovel_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:shovel_2,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 660,
+    "ID": "surv:sword_damask_gem",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sword_damask_gem,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 661,
+    "ID": "surv:sword_steel_gem",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sword_steel_gem,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 662,
+    "ID": "surv:armor_lamellar_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:armor_lamellar_2,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 663,
+    "ID": "surv:wood1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:wood1,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 664,
+    "ID": "surv:flitch",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:flitch,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 665,
+    "ID": "surv:clay",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:clay,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 666,
+    "ID": "surv:polishing_paste",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:polishing_paste,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 667,
+    "ID": "surv:ceramic_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ceramic_1,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:r,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 668,
+    "ID": "surv:firewood",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:firewood,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 669,
+    "ID": "surv:coal",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:coal,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:g,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 670,
+    "ID": "surv:spike_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:spike_1,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 671,
+    "ID": "surv:stone_plate_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:stone_plate_1,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 672,
+    "ID": "surv:ceramic_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ceramic_2,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 673,
+    "ID": "surv:marble_plate_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:marble_plate_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 674,
+    "ID": "surv:sulfur",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:sulfur,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:g,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 675,
+    "ID": "surv:wooden_plank",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:wooden_plank,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 676,
+    "ID": "surv:stone_plate_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:stone_plate_2,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 677,
+    "ID": "surv:wood_balk_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:wood_balk_1,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 678,
+    "ID": "surv:marble_plate_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:marble_plate_2,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 679,
+    "ID": "surv:ceramic_3",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:ceramic_3,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 680,
+    "ID": "surv:stone_plate_3",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:stone_plate_3,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 681,
+    "ID": "surv:pyrite",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pyrite,value:1], [id:faith,value:7]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:70]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 682,
+    "ID": "surv:wood_constr_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:wood_constr_1,value:1], [id:faith,value:7]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:70]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 683,
+    "ID": "surv:carved_wood",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:carved_wood,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 684,
+    "ID": "surv:marble_plate_3",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:marble_plate_3,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:r,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 685,
+    "ID": "surv:dessert:jelly_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:dessert:jelly_green,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 686,
+    "ID": "surv:pen:ink_pen",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:pen:ink_pen,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:10], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 687,
+    "ID": "surv:skroll_skin_pig",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:skroll_skin_pig,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:r,value:10], [id:g,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 688,
+    "ID": "surv:cover:cover_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:cover:cover_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:r,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 689,
+    "ID": "surv:cover:cover_hard",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:cover:cover_hard,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:r,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 715,
+    "ID": "surv:grave_top_wd_tab_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_wd_tab_1,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 716,
+    "ID": "surv:grave_top_wd_cross_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_wd_cross_1,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:b,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 717,
+    "ID": "surv:grave_bot_wd_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_bot_wd_1,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:b,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 718,
+    "ID": "surv:grave_top_stn_plate_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_stn_plate_1,value:1], [id:faith,value:2]",
+    "output": "[id:story:1,value:-1], [id:b,value:20]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 719,
+    "ID": "surv:grave_bot_stn_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_bot_stn_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 720,
+    "ID": "surv:grave_top_stn_cross_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_stn_cross_1,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 721,
+    "ID": "surv:grave_top_stn_plate_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_stn_plate_2,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 722,
+    "ID": "surv:grave_bot_stn_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_bot_stn_2,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 723,
+    "ID": "surv:grave_top_stn_cross_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_stn_cross_2,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 724,
+    "ID": "surv:grave_top_stella_stn_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_stella_stn_1,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 725,
+    "ID": "surv:grave_top_sculpt_stn_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_sculpt_stn_1,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 726,
+    "ID": "surv:grave_top_sculpt_stn_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_sculpt_stn_2,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 727,
+    "ID": "surv:grave_bot_mrb_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_bot_mrb_1,value:1], [id:faith,value:7]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:70]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 728,
+    "ID": "surv:grave_top_mrb_cross_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_mrb_cross_1,value:1], [id:faith,value:7]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:70]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 729,
+    "ID": "surv:grave_bot_mrb_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_bot_mrb_2,value:1], [id:faith,value:8]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:b,value:80]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 730,
+    "ID": "surv:grave_top_mrb_cross_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_mrb_cross_2,value:1], [id:faith,value:8]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:b,value:80]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 731,
+    "ID": "surv:grave_top_stella_mrb_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_stella_mrb_1,value:1], [id:faith,value:8]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:b,value:80]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 732,
+    "ID": "surv:grave_top_sarcofag_mrb_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_sarcofag_mrb_1,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:b,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 733,
+    "ID": "surv:grave_top_sculpt_mrb_1",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_sculpt_mrb_1,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:b,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 734,
+    "ID": "surv:grave_top_sculpt_mrb_2",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:grave_top_sculpt_mrb_2,value:1], [id:faith,value:10]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:story:3,value:-1], [id:b,value:100]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 735,
+    "ID": "surv:blood",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:blood,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 736,
+    "ID": "surv:skull",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:skull,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 737,
+    "ID": "surv:skin",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:skin,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 738,
+    "ID": "surv:fat",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:fat,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 739,
+    "ID": "surv:flesh",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:flesh,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 740,
+    "ID": "surv:bone",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:bone,value:1], [id:faith,value:1]",
+    "output": "[id:story:1,value:-1], [id:b,value:10]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 741,
+    "ID": "surv:heart",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:heart,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 742,
+    "ID": "surv:brain",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:brain,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 743,
+    "ID": "surv:intestine",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:intestine,value:1], [id:faith,value:3]",
+    "output": "[id:story:1,value:-1], [id:b,value:30]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 744,
+    "ID": "surv:heart_dark",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:heart_dark,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 745,
+    "ID": "surv:intestine_dark",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:intestine_dark,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 746,
+    "ID": "surv:brain_dark",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:brain_dark,value:1], [id:faith,value:5]",
+    "output": "[id:story:1,value:-1], [id:story:2,value:-1], [id:b,value:50]",
+    "icon": "i_scroll_story"
+  },
+  {
+    "Index": 191,
+    "ID": "ex:autopsi_table:scalp",
+    "craft_in": "autopsi_table",
+    "needs": "",
+    "output": "[id:scalp,value:1]",
+    "icon": "i_scalp"
+  },
+  {
+    "Index": 48,
+    "ID": "sandwich",
+    "craft_in": "oven",
+    "needs": "[id:snack:bread,value:2], [id:meal:baked_meat,value:1], [id:cabbage_crop,value:1]",
+    "output": "[id:snack:sandwich,value:3], [id:g,value:1]",
+    "icon": "i_sandwich"
+  },
+  {
+    "Index": 149,
+    "ID": "sack_star_silver",
+    "craft_in": "table_book_constr",
+    "needs": "[id:peat,value:1], [id:growth_enhancer,value:1]",
+    "output": "[id:sack_star_silver,value:1]",
+    "icon": "i_sack_star_silver"
+  },
+  {
+    "Index": 150,
+    "ID": "sack_star_gold",
+    "craft_in": "table_book_constr",
+    "needs": "[id:peat,value:2], [id:flavor_enhancer,value:2]",
+    "output": "[id:sack_star_gold,value:1]",
+    "icon": "i_sack_star_gold"
+  },
+  {
+    "Index": 147,
+    "ID": "sack_clock_silver",
+    "craft_in": "table_book_constr",
+    "needs": "[id:peat,value:1], [id:energy_elixir,value:1]",
+    "output": "[id:sack_clock_silver,value:1]",
+    "icon": "i_sack_clock_silver"
+  },
+  {
+    "Index": 148,
+    "ID": "sack_clock_gold",
+    "needs": "[id:peat,value:2], [id:energy_elixir,value:2]",
+    "output": "[id:sack_clock_gold,value:1]",
+    "icon": "i_sack_clock_gold"
+  },
+  {
+    "Index": 360,
+    "ID": "rope_hemp",
+    "craft_in": "table_book_constr",
+    "needs": "[id:hamp_crop:1,value:4]",
+    "output": "[id:rope_hemp,value:5], [id:b,value:1]",
+    "icon": "i_rope_hemp"
+  },
+  {
+    "Index": 308,
+    "ID": "repair_wdn",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:flitch,value:4], [id:wooden_plank,value:1], [id:nails,value:4]",
+    "output": "[id:repair_wdn,value:4], [id:r,value:1]",
+    "icon": "i_repair_wd"
+  },
+  {
+    "Index": 309,
+    "ID": "repair_wdn_1",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:flitch,value:4], [id:wooden_plank,value:1], [id:nails,value:4]",
+    "output": "[id:repair_wdn,value:4], [id:r,value:1]",
+    "icon": "i_repair_wd"
+  },
+  {
+    "Index": 325,
+    "ID": "repair_stn",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:stone_plate_1,value:1], [id:detail_1,value:2], [id:clay,value:1]",
+    "output": "[id:repair_stn,value:4], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_repair_stn"
+  },
+  {
+    "Index": 326,
+    "ID": "repair_stn_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_1,value:1], [id:detail_1,value:2], [id:clay,value:1]",
+    "output": "[id:repair_stn,value:4], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_repair_stn"
+  },
+  {
+    "Index": 327,
+    "ID": "repair_mrb",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:marble_plate_2,value:1], [id:detail_2,value:2], [id:clay,value:1]",
+    "output": "[id:repair_mrb,value:4], [id:r,value:2], [id:g,value:1]",
+    "icon": "i_repair_mrb"
+  },
+  {
+    "Index": 328,
+    "ID": "repair_mrb_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_2,value:1], [id:detail_2,value:2], [id:clay,value:1]",
+    "output": "[id:repair_mrb,value:4], [id:r,value:2], [id:g,value:1]",
+    "icon": "i_repair_mrb"
+  },
+  {
+    "Index": 35,
+    "ID": "raw_meat_sliced_from_packet_meat",
+    "craft_in": "cooking_table",
+    "needs": "[id:packet_meat,value:1]",
+    "output": "[id:raw_meat_sliced,value:1], [id:g,value:1]",
+    "icon": "i_raw_meat_sliced"
+  },
+  {
+    "Index": 36,
+    "ID": "raw_meat_sliced_from_fish_frog_green",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_frog_green,value:3]",
+    "output": "[id:raw_meat_sliced,value:1], [id:g,value:1]",
+    "icon": "i_raw_meat_sliced"
+  },
+  {
+    "Index": 37,
+    "ID": "raw_meat_sliced_from_flesh",
+    "craft_in": "cooking_table",
+    "needs": "[id:flesh,value:1]",
+    "output": "[id:raw_meat_sliced,value:1], [id:g,value:1]",
+    "icon": "i_raw_meat_sliced"
+  },
+  {
+    "Index": 807,
+    "ID": "alch:mf_alchemy_mill:bone",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:bone,value:1]",
+    "output": "[id:powder_white,value:-1]",
+    "icon": "i_powder_white"
+  },
+  {
+    "Index": 808,
+    "ID": "alch:mf_alchemy_mill:lifestone",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:lifestone,value:1]",
+    "output": "[id:powder_white,value:-1]",
+    "icon": "i_powder_white"
+  },
+  {
+    "Index": 810,
+    "ID": "alch:mf_alchemy_mill:nugget_silver",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:nugget_silver,value:1]",
+    "output": "[id:powder_silver,value:-1]",
+    "icon": "i_powder_silver"
+  },
+  {
+    "Index": 812,
+    "ID": "alch:mf_alchemy_mill:graphite",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:graphite,value:1]",
+    "output": "[id:powder_graphite,value:-1]",
+    "icon": "i_powder_graphite"
+  },
+  {
+    "Index": 809,
+    "ID": "alch:mf_alchemy_mill:nugget_gold",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:nugget_gold,value:1]",
+    "output": "[id:powder_gold,value:-1]",
+    "icon": "i_powder_gold"
+  },
+  {
+    "Index": 38,
+    "ID": "potion_berries_juice",
+    "craft_in": "cooking_table",
+    "needs": "[id:fruit:apple_red_crop,value:3], [id:fruit:berry,value:6]",
+    "output": "[id:potion_berries_juice,value:1], [id:g,value:1]",
+    "icon": "i_potion_berries_juice"
+  },
+  {
+    "Index": 786,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_green:alchemy_2_brown:alchemy_3_brown:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_green,value:1], [id:alchemy_2_brown,value:1], [id:alchemy_3_brown,value:1]",
+    "output": "[id:pot_armor,value:1]",
+    "icon": "i_pot_yellow_d"
+  },
+  {
+    "Index": 787,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_violet:alchemy_2_d_violet:alchemy_3_red:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_violet,value:1], [id:alchemy_2_d_violet,value:1], [id:alchemy_3_red,value:1]",
+    "output": "[id:pot_damage,value:1]",
+    "icon": "i_pot_yellow"
+  },
+  {
+    "Index": 785,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_green:alchemy_2_d_green:alchemy_3_d_green:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_green,value:1], [id:alchemy_2_d_green,value:1], [id:alchemy_3_d_green,value:1]",
+    "output": "[id:pot_heal_long,value:1]",
+    "icon": "i_pot_vioet"
+  },
+  {
+    "Index": 769,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_d_blue:alchemy_2_d_blue::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_d_blue,value:1], [id:alchemy_2_d_blue,value:1]",
+    "output": "[id:pot_mana,value:1]",
+    "icon": "i_pot_mana"
+  },
+  {
+    "Index": 767,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_yellow:alchemy_2_d_green::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_yellow,value:1], [id:alchemy_2_d_green,value:1]",
+    "output": "[id:pot_heal,value:1]",
+    "icon": "i_pot_heal"
+  },
+  {
+    "Index": 768,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_d_green:alchemy_2_violet::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_d_green,value:1], [id:alchemy_2_violet,value:1]",
+    "output": "[id:pot_heal,value:1]",
+    "icon": "i_pot_heal"
+  },
+  {
+    "Index": 789,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_d_blue:alchemy_2_violet:alchemy_3_d_blue:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_d_blue,value:1], [id:alchemy_2_violet,value:1], [id:alchemy_3_d_blue,value:1]",
+    "output": "[id:pot_speed,value:1]",
+    "icon": "i_pot_green_d"
+  },
+  {
+    "Index": 790,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_d_green:alchemy_2_red:alchemy_3_d_blue:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_d_green,value:1], [id:alchemy_2_red,value:1], [id:alchemy_3_d_blue,value:1]",
+    "output": "[id:pot_appetite,value:1]",
+    "icon": "i_pot_green"
+  },
+  {
+    "Index": 788,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_red:alchemy_2_d_violet:alchemy_3_d_violet:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_red,value:1], [id:alchemy_2_d_violet,value:1], [id:alchemy_3_d_violet,value:1]",
+    "output": "[id:pot_berserk,value:1]",
+    "icon": "i_pot_black"
+  },
+  {
+    "Index": 312,
+    "ID": "polishing_paste",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:sand_river,value:1], [id:drop_oil,value:1], [id:ceramic_1,value:1]",
+    "output": "[id:polishing_paste,value:1], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_polishing_paste"
+  },
+  {
+    "Index": 313,
+    "ID": "polishing_paste_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:sand_river,value:1], [id:drop_oil,value:1], [id:ceramic_1,value:1]",
+    "output": "[id:polishing_paste,value:1], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_polishing_paste"
+  },
+  {
+    "Index": 74,
+    "ID": "pie_1",
+    "craft_in": "oven",
+    "needs": "[id:dough_2,value:1], [id:potion_berries_juice,value:1]",
+    "output": "[id:dessert:pie_1,value:2], [id:g,value:1]",
+    "icon": "i_pie_1"
+  },
+  {
+    "Index": 73,
+    "ID": "pie",
+    "craft_in": "oven",
+    "needs": "[id:dough_2,value:1], [id:honey,value:1], [id:fruit:berry,value:5]",
+    "output": "[id:dessert:pie,value:1], [id:g,value:1]",
+    "icon": "i_pie"
+  },
+  {
+    "Index": 257,
+    "ID": "pickaxe_2",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:1], [id:detail_2,value:3], [id:ingot_steel,value:1]",
+    "output": "[id:pickaxe_2,value:1], [id:r,value:3]",
+    "icon": "i_pickaxe_2"
+  },
+  {
+    "Index": 291,
+    "ID": "sharp_pickaxe_2",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:pickaxe_2,value:1], [id:whetstone,value:1]",
+    "output": "[id:pickaxe_2,value:1], [id:r,value:1]",
+    "icon": "i_pickaxe_2"
+  },
+  {
+    "Index": 230,
+    "ID": "pickaxe_1",
+    "craft_in": "mf_anvil_1",
+    "needs": "[id:stick,value:2], [id:detail_1,value:3], [id:ingot_metal,value:1]",
+    "output": "[id:pickaxe_1,value:1], [id:r,value:1]",
+    "icon": "i_pickaxe_1"
+  },
+  {
+    "Index": 231,
+    "ID": "pickaxe_1_2",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:stick,value:2], [id:detail_1,value:3], [id:ingot_metal,value:1]",
+    "output": "[id:pickaxe_1,value:1], [id:r,value:1]",
+    "icon": "i_pickaxe_1"
+  },
+  {
+    "Index": 232,
+    "ID": "pickaxe_1_3",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:2], [id:detail_1,value:3], [id:ingot_metal,value:1]",
+    "output": "[id:pickaxe_1,value:1], [id:r,value:1]",
+    "icon": "i_pickaxe_1"
+  },
+  {
+    "Index": 290,
+    "ID": "sharp_pickaxe_1",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:pickaxe_1,value:1], [id:whetstone,value:1]",
+    "output": "[id:pickaxe_1,value:1], [id:r,value:1]",
+    "icon": "i_pickaxe_1"
+  },
+  {
+    "Index": 289,
+    "ID": "sharp_pickaxe_0",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:pickaxe_0,value:1], [id:whetstone,value:1]",
+    "output": "[id:pickaxe_0,value:1], [id:r,value:1]",
+    "icon": "i_pickaxe_0"
+  },
+  {
+    "Index": 151,
+    "ID": "peat_from_waste",
+    "craft_in": "v_obj_compost_heap",
+    "needs": "[id:crop_waste,value:5]",
+    "output": "[id:peat,value:3], [id:maggot,value:1]",
+    "icon": "i_peat"
+  },
+  {
+    "Index": 65,
+    "ID": "pasta",
+    "craft_in": "oven",
+    "needs": "[id:dough,value:3], [id:cheese,value:1]",
+    "output": "[id:meal:pasta,value:3], [id:g,value:1]",
+    "icon": "i_pasta"
+  },
+  {
+    "Index": 195,
+    "ID": "parfum_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:aromatizer,value:1]",
+    "output": "[id:parfum_1,value:1], [id:g,value:15], [id:b,value:5]",
+    "icon": "i_parfum_1"
+  },
+  {
+    "Index": 332,
+    "ID": "old_paper",
+    "craft_in": "desk",
+    "needs": "[id:book_ruined_1,value:1], [id:sand_river,value:1]",
+    "output": "[id:paper_clean,value:2], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_paper_good"
+  },
+  {
+    "Index": 333,
+    "ID": "old_paper_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book_ruined_1,value:1], [id:sand_river,value:1]",
+    "output": "[id:paper_clean,value:2], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_paper_good"
+  },
+  {
+    "Index": 334,
+    "ID": "paper_from_herb",
+    "craft_in": "mf_paper_press",
+    "needs": "[id:pail_wet_paper,value:2], [id:white_paint,value:1]",
+    "output": "[id:paper_clean,value:30], [id:b,value:5]",
+    "icon": "i_paper_good"
+  },
+  {
+    "Index": 343,
+    "ID": "paper_bad",
+    "craft_in": "table_book_constr",
+    "needs": "[id:skroll_skin_pig,value:1]",
+    "output": "[id:paper_clean,value:4], [id:r,value:1]",
+    "icon": "i_paper_good"
+  },
+  {
+    "Index": 47,
+    "ID": "pancakes",
+    "craft_in": "oven",
+    "needs": "[id:dough_2,value:1], [id:jug_milk,value:1], [id:butter,value:1]",
+    "output": "[id:snack:pancakes,value:5], [id:g,value:2]",
+    "icon": "i_pancakes"
+  },
+  {
+    "Index": 365,
+    "ID": "pail_wet_paper",
+    "craft_in": "desk",
+    "needs": "",
+    "output": "[id:pail_wet_paper,value:1]",
+    "icon": "i_pail_wet_paper"
+  },
+  {
+    "Index": 366,
+    "ID": "pail_wet_paper_2",
+    "craft_in": "desk_2",
+    "needs": "",
+    "output": "[id:pail_wet_paper,value:1]",
+    "icon": "i_pail_wet_paper"
+  },
+  {
+    "Index": 153,
+    "ID": "pail_berry_juice",
+    "craft_in": "mf_vine_press",
+    "needs": "[id:fruit:berry,value:25]",
+    "output": "[id:pail_berry_juice,value:1], [id:g,value:1]",
+    "icon": "i_pail_juce_violet"
+  },
+  {
+    "Index": 152,
+    "ID": "pail_apple_juice",
+    "craft_in": "mf_vine_press",
+    "needs": "[id:fruit:apple_red_crop,value:10]",
+    "output": "[id:pail_apple_juice,value:1], [id:g,value:1]",
+    "icon": "i_pail_dirty_water_1"
+  },
+  {
+    "Index": 159,
+    "ID": "pail_beer",
+    "craft_in": "brewing_stand",
+    "needs": "[id:pail_water,value:3], [id:hop_crop,value:20], [id:wheat_crop,value:5]",
+    "output": "[id:pail_beer,value:1], [id:g,value:1]",
+    "icon": "i_pail_beer"
+  },
+  {
+    "Index": 19,
+    "ID": "stamped_meat",
+    "craft_in": "cooking_table",
+    "needs": "[id:flesh,value:1], [id:paper_clean,value:1], [id:stamp,value:1]",
+    "output": "[id:packet_meat,value:1], [id:stamp,value:1], [id:g,value:1]",
+    "icon": "i_packet_meat"
+  },
+  {
+    "Index": 50,
+    "ID": "omlette",
+    "craft_in": "oven",
+    "needs": "[id:egg_chicken,value:3], [id:jug_milk,value:1]",
+    "output": "[id:meal:omlette,value:3], [id:g,value:1]",
+    "icon": "i_omlette"
+  },
+  {
+    "Index": 51,
+    "ID": "nuggets_fish",
+    "craft_in": "oven",
+    "needs": "[id:fillet_fish_white,value:1], [id:drop_oil,value:2]",
+    "output": "[id:meal:nuggets_fish,value:1], [id:g,value:1]",
+    "icon": "i_nuggets_fish"
+  },
+  {
+    "Index": 337,
+    "ID": "notes",
+    "craft_in": "desk",
+    "needs": "[id:story,value:1], [id:pen:ink_pen,value:1], [id:paper_clean,value:1]",
+    "output": "[id:notes,value:1], [id:b,value:1]",
+    "icon": "i_note_good"
+  },
+  {
+    "Index": 338,
+    "ID": "notes_2",
+    "craft_in": "desk_2",
+    "needs": "[id:story,value:1], [id:pen:ink_pen,value:1], [id:paper_clean,value:1]",
+    "output": "[id:notes,value:1], [id:b,value:1]",
+    "icon": "i_note_good"
+  },
+  {
+    "Index": 355,
+    "ID": "printng_notes",
+    "craft_in": "mf_printing_press",
+    "needs": "[id:notes,value:1], [id:paper_clean,value:5], [id:ink:ink_jar,value:1]",
+    "output": "[id:notes,value:5], [id:b,value:1]",
+    "icon": "i_note_good"
+  },
+  {
+    "Index": 356,
+    "ID": "printng_notes_2",
+    "craft_in": "mf_printing_press_2",
+    "needs": "[id:notes,value:1], [id:paper_clean,value:5], [id:ink:ink_jar,value:1]",
+    "output": "[id:notes,value:5], [id:b,value:1]",
+    "icon": "i_note_good"
+  },
+  {
+    "Index": 218,
+    "ID": "nails",
+    "craft_in": "mf_anvil_1",
+    "needs": "[id:ingot_metal,value:1]",
+    "output": "[id:nails,value:-1], [id:r,value:1]",
+    "icon": "i_nails"
+  },
+  {
+    "Index": 219,
+    "ID": "nails_2",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:ingot_metal,value:1]",
+    "output": "[id:nails,value:-1], [id:r,value:1]",
+    "icon": "i_nails"
+  },
+  {
+    "Index": 220,
+    "ID": "nails_3",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:ingot_metal,value:1]",
+    "output": "[id:nails,value:-1], [id:r,value:1]",
+    "icon": "i_nails"
+  },
+  {
+    "Index": 193,
+    "ID": "ex:autopsi_table:muscle",
+    "craft_in": "autopsi_table",
+    "needs": "",
+    "output": "[id:muscle,value:1]",
+    "icon": "i_muscle"
+  },
+  {
+    "Index": 71,
+    "ID": "muffin",
+    "craft_in": "oven",
+    "needs": "[id:dough,value:1], [id:honey,value:1]",
+    "output": "[id:dessert:muffin,value:4], [id:g,value:1]",
+    "icon": "i_muffin"
+  },
+  {
+    "Index": 322,
+    "ID": "marble_plate_2",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:chisel:chisel_1,value:1], [id:marble_plate_1,value:1]",
+    "output": "[id:marble_plate_2,value:1], [id:r,value:2], [id:g,value:1]",
+    "icon": "i_marble_plate_2"
+  },
+  {
+    "Index": 323,
+    "ID": "marble_plate_2_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:chisel:chisel_1,value:1], [id:marble_plate_1,value:1]",
+    "output": "[id:marble_plate_2,value:1], [id:r,value:2], [id:g,value:1]",
+    "icon": "i_marble_plate_2"
+  },
+  {
+    "Index": 319,
+    "ID": "marble_plate_1",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:marble,value:1], [id:spike_1,value:3]",
+    "output": "[id:marble_plate_1,value:3], [id:r,value:2], [id:g,value:1], [id:b,value:1]",
+    "icon": "i_marble_plate_1"
+  },
+  {
+    "Index": 320,
+    "ID": "marble_plate_1_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble,value:1], [id:spike_1,value:3]",
+    "output": "[id:marble_plate_1,value:3], [id:r,value:2], [id:g,value:1], [id:b,value:1]",
+    "icon": "i_marble_plate_1"
+  },
+  {
+    "Index": 330,
+    "ID": "marble_quarrying",
+    "craft_in": "steep_marble_2",
+    "needs": "[id:spike_1,value:5]",
+    "output": "[id:marble,value:2], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_marble"
+  },
+  {
+    "Index": 331,
+    "ID": "marble_quarrying_2",
+    "craft_in": "steep_marble_2",
+    "needs": "[id:spike_2,value:3]",
+    "output": "[id:marble,value:3], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_marble"
+  },
+  {
+    "Index": 184,
+    "ID": "ex:mf_preparation_1:lungs_dark",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:lungs_dark,value:1], [id:b,value:30]",
+    "icon": "i_lungs_dark"
+  },
+  {
+    "Index": 185,
+    "ID": "ex:mf_preparation_2:lungs_dark",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:lungs_dark,value:1], [id:b,value:20]",
+    "icon": "i_lungs_dark"
+  },
+  {
+    "Index": 254,
+    "ID": "lense",
+    "craft_in": "mf_jewelry",
+    "needs": "[id:glass_0,value:2], [id:whetstone,value:1], [id:water,value:1]",
+    "output": "[id:lense,value:1], [id:r,value:2], [id:b,value:1]",
+    "icon": "i_lense"
+  },
+  {
+    "Index": 747,
+    "ID": "surv:quest_key_astrologer",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:quest_key_astrologer,value:1], [id:quest_instruction_snake,value:1], [id:faith,value:2]",
+    "output": "[id:ques_key_cultist,value:1], [id:b,value:10]",
+    "icon": "i_key_gold_1"
+  },
+  {
+    "Index": 259,
+    "ID": "jewelry_detail_silver",
+    "craft_in": "mf_jewelry",
+    "needs": "[id:ingot_silver,value:1], [id:detail_2,value:1]",
+    "output": "[id:jewelry_detail_silver,value:1], [id:r,value:3]",
+    "icon": "i_jewelry_detail_silver"
+  },
+  {
+    "Index": 260,
+    "ID": "jewelry_detail_gold",
+    "craft_in": "mf_jewelry",
+    "needs": "[id:ingot_gold,value:1], [id:detail_3,value:1]",
+    "output": "[id:jewelry_detail_gold,value:1], [id:r,value:3]",
+    "icon": "i_jewelry_detail_gold"
+  },
+  {
+    "Index": 70,
+    "ID": "jelly_red",
+    "craft_in": "oven",
+    "needs": "[id:jelly_slug,value:4], [id:potion_berries_juice,value:1]",
+    "output": "[id:dessert:jelly_red,value:4], [id:g,value:1]",
+    "icon": "i_jelly_red"
+  },
+  {
+    "Index": 69,
+    "ID": "jelly_green",
+    "craft_in": "oven",
+    "needs": "[id:jelly_slug,value:4], [id:honey,value:1]",
+    "output": "[id:dessert:jelly_green,value:4], [id:g,value:1]",
+    "icon": "i_jelly_green"
+  },
+  {
+    "Index": 464,
+    "ID": "embalm_-1_-1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:acid,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_-1_-1,value:1]",
+    "icon": "i_jar_yellow"
+  },
+  {
+    "Index": 463,
+    "ID": "embalm_-2_2",
+    "craft_in": "table_book_constr",
+    "needs": "[id:golden_elixir,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_-2_2,value:1]",
+    "icon": "i_jar_pink_star_gold"
+  },
+  {
+    "Index": 462,
+    "ID": "embalm_-1_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:silver_elixir,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_-1_1,value:1]",
+    "icon": "i_jar_pink"
+  },
+  {
+    "Index": 461,
+    "ID": "embalm_50",
+    "craft_in": "table_book_constr",
+    "needs": "[id:flask_green_l_plus,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_50,value:1]",
+    "icon": "i_jar_green_l_plus"
+  },
+  {
+    "Index": 460,
+    "ID": "embalm_stop",
+    "craft_in": "table_book_constr",
+    "needs": "[id:preservative,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_stop,value:1]",
+    "icon": "i_jar_green_l_cross"
+  },
+  {
+    "Index": 459,
+    "ID": "embalm_0_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:glue,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_0_1,value:1]",
+    "icon": "i_jar_green_l"
+  },
+  {
+    "Index": 458,
+    "ID": "embalm_2_0",
+    "craft_in": "table_book_constr",
+    "needs": "[id:dark_elixir,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_2_0,value:1]",
+    "icon": "i_jar_dark"
+  },
+  {
+    "Index": 457,
+    "ID": "embalm_1_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:alkali,value:1], [id:water,value:12], [id:glass_1,value:1]",
+    "output": "[id:embalm_1_1,value:1]",
+    "icon": "i_jar_blue"
+  },
+  {
+    "Index": 182,
+    "ID": "ex:mf_preparation_1:intestine_dark",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:intestine_dark,value:1], [id:g,value:1]",
+    "icon": "i_intestine_dark"
+  },
+  {
+    "Index": 183,
+    "ID": "ex:mf_preparation_2:intestine_dark",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:intestine_dark,value:1], [id:g,value:1]",
+    "icon": "i_intestine_dark"
+  },
+  {
+    "Index": 180,
+    "ID": "ex:mf_preparation_1:intestine",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:intestine,value:1], [id:g,value:1]",
+    "icon": "i_intestine"
+  },
+  {
+    "Index": 181,
+    "ID": "ex:mf_preparation_2:intestine",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:intestine,value:1], [id:g,value:1]",
+    "icon": "i_intestine"
+  },
+  {
+    "Index": 336,
+    "ID": "ink_pen",
+    "craft_in": "table_book_constr",
+    "needs": "[id:pen_1,value:3], [id:ink:ink_jar,value:1]",
+    "output": "[id:pen:ink_pen,value:3], [id:r,value:1]",
+    "icon": "i_ink_jar_1"
+  },
+  {
+    "Index": 335,
+    "ID": "ink_jar",
+    "craft_in": "table_book_constr",
+    "needs": "[id:glass_1,value:1], [id:water,value:1], [id:black_paint,value:1]",
+    "output": "[id:ink:ink_jar,value:5], [id:r,value:1]",
+    "icon": "i_ink_jar"
+  },
+  {
+    "Index": 246,
+    "ID": "ingot_steel",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:ingot_metal,value:2], [id:graphite,value:1]",
+    "output": "[id:ingot_steel,value:2], [id:ash,value:4], [id:r,value:2]",
+    "icon": "i_ingot_steel"
+  },
+  {
+    "Index": 247,
+    "ID": "ingot_steel_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:ingot_metal,value:2], [id:graphite,value:1]",
+    "output": "[id:ingot_steel,value:2], [id:ash,value:3], [id:r,value:2]",
+    "icon": "i_ingot_steel"
+  },
+  {
+    "Index": 248,
+    "ID": "ingot_silver",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:nugget_silver,value:2]",
+    "output": "[id:ingot_silver,value:1], [id:ash,value:2], [id:r,value:2]",
+    "icon": "i_ingot_silver"
+  },
+  {
+    "Index": 249,
+    "ID": "ingot_silver_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:nugget_silver,value:2]",
+    "output": "[id:ingot_silver,value:1], [id:ash,value:2], [id:r,value:2]",
+    "icon": "i_ingot_silver"
+  },
+  {
+    "Index": 212,
+    "ID": "ingot_metal",
+    "craft_in": "mf_furnace_0",
+    "needs": "[id:1h_ore_metal,value:1]",
+    "output": "[id:ingot_metal,value:1], [id:ash,value:5], [id:r,value:1]",
+    "icon": "i_ingot_metal"
+  },
+  {
+    "Index": 213,
+    "ID": "ingot_metal_huge",
+    "craft_in": "mf_furnace_0",
+    "needs": "[id:1h_ore_metal,value:2]",
+    "output": "[id:ingot_metal,value:2], [id:ash,value:10], [id:r,value:1]",
+    "icon": "i_ingot_metal"
+  },
+  {
+    "Index": 214,
+    "ID": "ingot_metal_1",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:1h_ore_metal,value:2]",
+    "output": "[id:ingot_metal,value:2], [id:ash,value:2], [id:r,value:1]",
+    "icon": "i_ingot_metal"
+  },
+  {
+    "Index": 215,
+    "ID": "ingot_metal_1_huge",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:1h_ore_metal,value:4]",
+    "output": "[id:ingot_metal,value:4], [id:ash,value:4], [id:r,value:1]",
+    "icon": "i_ingot_metal"
+  },
+  {
+    "Index": 216,
+    "ID": "ingot_metal_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:1h_ore_metal,value:3]",
+    "output": "[id:ingot_metal,value:3], [id:ash,value:3], [id:r,value:1]",
+    "icon": "i_ingot_metal"
+  },
+  {
+    "Index": 217,
+    "ID": "ingot_metal_2_huge",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:1h_ore_metal,value:6]",
+    "output": "[id:ingot_metal,value:6], [id:ash,value:6], [id:r,value:1]",
+    "icon": "i_ingot_metal"
+  },
+  {
+    "Index": 250,
+    "ID": "ingot_gold",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:nugget_gold,value:2]",
+    "output": "[id:ingot_gold,value:1], [id:ash,value:2], [id:r,value:2]",
+    "icon": "i_ingot_gold"
+  },
+  {
+    "Index": 251,
+    "ID": "ingot_gold_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:nugget_gold,value:2]",
+    "output": "[id:ingot_gold,value:1], [id:ash,value:2], [id:r,value:2]",
+    "icon": "i_ingot_gold"
+  },
+  {
+    "Index": 538,
+    "ID": "incense_2",
+    "craft_in": "table_book_constr",
+    "needs": "[id:aromatizer,value:1]",
+    "output": "[id:incense_2,value:2]",
+    "icon": "i_incense_2"
+  },
+  {
+    "Index": 537,
+    "ID": "incense_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:freshener,value:1]",
+    "output": "[id:incense_1,value:2]",
+    "icon": "i_incense_1"
+  },
+  {
+    "Index": 176,
+    "ID": "ex:mf_preparation_1:heart_dark",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:heart_dark,value:1], [id:g,value:1]",
+    "icon": "i_heart_dark"
+  },
+  {
+    "Index": 177,
+    "ID": "ex:mf_preparation_2:heart_dark",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:heart_dark,value:1], [id:g,value:1]",
+    "icon": "i_heart_dark"
+  },
+  {
+    "Index": 282,
+    "ID": "hammer_2",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:1], [id:detail_2,value:2], [id:ingot_steel,value:1]",
+    "output": "[id:hammer_2,value:1], [id:r,value:1]",
+    "icon": "i_hammer_2"
+  },
+  {
+    "Index": 280,
+    "ID": "hammer_0",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:stick,value:1], [id:detail_2,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:hammer_0,value:1], [id:r,value:1]",
+    "icon": "i_hammer_0"
+  },
+  {
+    "Index": 281,
+    "ID": "hammer_0_2",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:1], [id:detail_2,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:hammer_0,value:1], [id:r,value:1]",
+    "icon": "i_hammer_0"
+  },
+  {
+    "Index": 407,
+    "ID": "rem_grave_top_wd_tab_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_wd_tab_1,value:1]",
+    "icon": "i_grave_top_wd_tab_1"
+  },
+  {
+    "Index": 430,
+    "ID": "fix_grave_top_wd_tab_1",
+    "craft_in": "",
+    "needs": "[id:repair_wdn,value:1]",
+    "output": "[id:grave_top_wd_tab_1,value:1]",
+    "icon": "i_grave_top_wd_tab_1"
+  },
+  {
+    "Index": 431,
+    "ID": "grave_top_wd_tab_1",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:flitch,value:2], [id:nails,value:1]",
+    "output": "[id:grave_top_wd_tab_1,value:1], [id:r,value:3]",
+    "icon": "i_grave_top_wd_tab_1"
+  },
+  {
+    "Index": 432,
+    "ID": "grave_top_wd_tab_1_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:flitch,value:2], [id:nails,value:1]",
+    "output": "[id:grave_top_wd_tab_1,value:1], [id:r,value:3]",
+    "icon": "i_grave_top_wd_tab_1"
+  },
+  {
+    "Index": 433,
+    "ID": "grave_top_wd_tab_1_3",
+    "craft_in": "mf_beam_gantry_1",
+    "needs": "[id:flitch,value:2], [id:nails,value:1]",
+    "output": "[id:grave_top_wd_tab_1,value:1], [id:r,value:1]",
+    "icon": "i_grave_top_wd_tab_1"
+  },
+  {
+    "Index": 406,
+    "ID": "rem_grave_top_wd_cross_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_wd_cross_1,value:1]",
+    "icon": "i_grave_top_wd_cross_1"
+  },
+  {
+    "Index": 429,
+    "ID": "fix_grave_top_wd_cross_1",
+    "craft_in": "",
+    "needs": "[id:repair_wdn,value:2]",
+    "output": "[id:grave_top_wd_cross_1,value:1]",
+    "icon": "i_grave_top_wd_cross_1"
+  },
+  {
+    "Index": 436,
+    "ID": "grave_top_wd_cross_1",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:wooden_plank,value:1], [id:nails,value:1]",
+    "output": "[id:grave_top_wd_cross_1,value:1], [id:r,value:5]",
+    "icon": "i_grave_top_wd_cross_1"
+  },
+  {
+    "Index": 437,
+    "ID": "grave_top_wd_cross_1_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:wooden_plank,value:1], [id:nails,value:1]",
+    "output": "[id:grave_top_wd_cross_1,value:1], [id:r,value:5]",
+    "icon": "i_grave_top_wd_cross_1"
+  },
+  {
+    "Index": 393,
+    "ID": "rem_grave_top_stn_plate_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_stn_plate_2,value:1]",
+    "icon": "i_grave_top_stn_plate_2"
+  },
+  {
+    "Index": 416,
+    "ID": "fix_grave_top_stn_plate_2",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:1]",
+    "output": "[id:grave_top_stn_plate_2,value:1]",
+    "icon": "i_grave_top_stn_plate_2"
+  },
+  {
+    "Index": 443,
+    "ID": "grave_top_stn_plate_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_1,value:3]",
+    "output": "[id:grave_top_stn_plate_2,value:1], [id:r,value:5]",
+    "icon": "i_grave_top_stn_plate_2"
+  },
+  {
+    "Index": 392,
+    "ID": "rem_grave_top_stn_plate_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_stn_plate_1,value:1]",
+    "icon": "i_grave_top_stn_plate_1"
+  },
+  {
+    "Index": 415,
+    "ID": "fix_grave_top_stn_plate_1",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:1]",
+    "output": "[id:grave_top_stn_plate_1,value:1]",
+    "icon": "i_grave_top_stn_plate_1"
+  },
+  {
+    "Index": 438,
+    "ID": "grave_top_stn_plate_1",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:stone_plate_1,value:2]",
+    "output": "[id:grave_top_stn_plate_1,value:1], [id:r,value:5]",
+    "icon": "i_grave_top_stn_plate_1"
+  },
+  {
+    "Index": 439,
+    "ID": "grave_top_stn_plate_1_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_1,value:2]",
+    "output": "[id:grave_top_stn_plate_1,value:1], [id:r,value:5]",
+    "icon": "i_grave_top_stn_plate_1"
+  },
+  {
+    "Index": 397,
+    "ID": "rem_grave_top_stn_cross_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_stn_cross_2,value:1]",
+    "icon": "i_grave_top_stn_cross_2"
+  },
+  {
+    "Index": 420,
+    "ID": "fix_grave_top_stn_cross_2",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:3]",
+    "output": "[id:grave_top_stn_cross_2,value:1]",
+    "icon": "i_grave_top_stn_cross_2"
+  },
+  {
+    "Index": 445,
+    "ID": "grave_top_stn_cross_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_2,value:3], [id:detail_2,value:2]",
+    "output": "[id:grave_top_stn_cross_2,value:1], [id:r,value:10]",
+    "icon": "i_grave_top_stn_cross_2"
+  },
+  {
+    "Index": 396,
+    "ID": "rem_grave_top_stn_cross_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_stn_cross_1,value:1]",
+    "icon": "i_grave_top_stn_cross_1"
+  },
+  {
+    "Index": 419,
+    "ID": "fix_grave_top_stn_cross_1",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:1]",
+    "output": "[id:grave_top_stn_cross_1,value:1]",
+    "icon": "i_grave_top_stn_cross_1"
+  },
+  {
+    "Index": 442,
+    "ID": "grave_top_stn_cross_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_1,value:1], [id:stone_plate_2,value:1], [id:detail_2,value:2]",
+    "output": "[id:grave_top_stn_cross_1,value:1], [id:r,value:10]",
+    "icon": "i_grave_top_stn_cross_1"
+  },
+  {
+    "Index": 404,
+    "ID": "rem_grave_top_stella_stn_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_stella_stn_1,value:1]",
+    "icon": "i_grave_top_stella_stn_1"
+  },
+  {
+    "Index": 427,
+    "ID": "fix_grave_top_stella_stn_1",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:4]",
+    "output": "[id:grave_top_stella_stn_1,value:1]",
+    "icon": "i_grave_top_stella_stn_1"
+  },
+  {
+    "Index": 446,
+    "ID": "grave_top_stella_stn_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_2,value:1], [id:stone_plate_3,value:1], [id:detail_2,value:2]",
+    "output": "[id:grave_top_stella_stn_1,value:1], [id:r,value:10], [id:b,value:5]",
+    "icon": "i_grave_top_stella_stn_1"
+  },
+  {
+    "Index": 405,
+    "ID": "rem_grave_top_stella_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_stella_mrb_1,value:1]",
+    "icon": "i_grave_top_stella_mrb_1"
+  },
+  {
+    "Index": 428,
+    "ID": "fix_grave_top_stella_mrb_1",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:4]",
+    "output": "[id:grave_top_stella_mrb_1,value:1]",
+    "icon": "i_grave_top_stella_mrb_1"
+  },
+  {
+    "Index": 453,
+    "ID": "grave_top_stella_mrb_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_2,value:2], [id:marble_plate_3,value:1], [id:detail_2,value:2]",
+    "output": "[id:grave_top_stella_mrb_1,value:1], [id:r,value:10], [id:b,value:5]",
+    "icon": "i_grave_top_stella_mrb_1"
+  },
+  {
+    "Index": 401,
+    "ID": "rem_grave_top_sculpt_stn_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_sculpt_stn_2,value:1]",
+    "icon": "i_grave_top_sculpt_stn_2"
+  },
+  {
+    "Index": 424,
+    "ID": "fix_grave_top_sculpt_stn_2",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:5]",
+    "output": "[id:grave_top_sculpt_stn_2,value:1]",
+    "icon": "i_grave_top_sculpt_stn_2"
+  },
+  {
+    "Index": 448,
+    "ID": "grave_top_sculpt_stn_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_3,value:2]",
+    "output": "[id:grave_top_sculpt_stn_2,value:1], [id:r,value:20], [id:b,value:10]",
+    "icon": "i_grave_top_sculpt_stn_2"
+  },
+  {
+    "Index": 400,
+    "ID": "rem_grave_top_sculpt_stn_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_sculpt_stn_1,value:1]",
+    "icon": "i_grave_top_sculpt_stn_1"
+  },
+  {
+    "Index": 423,
+    "ID": "fix_grave_top_sculpt_stn_1",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:5]",
+    "output": "[id:grave_top_sculpt_stn_1,value:1]",
+    "icon": "i_grave_top_sculpt_stn_1"
+  },
+  {
+    "Index": 447,
+    "ID": "grave_top_sculpt_stn_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_2,value:1], [id:stone_plate_3,value:1], [id:detail_2,value:2]",
+    "output": "[id:grave_top_sculpt_stn_1,value:1], [id:r,value:20], [id:b,value:10]",
+    "icon": "i_grave_top_sculpt_stn_1"
+  },
+  {
+    "Index": 403,
+    "ID": "rem_grave_top_sculpt_mrb_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_sculpt_mrb_2,value:1]",
+    "icon": "i_grave_top_sculpt_mrb_2"
+  },
+  {
+    "Index": 426,
+    "ID": "fix_grave_top_sculpt_mrb_2",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:5]",
+    "output": "[id:grave_top_sculpt_mrb_2,value:1]",
+    "icon": "i_grave_top_sculpt_mrb_2"
+  },
+  {
+    "Index": 455,
+    "ID": "grave_top_sculpt_mrb_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_3:2,value:2], [id:detail_2,value:2], [id:faith,value:1]",
+    "output": "[id:grave_top_sculpt_mrb_2,value:1], [id:r,value:20], [id:g,value:5], [id:b,value:10]",
+    "icon": "i_grave_top_sculpt_mrb_2"
+  },
+  {
+    "Index": 402,
+    "ID": "rem_grave_top_sculpt_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_sculpt_mrb_1,value:1]",
+    "icon": "i_grave_top_sculpt_mrb_1"
+  },
+  {
+    "Index": 425,
+    "ID": "fix_grave_top_sculpt_mrb_1",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:5]",
+    "output": "[id:grave_top_sculpt_mrb_1,value:1]",
+    "icon": "i_grave_top_sculpt_mrb_1"
+  },
+  {
+    "Index": 454,
+    "ID": "grave_top_sculpt_mrb_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_3:2,value:2], [id:detail_2,value:2], [id:faith,value:1]",
+    "output": "[id:grave_top_sculpt_mrb_1,value:1], [id:r,value:20], [id:g,value:5], [id:b,value:10]",
+    "icon": "i_grave_top_sculpt_mrb_1"
+  },
+  {
+    "Index": 395,
+    "ID": "rem_grave_top_sarcofag_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_sarcofag_mrb_1,value:1]",
+    "icon": "i_grave_top_sarcofag_mrb_1"
+  },
+  {
+    "Index": 418,
+    "ID": "fix_grave_top_sarcofag_mrb_1",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:10]",
+    "output": "[id:grave_top_sarcofag_mrb_1,value:1]",
+    "icon": "i_grave_top_sarcofag_mrb_1"
+  },
+  {
+    "Index": 456,
+    "ID": "grave_top_sarcofag_mrb_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_2,value:4], [id:marble_plate_3:3,value:2], [id:detail_2,value:6]",
+    "output": "[id:grave_top_sarcofag_mrb_1,value:1], [id:r,value:50]",
+    "icon": "i_grave_top_sarcofag_mrb_1"
+  },
+  {
+    "Index": 399,
+    "ID": "rem_grave_top_mrb_cross_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_mrb_cross_2,value:1]",
+    "icon": "i_grave_top_mrb_cross_2"
+  },
+  {
+    "Index": 422,
+    "ID": "fix_grave_top_mrb_cross_2",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:4]",
+    "output": "[id:grave_top_mrb_cross_2,value:1]",
+    "icon": "i_grave_top_mrb_cross_2"
+  },
+  {
+    "Index": 452,
+    "ID": "grave_top_mrb_cross_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_2,value:2], [id:marble_plate_3:2,value:1], [id:detail_2,value:2]",
+    "output": "[id:grave_top_mrb_cross_2,value:1], [id:r,value:10], [id:b,value:5]",
+    "icon": "i_grave_top_mrb_cross_2"
+  },
+  {
+    "Index": 398,
+    "ID": "rem_grave_top_mrb_cross_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_top_mrb_cross_1,value:1]",
+    "icon": "i_grave_top_mrb_cross_1"
+  },
+  {
+    "Index": 421,
+    "ID": "fix_grave_top_mrb_cross_1",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:3]",
+    "output": "[id:grave_top_mrb_cross_1,value:1]",
+    "icon": "i_grave_top_mrb_cross_1"
+  },
+  {
+    "Index": 450,
+    "ID": "grave_top_mrb_cross_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_2,value:1], [id:marble_plate_1,value:1], [id:detail_2,value:2]",
+    "output": "[id:grave_top_mrb_cross_1,value:1], [id:r,value:10]",
+    "icon": "i_grave_top_mrb_cross_1"
+  },
+  {
+    "Index": 394,
+    "ID": "rem_grave_bot_wd_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_bot_wd_1,value:1]",
+    "icon": "i_grave_bot_wd_1"
+  },
+  {
+    "Index": 417,
+    "ID": "fix_grave_bot_wd_1",
+    "craft_in": "",
+    "needs": "[id:repair_wdn,value:1]",
+    "output": "[id:grave_bot_wd_1,value:1]",
+    "icon": "i_grave_bot_wd_1"
+  },
+  {
+    "Index": 434,
+    "ID": "grave_bot_wd_1",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:wooden_plank,value:1]",
+    "output": "[id:grave_bot_wd_1,value:1], [id:r,value:2]",
+    "icon": "i_grave_bot_wd_1"
+  },
+  {
+    "Index": 435,
+    "ID": "grave_bot_wd_1_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:wooden_plank,value:1]",
+    "output": "[id:grave_bot_wd_1,value:1], [id:r,value:2]",
+    "icon": "i_grave_bot_wd_1"
+  },
+  {
+    "Index": 389,
+    "ID": "rem_grave_bot_stn_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_bot_stn_2,value:1]",
+    "icon": "i_grave_bot_stn_2"
+  },
+  {
+    "Index": 412,
+    "ID": "fix_grave_bot_stn_2",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:2]",
+    "output": "[id:grave_bot_stn_2,value:1]",
+    "icon": "i_grave_bot_stn_2"
+  },
+  {
+    "Index": 444,
+    "ID": "grave_bot_stn_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_1,value:1], [id:stone_plate_2,value:1]",
+    "output": "[id:grave_bot_stn_2,value:1], [id:r,value:2]",
+    "icon": "i_grave_bot_stn_2"
+  },
+  {
+    "Index": 388,
+    "ID": "rem_grave_bot_stn_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_bot_stn_1,value:1]",
+    "icon": "i_grave_bot_stn_1"
+  },
+  {
+    "Index": 411,
+    "ID": "fix_grave_bot_stn_1",
+    "craft_in": "",
+    "needs": "[id:repair_stn,value:1]",
+    "output": "[id:grave_bot_stn_1,value:1]",
+    "icon": "i_grave_bot_stn_1"
+  },
+  {
+    "Index": 440,
+    "ID": "grave_bot_stn_1",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:stone_plate_1,value:3]",
+    "output": "[id:grave_bot_stn_1,value:1], [id:r,value:2]",
+    "icon": "i_grave_bot_stn_1"
+  },
+  {
+    "Index": 441,
+    "ID": "grave_bot_stn_1_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:stone_plate_1,value:3]",
+    "output": "[id:grave_bot_stn_1,value:1], [id:r,value:2]",
+    "icon": "i_grave_bot_stn_1"
+  },
+  {
+    "Index": 391,
+    "ID": "rem_grave_bot_mrb_2",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_bot_mrb_2,value:1]",
+    "icon": "i_grave_bot_mrb_2"
+  },
+  {
+    "Index": 414,
+    "ID": "fix_grave_bot_mrb_2",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:2]",
+    "output": "[id:grave_bot_mrb_2,value:1]",
+    "icon": "i_grave_bot_mrb_2"
+  },
+  {
+    "Index": 451,
+    "ID": "grave_bot_mrb_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_1,value:1], [id:marble_plate_2,value:1]",
+    "output": "[id:grave_bot_mrb_2,value:1], [id:r,value:10], [id:g,value:2], [id:b,value:2]",
+    "icon": "i_grave_bot_mrb_2"
+  },
+  {
+    "Index": 390,
+    "ID": "rem_grave_bot_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "",
+    "output": "[id:grave_bot_mrb_1,value:1]",
+    "icon": "i_grave_bot_mrb_1"
+  },
+  {
+    "Index": 413,
+    "ID": "fix_grave_bot_mrb_1",
+    "craft_in": "",
+    "needs": "[id:repair_mrb,value:2]",
+    "output": "[id:grave_bot_mrb_1,value:1]",
+    "icon": "i_grave_bot_mrb_1"
+  },
+  {
+    "Index": 449,
+    "ID": "grave_bot_mrb_1",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:marble_plate_1,value:2]",
+    "output": "[id:grave_bot_mrb_1,value:1], [id:r,value:10], [id:g,value:2], [id:b,value:2]",
+    "icon": "i_grave_bot_mrb_1"
+  },
+  {
+    "Index": 293,
+    "ID": "graphite",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:coal,value:5]",
+    "output": "[id:graphite,value:1], [id:r,value:1]",
+    "icon": "i_graphite"
+  },
+  {
+    "Index": 294,
+    "ID": "graphite_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:coal,value:5]",
+    "output": "[id:graphite,value:2], [id:r,value:1]",
+    "icon": "i_graphite"
+  },
+  {
+    "Index": 750,
+    "ID": "mix:mf_alchemy_craft_01:_:::",
+    "craft_in": "mf_alchemy_craft_01",
+    "needs": "",
+    "output": "[id:goo,value:1]",
+    "icon": "i_goo"
+  },
+  {
+    "Index": 753,
+    "ID": "mix:mf_alchemy_craft_02:_:_::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "",
+    "output": "[id:goo,value:2]",
+    "icon": "i_goo"
+  },
+  {
+    "Index": 771,
+    "ID": "mix:mf_alchemy_craft_03:_:_:_:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "",
+    "output": "[id:goo,value:3]",
+    "icon": "i_goo"
+  },
+  {
+    "Index": 252,
+    "ID": "glass_2",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:glass_1,value:3], [id:water,value:1]",
+    "output": "[id:glass_2,value:2], [id:ash,value:2], [id:r,value:2], [id:b,value:1]",
+    "icon": "i_glass_2"
+  },
+  {
+    "Index": 253,
+    "ID": "glass_2_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:glass_1,value:3], [id:water,value:1]",
+    "output": "[id:glass_2,value:2], [id:ash,value:2], [id:r,value:2], [id:b,value:1]",
+    "icon": "i_glass_2"
+  },
+  {
+    "Index": 238,
+    "ID": "glass_1",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:glass_0,value:2]",
+    "output": "[id:glass_1,value:1], [id:ash,value:3], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_glass_1"
+  },
+  {
+    "Index": 239,
+    "ID": "glass_1_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:glass_0,value:2]",
+    "output": "[id:glass_1,value:1], [id:ash,value:3], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_glass_1"
+  },
+  {
+    "Index": 235,
+    "ID": "glass_0",
+    "craft_in": "mf_furnace_0",
+    "needs": "[id:sand_river,value:2], [id:water,value:1]",
+    "output": "[id:glass_0,value:1], [id:ash,value:2], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_glass_0"
+  },
+  {
+    "Index": 236,
+    "ID": "glass_0_1",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:sand_river,value:4], [id:water,value:2]",
+    "output": "[id:glass_0,value:2], [id:ash,value:5], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_glass_0"
+  },
+  {
+    "Index": 237,
+    "ID": "glass_0_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:sand_river,value:6], [id:water,value:2]",
+    "output": "[id:glass_0,value:3], [id:ash,value:5], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_glass_0"
+  },
+  {
+    "Index": 41,
+    "ID": "fried_egg",
+    "craft_in": "oven",
+    "needs": "[id:egg_chicken,value:1]",
+    "output": "[id:snack:fried_egg,value:1], [id:g,value:1]",
+    "icon": "i_fried_egg"
+  },
+  {
+    "Index": 16,
+    "ID": "flour_from_wheat",
+    "craft_in": "cooking_table",
+    "needs": "[id:wheat_crop,value:4]",
+    "output": "[id:flour,value:4], [id:g,value:2]",
+    "icon": "i_flour"
+  },
+  {
+    "Index": 296,
+    "ID": "flitch",
+    "craft_in": "mf_beam_gantry_1",
+    "needs": "[id:wood,value:1]",
+    "output": "[id:flitch,value:6], [id:r,value:1]",
+    "icon": "i_flitch"
+  },
+  {
+    "Index": 298,
+    "ID": "flitch_2",
+    "craft_in": "mf_saw_1",
+    "needs": "[id:wood,value:1]",
+    "output": "[id:flitch,value:-1], [id:r,value:1]",
+    "icon": "i_flitch"
+  },
+  {
+    "Index": 162,
+    "ID": "ex:mf_preparation_1:flesh",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:flesh,value:1], [id:g,value:1]",
+    "icon": "i_flesh"
+  },
+  {
+    "Index": 163,
+    "ID": "ex:mf_preparation_2:flesh",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:flesh,value:1], [id:g,value:1]",
+    "icon": "i_flesh"
+  },
+  {
+    "Index": 774,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_brown:alchemy_2_d_violet:alchemy_3_green:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_brown,value:1], [id:alchemy_2_d_violet,value:1], [id:alchemy_3_green,value:1]",
+    "output": "[id:tanning_agent,value:1]",
+    "icon": "i_flask_tanning_agent"
+  },
+  {
+    "Index": 779,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_yellow:alchemy_2_brown:alchemy_3_brown:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_yellow,value:1], [id:alchemy_2_brown,value:1], [id:alchemy_3_brown,value:1]",
+    "output": "[id:preservative,value:1]",
+    "icon": "i_flask_preservative"
+  },
+  {
+    "Index": 780,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_brown:alchemy_2_yellow:alchemy_3_brown:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_brown,value:1], [id:alchemy_2_yellow,value:1], [id:alchemy_3_brown,value:1]",
+    "output": "[id:preservative,value:1]",
+    "icon": "i_flask_preservative"
+  },
+  {
+    "Index": 783,
+    "ID": "mix:mf_alchemy_craft_03:powder_gold:alchemy_2_red:alchemy_3_violet:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:powder_gold,value:1], [id:alchemy_2_red,value:1], [id:alchemy_3_violet,value:1]",
+    "output": "[id:golden_elixir,value:1]",
+    "icon": "i_flask_pink_star_gold"
+  },
+  {
+    "Index": 784,
+    "ID": "mix:mf_alchemy_craft_03:powder_gold:alchemy_2_green:alchemy_3_d_green:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:powder_gold,value:1], [id:alchemy_2_green,value:1], [id:alchemy_3_d_green,value:1]",
+    "output": "[id:golden_elixir,value:1]",
+    "icon": "i_flask_pink_star_gold"
+  },
+  {
+    "Index": 781,
+    "ID": "mix:mf_alchemy_craft_03:powder_silver:alchemy_2_green:alchemy_3_yellow:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:powder_silver,value:1], [id:alchemy_2_green,value:1], [id:alchemy_3_yellow,value:1]",
+    "output": "[id:silver_elixir,value:1]",
+    "icon": "i_flask_pink"
+  },
+  {
+    "Index": 782,
+    "ID": "mix:mf_alchemy_craft_03:powder_silver:alchemy_2_violet:alchemy_3_green:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:powder_silver,value:1], [id:alchemy_2_violet,value:1], [id:alchemy_3_green,value:1]",
+    "output": "[id:silver_elixir,value:1]",
+    "icon": "i_flask_pink"
+  },
+  {
+    "Index": 759,
+    "ID": "mix:mf_alchemy_craft_02:ash:alchemy_2_yellow::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:ash,value:1], [id:alchemy_2_yellow,value:1]",
+    "output": "[id:growth_enhancer,value:1]",
+    "icon": "i_flask_growth_enhancer"
+  },
+  {
+    "Index": 778,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_violet:water:alchemy_3_d_violet:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_violet,value:1], [id:water,value:1], [id:alchemy_3_d_violet,value:1]",
+    "output": "[id:flask_green_l_plus,value:1]",
+    "icon": "i_flask_green_l_plus"
+  },
+  {
+    "Index": 775,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_d_green:alchemy_2_yellow:alchemy_3_violet:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_d_green,value:1], [id:alchemy_2_yellow,value:1], [id:alchemy_3_violet,value:1]",
+    "output": "[id:glue,value:1]",
+    "icon": "i_flask_glue"
+  },
+  {
+    "Index": 756,
+    "ID": "mix:mf_alchemy_craft_02:drop_oil:alchemy_2_green::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:drop_oil,value:1], [id:alchemy_2_green,value:1]",
+    "output": "[id:freshener,value:1]",
+    "icon": "i_flask_freshener"
+  },
+  {
+    "Index": 773,
+    "ID": "mix:mf_alchemy_craft_03:ash:alchemy_2_red:alchemy_3_yellow:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:ash,value:1], [id:alchemy_2_red,value:1], [id:alchemy_3_yellow,value:1]",
+    "output": "[id:flavor_enhancer,value:1]",
+    "icon": "i_flask_flavor_enhancer"
+  },
+  {
+    "Index": 757,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_d_blue:alchemy_2_brown::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_d_blue,value:1], [id:alchemy_2_brown,value:1]",
+    "output": "[id:energy_elixir,value:1]",
+    "icon": "i_flask_energy_elixir"
+  },
+  {
+    "Index": 758,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_brown:alchemy_2_d_blue::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_brown,value:1], [id:alchemy_2_d_blue,value:1]",
+    "output": "[id:energy_elixir,value:1]",
+    "icon": "i_flask_energy_elixir"
+  },
+  {
+    "Index": 766,
+    "ID": "mix:mf_alchemy_craft_02:alchemy_1_d_violet:blood::",
+    "craft_in": "mf_alchemy_craft_02",
+    "needs": "[id:alchemy_1_d_violet,value:1], [id:blood,value:1]",
+    "output": "[id:dark_elixir,value:1]",
+    "icon": "i_flask_dark_elixir"
+  },
+  {
+    "Index": 772,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_d_blue:drop_alcohol:alchemy_3_yellow:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_d_blue,value:1], [id:drop_alcohol,value:1], [id:alchemy_3_yellow,value:1]",
+    "output": "[id:aromatizer,value:1]",
+    "icon": "i_flask_aromatizer"
+  },
+  {
+    "Index": 776,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_yellow:alchemy_2_d_violet:blood:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_yellow,value:1], [id:alchemy_2_d_violet,value:1], [id:blood,value:1]",
+    "output": "[id:alkali,value:1]",
+    "icon": "i_flask_alkali"
+  },
+  {
+    "Index": 777,
+    "ID": "mix:mf_alchemy_craft_03:alchemy_1_red:alchemy_2_violet:alchemy_3_red:",
+    "craft_in": "mf_alchemy_craft_03",
+    "needs": "[id:alchemy_1_red,value:1], [id:alchemy_2_violet,value:1], [id:alchemy_3_red,value:1]",
+    "output": "[id:acid,value:1]",
+    "icon": "i_flask_acid"
+  },
+  {
+    "Index": 302,
+    "ID": "firewood",
+    "craft_in": "mf_chocks_1",
+    "needs": "[id:wood1,value:1]",
+    "output": "[id:firewood,value:-1], [id:r,value:1]",
+    "icon": "i_firewood"
+  },
+  {
+    "Index": 20,
+    "ID": "fish_gudgeon_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_gudgeon,value:1]",
+    "output": "[id:fillet_fish_white,value:1], [id:g,value:1]",
+    "icon": "i_fillet_fish_white"
+  },
+  {
+    "Index": 21,
+    "ID": "fish_anchovy_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_anchovy,value:1]",
+    "output": "[id:fillet_fish_white,value:1], [id:g,value:1]",
+    "icon": "i_fillet_fish_white"
+  },
+  {
+    "Index": 22,
+    "ID": "fish_bream_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_bream,value:1]",
+    "output": "[id:fillet_fish_white,value:2], [id:g,value:1]",
+    "icon": "i_fillet_fish_white"
+  },
+  {
+    "Index": 23,
+    "ID": "fish_carp_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_carp,value:1]",
+    "output": "[id:fillet_fish_white,value:2], [id:g,value:1]",
+    "icon": "i_fillet_fish_white"
+  },
+  {
+    "Index": 24,
+    "ID": "fish_perch_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_perch,value:1]",
+    "output": "[id:fillet_fish_white,value:3], [id:g,value:1]",
+    "icon": "i_fillet_fish_white"
+  },
+  {
+    "Index": 170,
+    "ID": "ex:mf_preparation_1:fat",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:fat,value:1], [id:g,value:1]",
+    "icon": "i_fat"
+  },
+  {
+    "Index": 171,
+    "ID": "ex:mf_preparation_2:fat",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:fat,value:1], [id:g,value:1]",
+    "icon": "i_fat"
+  },
+  {
+    "Index": 9,
+    "ID": "pray_in_church",
+    "craft_in": "npc",
+    "needs": "",
+    "output": "[id:faith,value:1]",
+    "icon": "i_faith"
+  },
+  {
+    "Index": 192,
+    "ID": "ex:autopsi_table:eye",
+    "craft_in": "autopsi_table",
+    "needs": "",
+    "output": "[id:eye,value:1]",
+    "icon": "i_eye"
+  },
+  {
+    "Index": 18,
+    "ID": "dough_2",
+    "craft_in": "cooking_table",
+    "needs": "[id:flour,value:2], [id:water,value:4], [id:egg_chicken,value:1]",
+    "output": "[id:dough_2,value:4], [id:g,value:1]",
+    "icon": "i_dough_2"
+  },
+  {
+    "Index": 17,
+    "ID": "dough",
+    "craft_in": "cooking_table",
+    "needs": "[id:flour,value:2], [id:water,value:3]",
+    "output": "[id:dough,value:4], [id:g,value:1]",
+    "icon": "i_dough_1"
+  },
+  {
+    "Index": 258,
+    "ID": "detail_3",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:ingot_steel,value:1], [id:ceramic_1,value:2]",
+    "output": "[id:detail_3,value:-1], [id:ash,value:2], [id:r,value:2]",
+    "icon": "i_detail_3"
+  },
+  {
+    "Index": 233,
+    "ID": "detail_2",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:ingot_metal,value:1], [id:detail_1,value:1]",
+    "output": "[id:detail_2,value:-1], [id:r,value:1]",
+    "icon": "i_detail_2"
+  },
+  {
+    "Index": 234,
+    "ID": "detail_2_2",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:ingot_metal,value:1], [id:detail_1,value:1]",
+    "output": "[id:detail_2,value:-1], [id:r,value:1]",
+    "icon": "i_detail_2"
+  },
+  {
+    "Index": 221,
+    "ID": "detail_1",
+    "craft_in": "mf_anvil_1",
+    "needs": "[id:ingot_metal,value:1]",
+    "output": "[id:detail_1,value:-1], [id:r,value:1]",
+    "icon": "i_detail_1"
+  },
+  {
+    "Index": 222,
+    "ID": "detail_1_2",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:ingot_metal,value:1]",
+    "output": "[id:detail_1,value:-1], [id:r,value:1]",
+    "icon": "i_detail_1"
+  },
+  {
+    "Index": 223,
+    "ID": "detail_1_3",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:ingot_metal,value:1]",
+    "output": "[id:detail_1,value:-1], [id:r,value:1]",
+    "icon": "i_detail_1"
+  },
+  {
+    "Index": 52,
+    "ID": "cutlet_carrot",
+    "craft_in": "oven",
+    "needs": "[id:carrot_crop,value:2], [id:taste_booster,value:1]",
+    "output": "[id:meal:cutlet_carrot,value:4], [id:g,value:1]",
+    "icon": "i_cutlet_carrot"
+  },
+  {
+    "Index": 72,
+    "ID": "croissant",
+    "craft_in": "oven",
+    "needs": "[id:dough,value:1], [id:honey,value:1], [id:egg_chicken,value:1]",
+    "output": "[id:dessert:croissant,value:4], [id:g,value:1]",
+    "icon": "i_croissant"
+  },
+  {
+    "Index": 345,
+    "ID": "cover_hard",
+    "craft_in": "table_book_constr",
+    "needs": "[id:cover:cover_1,value:1], [id:tanning_agent,value:1]",
+    "output": "[id:cover:cover_hard:1,value:1], [id:r,value:1]",
+    "icon": "i_cover_hard"
+  },
+  {
+    "Index": 346,
+    "ID": "cover_hard_2",
+    "craft_in": "table_book_constr",
+    "needs": "[id:cover:cover_hard:1,value:1], [id:jewelry_detail_silver,value:2]",
+    "output": "[id:cover:cover_hard:2,value:1], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_cover_hard"
+  },
+  {
+    "Index": 347,
+    "ID": "cover_hard_3",
+    "craft_in": "table_book_constr",
+    "needs": "[id:cover:cover_hard:1,value:1], [id:jewelry_detail_gold,value:2]",
+    "output": "[id:cover:cover_hard:3,value:1], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_cover_hard"
+  },
+  {
+    "Index": 344,
+    "ID": "cover_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:skroll_skin_pig,value:2]",
+    "output": "[id:cover:cover_1,value:1], [id:r,value:1]",
+    "icon": "i_cover_1"
+  },
+  {
+    "Index": 261,
+    "ID": "chisel_2",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:stick,value:2], [id:detail_3,value:1]",
+    "output": "[id:chisel:chisel_2:1,value:1], [id:r,value:2]",
+    "icon": "i_chisel_2"
+  },
+  {
+    "Index": 262,
+    "ID": "chisel_2a",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:stick,value:2], [id:detail_3,value:1], [id:lense,value:1]",
+    "output": "[id:chisel:chisel_2:2,value:1], [id:r,value:2]",
+    "icon": "i_chisel_2"
+  },
+  {
+    "Index": 264,
+    "ID": "chisel_2_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:stick,value:2], [id:detail_3,value:1]",
+    "output": "[id:chisel:chisel_2:1,value:1], [id:r,value:2]",
+    "icon": "i_chisel_2"
+  },
+  {
+    "Index": 265,
+    "ID": "chisel_2_2a",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:stick,value:2], [id:detail_3,value:1], [id:lense,value:1]",
+    "output": "[id:chisel:chisel_2:2,value:1], [id:r,value:2]",
+    "icon": "i_chisel_2"
+  },
+  {
+    "Index": 240,
+    "ID": "chisel_1",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:stick,value:4], [id:detail_1,value:3]",
+    "output": "[id:chisel:chisel_1,value:1], [id:r,value:2]",
+    "icon": "i_chisel_1"
+  },
+  {
+    "Index": 241,
+    "ID": "chisel_1_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:stick,value:4], [id:detail_1,value:3]",
+    "output": "[id:chisel:chisel_1,value:1], [id:r,value:2]",
+    "icon": "i_chisel_1"
+  },
+  {
+    "Index": 357,
+    "ID": "printng_chapter",
+    "craft_in": "mf_printing_press_2",
+    "needs": "[id:chapter,value:1], [id:paper_clean,value:15], [id:ink:ink_jar,value:1]",
+    "output": "[id:chapter,value:5], [id:b,value:1]",
+    "icon": "i_chapter"
+  },
+  {
+    "Index": 274,
+    "ID": "ceramic_3",
+    "craft_in": "mf_furnace_0",
+    "needs": "[id:ceramic_2,value:1], [id:powder_white,value:2]",
+    "output": "[id:ceramic_3,value:1], [id:ash,value:3], [id:r,value:2]",
+    "icon": "i_ceramic_3"
+  },
+  {
+    "Index": 275,
+    "ID": "ceramic_3_1",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:ceramic_2,value:1], [id:powder_white,value:2]",
+    "output": "[id:ceramic_3,value:1], [id:ash,value:3], [id:r,value:2]",
+    "icon": "i_ceramic_3"
+  },
+  {
+    "Index": 276,
+    "ID": "ceramic_3_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:ceramic_2,value:1], [id:powder_white,value:2]",
+    "output": "[id:ceramic_3,value:1], [id:ash,value:3], [id:r,value:2]",
+    "icon": "i_ceramic_3"
+  },
+  {
+    "Index": 271,
+    "ID": "ceramic_2",
+    "craft_in": "mf_furnace_0",
+    "needs": "[id:ceramic_1,value:10]",
+    "output": "[id:ceramic_2,value:10], [id:ash,value:3], [id:r,value:1]",
+    "icon": "i_ceramic_2"
+  },
+  {
+    "Index": 272,
+    "ID": "ceramic_2_1",
+    "craft_in": "mf_furnace_1",
+    "needs": "[id:ceramic_1,value:10]",
+    "output": "[id:ceramic_2,value:10], [id:ash,value:3], [id:r,value:1]",
+    "icon": "i_ceramic_2"
+  },
+  {
+    "Index": 273,
+    "ID": "ceramic_2_2",
+    "craft_in": "mf_furnace_2",
+    "needs": "[id:ceramic_1,value:10]",
+    "output": "[id:ceramic_2,value:10], [id:ash,value:3], [id:r,value:1]",
+    "icon": "i_ceramic_2"
+  },
+  {
+    "Index": 318,
+    "ID": "ceramic_1",
+    "craft_in": "mf_potter_wheel_1",
+    "needs": "[id:clay,value:1], [id:water,value:1]",
+    "output": "[id:ceramic_1,value:3], [id:r,value:1], [id:g,value:1]",
+    "icon": "i_ceramic_1"
+  },
+  {
+    "Index": 364,
+    "ID": "candle_6",
+    "craft_in": "table_book_constr",
+    "needs": "[id:beeswax,value:4], [id:white_paint,value:3], [id:rope_hemp,value:1]",
+    "output": "[id:candle_6,value:2], [id:b,value:1]",
+    "icon": "i_candle_6"
+  },
+  {
+    "Index": 363,
+    "ID": "candle_4",
+    "craft_in": "table_book_constr",
+    "needs": "[id:beeswax,value:4], [id:white_paint,value:3], [id:rope_hemp,value:1]",
+    "output": "[id:candle_4,value:2], [id:b,value:1]",
+    "icon": "i_candle_4"
+  },
+  {
+    "Index": 362,
+    "ID": "candle_3",
+    "craft_in": "table_book_constr",
+    "needs": "[id:fat,value:2], [id:beeswax,value:2], [id:white_paint,value:3]",
+    "output": "[id:candle_3,value:2], [id:b,value:1]",
+    "icon": "i_candle_3"
+  },
+  {
+    "Index": 361,
+    "ID": "candle_1",
+    "craft_in": "table_book_constr",
+    "needs": "[id:fat,value:2], [id:beeswax,value:2], [id:rope_hemp,value:1]",
+    "output": "[id:candle_1,value:2], [id:b,value:1]",
+    "icon": "i_candle_1"
+  },
+  {
+    "Index": 42,
+    "ID": "bread",
+    "craft_in": "oven",
+    "needs": "[id:dough,value:2]",
+    "output": "[id:snack:bread,value:2], [id:g,value:1]",
+    "icon": "i_bread"
+  },
+  {
+    "Index": 178,
+    "ID": "ex:mf_preparation_1:brain_dark",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:brain_dark,value:1], [id:g,value:1]",
+    "icon": "i_brain_dark"
+  },
+  {
+    "Index": 179,
+    "ID": "ex:mf_preparation_2:brain_dark",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:brain_dark,value:1], [id:g,value:1]",
+    "icon": "i_brain_dark"
+  },
+  {
+    "Index": 45,
+    "ID": "bowl_sauerkraut",
+    "craft_in": "oven",
+    "needs": "[id:cabbage_crop,value:3], [id:carrot_crop,value:2], [id:taste_booster:salt,value:1]",
+    "output": "[id:snack:bowl_sauerkraut,value:3], [id:g,value:1]",
+    "icon": "i_bowl_sauerkraut"
+  },
+  {
+    "Index": 157,
+    "ID": "bottle_berry_braga",
+    "craft_in": "barrel_brew",
+    "needs": "[id:pail_berry_juice,value:2]",
+    "output": "[id:bottle_berry_braga,value:10], [id:g,value:2]",
+    "icon": "i_bottle_berry_vine_2"
+  },
+  {
+    "Index": 156,
+    "ID": "bottle_apple_braga",
+    "craft_in": "barrel_brew",
+    "needs": "[id:pail_apple_juice,value:2]",
+    "output": "[id:bottle_apple_braga,value:10], [id:g,value:2]",
+    "icon": "i_bottle_apple_vine_2"
+  },
+  {
+    "Index": 348,
+    "ID": "book_hard",
+    "craft_in": "desk",
+    "needs": "[id:cover,value:1], [id:chapter,value:1]",
+    "output": "[id:book:book_hard,value:1], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_book_gold_2"
+  },
+  {
+    "Index": 349,
+    "ID": "book_hard_2",
+    "craft_in": "desk_2",
+    "needs": "[id:cover,value:1], [id:chapter,value:1]",
+    "output": "[id:book:book_hard,value:1], [id:r,value:1], [id:b,value:1]",
+    "icon": "i_book_gold_2"
+  },
+  {
+    "Index": 174,
+    "ID": "ex:mf_preparation_1:bone",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:bone,value:1], [id:g,value:1]",
+    "icon": "i_bone"
+  },
+  {
+    "Index": 175,
+    "ID": "ex:mf_preparation_2:bone",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:bone,value:1], [id:g,value:1]",
+    "icon": "i_bone"
+  },
+  {
+    "Index": 172,
+    "ID": "ex:mf_preparation_1:blood",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:blood,value:1], [id:g,value:1]",
+    "icon": "i_blood"
+  },
+  {
+    "Index": 173,
+    "ID": "ex:mf_preparation_2:blood",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:blood,value:1], [id:g,value:1]",
+    "icon": "i_blood"
+  },
+  {
+    "Index": 751,
+    "ID": "mix:mf_alchemy_craft_01:blood:::",
+    "craft_in": "mf_alchemy_craft_01",
+    "needs": "[id:blood,value:1]",
+    "output": "[id:fruit:berry,value:1]",
+    "icon": "i_berry"
+  },
+  {
+    "Index": 126,
+    "ID": "beeswax",
+    "craft_in": "beehouse_1",
+    "needs": "",
+    "output": "[id:beeswax,value:1]",
+    "icon": "i_beeswax"
+  },
+  {
+    "Index": 61,
+    "ID": "baked_meat",
+    "craft_in": "oven",
+    "needs": "[id:raw_meat_sliced,value:1]",
+    "output": "[id:meal:baked_meat,value:2], [id:g,value:1]",
+    "icon": "i_baked_meat"
+  },
+  {
+    "Index": 46,
+    "ID": "baked_kebab_7",
+    "craft_in": "oven",
+    "needs": "[id:shr_boletus,value:6]",
+    "output": "[id:snack:baked_kebab_7,value:3], [id:g,value:2]",
+    "icon": "i_baked_kebab_7"
+  },
+  {
+    "Index": 55,
+    "ID": "baked_fish",
+    "craft_in": "oven",
+    "needs": "[id:fillet_fish_white,value:2]",
+    "output": "[id:meal:baked_fish,value:2], [id:g,value:1]",
+    "icon": "i_baked_fish"
+  },
+  {
+    "Index": 44,
+    "ID": "baked_apple",
+    "craft_in": "oven",
+    "needs": "[id:fruit:apple_red_crop,value:5]",
+    "output": "[id:snack:baked_apple,value:5], [id:g,value:1]",
+    "icon": "i_baked_apple"
+  },
+  {
+    "Index": 522,
+    "ID": "b_village",
+    "craft_in": "desk",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_village,value:1], [id:b,value:3]",
+    "icon": "i_b_vilage"
+  },
+  {
+    "Index": 523,
+    "ID": "b_village_2",
+    "craft_in": "desk_2",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_village,value:1], [id:b,value:3]",
+    "icon": "i_b_vilage"
+  },
+  {
+    "Index": 535,
+    "ID": "b_techpoint_red",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_techpoint_red,value:1], [id:b,value:3]",
+    "icon": "i_b_techpoint_red"
+  },
+  {
+    "Index": 534,
+    "ID": "b_techpoint_green",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_techpoint_green,value:1], [id:b,value:3]",
+    "icon": "i_b_techpoint_green"
+  },
+  {
+    "Index": 533,
+    "ID": "b_techpoint_blue",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_techpoint_blue,value:1], [id:b,value:3]",
+    "icon": "i_b_techpoint_blue"
+  },
+  {
+    "Index": 520,
+    "ID": "b_sword",
+    "craft_in": "desk",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_sword,value:1], [id:b,value:3]",
+    "icon": "i_b_sword"
+  },
+  {
+    "Index": 521,
+    "ID": "b_sword_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_sword,value:1], [id:b,value:3]",
+    "icon": "i_b_sword"
+  },
+  {
+    "Index": 526,
+    "ID": "b_star",
+    "craft_in": "desk",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_pen,value:1], [id:b,value:3]",
+    "icon": "i_b_star"
+  },
+  {
+    "Index": 527,
+    "ID": "b_star_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_pen,value:1], [id:b,value:3]",
+    "icon": "i_b_star"
+  },
+  {
+    "Index": 518,
+    "ID": "b_skull",
+    "craft_in": "desk",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_skull,value:1], [id:b,value:3]",
+    "icon": "i_b_skull"
+  },
+  {
+    "Index": 519,
+    "ID": "b_skull_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_skull,value:1], [id:b,value:3]",
+    "icon": "i_b_skull"
+  },
+  {
+    "Index": 516,
+    "ID": "b_sins",
+    "craft_in": "desk",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_sins,value:1], [id:b,value:3]",
+    "icon": "i_b_sins"
+  },
+  {
+    "Index": 517,
+    "ID": "b_sins_2",
+    "craft_in": "desk_2",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_sins,value:1], [id:b,value:3]",
+    "icon": "i_b_sins"
+  },
+  {
+    "Index": 514,
+    "ID": "b_shield",
+    "craft_in": "desk",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_shield,value:1], [id:b,value:3]",
+    "icon": "i_b_shield"
+  },
+  {
+    "Index": 515,
+    "ID": "b_shield_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_shield,value:1], [id:b,value:3]",
+    "icon": "i_b_shield"
+  },
+  {
+    "Index": 532,
+    "ID": "b_random",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_random,value:1], [id:b,value:3]",
+    "icon": "i_b_random"
+  },
+  {
+    "Index": 512,
+    "ID": "b_plant",
+    "craft_in": "desk",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_plant,value:1], [id:b,value:3]",
+    "icon": "i_b_plant"
+  },
+  {
+    "Index": 513,
+    "ID": "b_plant_2",
+    "craft_in": "desk_2",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_plant,value:1], [id:b,value:3]",
+    "icon": "i_b_plant"
+  },
+  {
+    "Index": 524,
+    "ID": "b_pen",
+    "craft_in": "desk",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_pen,value:1], [id:b,value:3]",
+    "icon": "i_b_pen"
+  },
+  {
+    "Index": 525,
+    "ID": "b_pen_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_pen,value:1], [id:b,value:3]",
+    "icon": "i_b_pen"
+  },
+  {
+    "Index": 510,
+    "ID": "b_money",
+    "craft_in": "desk",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_money,value:1], [id:b,value:3]",
+    "icon": "i_b_money"
+  },
+  {
+    "Index": 511,
+    "ID": "b_money_2",
+    "craft_in": "desk_2",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_money,value:1], [id:b,value:3]",
+    "icon": "i_b_money"
+  },
+  {
+    "Index": 329,
+    "ID": "build_marble_quarry",
+    "craft_in": "steep_marble",
+    "needs": "[id:flitch,value:16], [id:detail_1,value:4], [id:nails,value:7]",
+    "output": "[id:r,value:10], [id:g,value:10]",
+    "icon": "i_b_marble_quarry"
+  },
+  {
+    "Index": 530,
+    "ID": "b_ghost",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_ghost,value:1], [id:b,value:3]",
+    "icon": "i_b_ghost"
+  },
+  {
+    "Index": 508,
+    "ID": "b_faith_money",
+    "craft_in": "desk",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_faith_money,value:1], [id:b,value:3]",
+    "icon": "i_b_faith_money"
+  },
+  {
+    "Index": 509,
+    "ID": "b_faith_money_2",
+    "craft_in": "desk_2",
+    "needs": "[id:book:book_hard,value:1], [id:faith,value:5]",
+    "output": "[id:b_faith_money,value:1], [id:b,value:3]",
+    "icon": "i_b_faith_money"
+  },
+  {
+    "Index": 506,
+    "ID": "b_faith",
+    "craft_in": "desk",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_faith,value:1], [id:b,value:3]",
+    "icon": "i_b_faith"
+  },
+  {
+    "Index": 507,
+    "ID": "b_faith_2",
+    "craft_in": "desk_2",
+    "needs": "[id:chapter,value:1], [id:faith,value:3]",
+    "output": "[id:b_faith,value:1], [id:b,value:3]",
+    "icon": "i_b_faith"
+  },
+  {
+    "Index": 531,
+    "ID": "b_energy",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_energy,value:1], [id:b,value:3]",
+    "icon": "i_b_energy"
+  },
+  {
+    "Index": 529,
+    "ID": "b_empty",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_empty,value:1], [id:b,value:3]",
+    "icon": "i_b_empty"
+  },
+  {
+    "Index": 528,
+    "ID": "b_cross",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_cross,value:1], [id:b,value:3]",
+    "icon": "i_b_cross"
+  },
+  {
+    "Index": 536,
+    "ID": "b_circle",
+    "craft_in": "deskdesk_2",
+    "needs": "",
+    "output": "[id:b_circle,value:1], [id:b,value:3]",
+    "icon": "i_b_circle"
+  },
+  {
+    "Index": 255,
+    "ID": "axe_2",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:1], [id:detail_2,value:2], [id:ingot_steel,value:1]",
+    "output": "[id:axe_2,value:1], [id:r,value:3]",
+    "icon": "i_axe_2"
+  },
+  {
+    "Index": 288,
+    "ID": "sharp_axe_2",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:axe_2,value:1], [id:whetstone,value:1]",
+    "output": "[id:axe_2,value:1], [id:r,value:1]",
+    "icon": "i_axe_2"
+  },
+  {
+    "Index": 224,
+    "ID": "axe_1",
+    "craft_in": "mf_anvil_1",
+    "needs": "[id:stick,value:2], [id:detail_1,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:axe_1,value:1], [id:r,value:1]",
+    "icon": "i_axe_1"
+  },
+  {
+    "Index": 225,
+    "ID": "axe_1_2",
+    "craft_in": "mf_anvil_2",
+    "needs": "[id:stick,value:2], [id:detail_1,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:axe_1,value:1], [id:r,value:1]",
+    "icon": "i_axe_1"
+  },
+  {
+    "Index": 226,
+    "ID": "axe_1_3",
+    "craft_in": "mf_anvil_3",
+    "needs": "[id:stick,value:2], [id:detail_1,value:2], [id:ingot_metal,value:1]",
+    "output": "[id:axe_1,value:1], [id:r,value:1]",
+    "icon": "i_axe_1"
+  },
+  {
+    "Index": 287,
+    "ID": "sharp_axe_1",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:axe_1,value:1], [id:whetstone,value:1]",
+    "output": "[id:axe_1,value:1], [id:r,value:1]",
+    "icon": "i_axe_1"
+  },
+  {
+    "Index": 286,
+    "ID": "sharp_axe_0",
+    "craft_in": "mf_grindstone_1",
+    "needs": "[id:axe_0,value:1], [id:whetstone,value:1]",
+    "output": "[id:axe_0,value:1], [id:r,value:1]",
+    "icon": "i_axe_0"
+  },
+  {
+    "Index": 268,
+    "ID": "armor_lamellar_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:stick,value:2], [id:detail_1,value:5]",
+    "output": "[id:armor_lamellar_2,value:1], [id:r,value:2]",
+    "icon": "i_armor_lamellar_2"
+  },
+  {
+    "Index": 244,
+    "ID": "armor_lamellar_1",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:skin,value:4], [id:detail_1,value:6]",
+    "output": "[id:armor_lamellar_1,value:1], [id:r,value:1]",
+    "icon": "i_armor_lamellar_1"
+  },
+  {
+    "Index": 245,
+    "ID": "armor_lamellar_1_2",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:skin,value:4], [id:detail_1,value:6]",
+    "output": "[id:armor_lamellar_1,value:1], [id:r,value:1]",
+    "icon": "i_armor_lamellar_1"
+  },
+  {
+    "Index": 829,
+    "ID": "alch:mf_distcube_2_clay:maggot",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:maggot,value:1]",
+    "output": "[id:alchemy_3_yellow,value:-1]",
+    "icon": "i_alchemy_3_yellow"
+  },
+  {
+    "Index": 830,
+    "ID": "alch:mf_distcube_2_cuprum:maggot",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:maggot,value:1]",
+    "output": "[id:alchemy_3_yellow,value:-1]",
+    "icon": "i_alchemy_3_yellow"
+  },
+  {
+    "Index": 831,
+    "ID": "alch:mf_distcube_2_clay:flw_dandelion",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:flw_dandelion,value:1]",
+    "output": "[id:alchemy_3_yellow,value:-1]",
+    "icon": "i_alchemy_3_yellow"
+  },
+  {
+    "Index": 832,
+    "ID": "alch:mf_distcube_2_cuprum:flw_dandelion",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:flw_dandelion,value:1]",
+    "output": "[id:alchemy_3_yellow,value:-1]",
+    "icon": "i_alchemy_3_yellow"
+  },
+  {
+    "Index": 833,
+    "ID": "alch:mf_distcube_2_clay:heart",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:heart,value:1]",
+    "output": "[id:alchemy_3_yellow,value:-1]",
+    "icon": "i_alchemy_3_yellow"
+  },
+  {
+    "Index": 834,
+    "ID": "alch:mf_distcube_2_cuprum:heart",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:heart,value:1]",
+    "output": "[id:alchemy_3_yellow,value:-1]",
+    "icon": "i_alchemy_3_yellow"
+  },
+  {
+    "Index": 835,
+    "ID": "alch:mf_distcube_2_clay:butterfly",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:butterfly,value:1]",
+    "output": "[id:alchemy_3_violet,value:-1]",
+    "icon": "i_alchemy_3_violet"
+  },
+  {
+    "Index": 836,
+    "ID": "alch:mf_distcube_2_cuprum:butterfly",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:butterfly,value:1]",
+    "output": "[id:alchemy_3_violet,value:-1]",
+    "icon": "i_alchemy_3_violet"
+  },
+  {
+    "Index": 837,
+    "ID": "alch:mf_distcube_2_clay:moth",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:moth,value:1]",
+    "output": "[id:alchemy_3_violet,value:-1]",
+    "icon": "i_alchemy_3_violet"
+  },
+  {
+    "Index": 838,
+    "ID": "alch:mf_distcube_2_cuprum:moth",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:moth,value:1]",
+    "output": "[id:alchemy_3_violet,value:-1]",
+    "icon": "i_alchemy_3_violet"
+  },
+  {
+    "Index": 839,
+    "ID": "alch:mf_distcube_2_clay:onion_crop",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:onion_crop,value:1]",
+    "output": "[id:alchemy_3_red,value:-1]",
+    "icon": "i_alchemy_3_red"
+  },
+  {
+    "Index": 840,
+    "ID": "alch:mf_distcube_2_cuprum:onion_crop",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:onion_crop,value:1]",
+    "output": "[id:alchemy_3_red,value:-1]",
+    "icon": "i_alchemy_3_red"
+  },
+  {
+    "Index": 841,
+    "ID": "alch:mf_distcube_2_clay:flw_chamomile",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:flw_chamomile,value:1]",
+    "output": "[id:alchemy_3_green,value:-1]",
+    "icon": "i_alchemy_3_green"
+  },
+  {
+    "Index": 842,
+    "ID": "alch:mf_distcube_2_cuprum:flw_chamomile",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:flw_chamomile,value:1]",
+    "output": "[id:alchemy_3_green,value:-1]",
+    "icon": "i_alchemy_3_green"
+  },
+  {
+    "Index": 843,
+    "ID": "alch:mf_distcube_2_clay:jelly_slug",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:jelly_slug,value:1]",
+    "output": "[id:alchemy_3_green,value:-1]",
+    "icon": "i_alchemy_3_green"
+  },
+  {
+    "Index": 844,
+    "ID": "alch:mf_distcube_2_cuprum:jelly_slug",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:jelly_slug,value:1]",
+    "output": "[id:alchemy_3_green,value:-1]",
+    "icon": "i_alchemy_3_green"
+  },
+  {
+    "Index": 845,
+    "ID": "alch:mf_distcube_2_clay:heart_dark",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:heart_dark,value:1]",
+    "output": "[id:alchemy_3_d_violet,value:-1]",
+    "icon": "i_alchemy_3_d_violet"
+  },
+  {
+    "Index": 846,
+    "ID": "alch:mf_distcube_2_cuprum:heart_dark",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:heart_dark,value:1]",
+    "output": "[id:alchemy_3_d_violet,value:-1]",
+    "icon": "i_alchemy_3_d_violet"
+  },
+  {
+    "Index": 847,
+    "ID": "alch:mf_distcube_2_clay:pumpkin_crop",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:pumpkin_crop,value:1]",
+    "output": "[id:alchemy_3_d_green,value:-1]",
+    "icon": "i_alchemy_3_d_green"
+  },
+  {
+    "Index": 848,
+    "ID": "alch:mf_distcube_2_cuprum:pumpkin_crop",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:pumpkin_crop,value:1]",
+    "output": "[id:alchemy_3_d_green,value:-1]",
+    "icon": "i_alchemy_3_d_green"
+  },
+  {
+    "Index": 849,
+    "ID": "alch:mf_distcube_2_clay:lentils_crop",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:lentils_crop,value:1]",
+    "output": "[id:alchemy_3_d_green,value:-1]",
+    "icon": "i_alchemy_3_d_green"
+  },
+  {
+    "Index": 850,
+    "ID": "alch:mf_distcube_2_cuprum:lentils_crop",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:lentils_crop,value:1]",
+    "output": "[id:alchemy_3_d_green,value:-1]",
+    "icon": "i_alchemy_3_d_green"
+  },
+  {
+    "Index": 851,
+    "ID": "alch:mf_distcube_2_clay:nori",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:nori,value:1]",
+    "output": "[id:alchemy_3_d_green,value:-1]",
+    "icon": "i_alchemy_3_d_green"
+  },
+  {
+    "Index": 852,
+    "ID": "alch:mf_distcube_2_cuprum:nori",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:nori,value:1]",
+    "output": "[id:alchemy_3_d_green,value:-1]",
+    "icon": "i_alchemy_3_d_green"
+  },
+  {
+    "Index": 853,
+    "ID": "alch:mf_distcube_2_clay:hamp_crop",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:hamp_crop,value:1]",
+    "output": "[id:alchemy_3_d_blue,value:-1]",
+    "icon": "i_alchemy_3_d_blue"
+  },
+  {
+    "Index": 854,
+    "ID": "alch:mf_distcube_2_cuprum:hamp_crop",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:hamp_crop,value:1]",
+    "output": "[id:alchemy_3_d_blue,value:-1]",
+    "icon": "i_alchemy_3_d_blue"
+  },
+  {
+    "Index": 855,
+    "ID": "alch:mf_distcube_2_clay:beeswax",
+    "craft_in": "mf_distcube_2_clay",
+    "needs": "[id:beeswax,value:1]",
+    "output": "[id:alchemy_3_brown,value:-1]",
+    "icon": "i_alchemy_3_brown"
+  },
+  {
+    "Index": 856,
+    "ID": "alch:mf_distcube_2_cuprum:beeswax",
+    "craft_in": "mf_distcube_2_cuprum",
+    "needs": "[id:beeswax,value:1]",
+    "output": "[id:alchemy_3_brown,value:-1]",
+    "icon": "i_alchemy_3_brown"
+  },
+  {
+    "Index": 813,
+    "ID": "alch:mf_alchemy_stirrer_01:brain",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:brain,value:1]",
+    "output": "[id:alchemy_2_yellow,value:-1]",
+    "icon": "i_alchemy_2_yellow"
+  },
+  {
+    "Index": 814,
+    "ID": "alch:mf_alchemy_stirrer_01:maggot",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:maggot,value:1]",
+    "output": "[id:alchemy_2_yellow,value:-1]",
+    "icon": "i_alchemy_2_yellow"
+  },
+  {
+    "Index": 815,
+    "ID": "alch:mf_alchemy_stirrer_01:flw_dandelion",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:flw_dandelion,value:1]",
+    "output": "[id:alchemy_2_yellow,value:-1]",
+    "icon": "i_alchemy_2_yellow"
+  },
+  {
+    "Index": 816,
+    "ID": "alch:mf_alchemy_stirrer_01:bat_wing",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:bat_wing,value:1]",
+    "output": "[id:alchemy_2_violet,value:-1]",
+    "icon": "i_alchemy_2_violet"
+  },
+  {
+    "Index": 817,
+    "ID": "alch:mf_alchemy_stirrer_01:moth",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:moth,value:1]",
+    "output": "[id:alchemy_2_violet,value:-1]",
+    "icon": "i_alchemy_2_violet"
+  },
+  {
+    "Index": 818,
+    "ID": "alch:mf_alchemy_stirrer_01:shr_agaric",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:shr_agaric,value:1]",
+    "output": "[id:alchemy_2_red,value:-1]",
+    "icon": "i_alchemy_2_red"
+  },
+  {
+    "Index": 819,
+    "ID": "alch:mf_alchemy_stirrer_01:flw_chamomile",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:flw_chamomile,value:1]",
+    "output": "[id:alchemy_2_green,value:-1]",
+    "icon": "i_alchemy_2_green"
+  },
+  {
+    "Index": 820,
+    "ID": "alch:mf_alchemy_stirrer_01:bee",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:bee,value:1]",
+    "output": "[id:alchemy_2_green,value:-1]",
+    "icon": "i_alchemy_2_green"
+  },
+  {
+    "Index": 821,
+    "ID": "alch:mf_alchemy_stirrer_01:jelly_slug",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:jelly_slug,value:1]",
+    "output": "[id:alchemy_2_green,value:-1]",
+    "icon": "i_alchemy_2_green"
+  },
+  {
+    "Index": 822,
+    "ID": "alch:mf_alchemy_stirrer_01:brain_dark",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:brain_dark,value:1]",
+    "output": "[id:alchemy_2_d_violet,value:-1]",
+    "icon": "i_alchemy_2_d_violet"
+  },
+  {
+    "Index": 823,
+    "ID": "alch:mf_alchemy_stirrer_01:carrot_crop",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:carrot_crop,value:1]",
+    "output": "[id:alchemy_2_d_green,value:-1]",
+    "icon": "i_alchemy_2_d_green"
+  },
+  {
+    "Index": 824,
+    "ID": "alch:mf_alchemy_stirrer_01:cabbage_crop",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:cabbage_crop,value:1]",
+    "output": "[id:alchemy_2_d_green,value:-1]",
+    "icon": "i_alchemy_2_d_green"
+  },
+  {
+    "Index": 825,
+    "ID": "alch:mf_alchemy_stirrer_01:honey",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:honey,value:1]",
+    "output": "[id:alchemy_2_d_blue,value:-1]",
+    "icon": "i_alchemy_2_d_blue"
+  },
+  {
+    "Index": 826,
+    "ID": "alch:mf_alchemy_stirrer_01:fat",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:fat,value:1]",
+    "output": "[id:alchemy_2_brown,value:-1]",
+    "icon": "i_alchemy_2_brown"
+  },
+  {
+    "Index": 827,
+    "ID": "alch:mf_alchemy_stirrer_01:hop_crop",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:hop_crop,value:1]",
+    "output": "[id:alchemy_2_brown,value:-1]",
+    "icon": "i_alchemy_2_brown"
+  },
+  {
+    "Index": 828,
+    "ID": "alch:mf_alchemy_stirrer_01:beeswax",
+    "craft_in": "mf_alchemy_stirrer_01",
+    "needs": "[id:beeswax,value:1]",
+    "output": "[id:alchemy_2_brown,value:-1]",
+    "icon": "i_alchemy_2_brown"
+  },
+  {
+    "Index": 811,
+    "ID": "alch:mf_alchemy_mill:fish_eel",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:fish_eel,value:1]",
+    "output": "[id:alchemy_1_yellow_electro,value:-1]",
+    "icon": "i_alchemy_1_yellow_electro"
+  },
+  {
+    "Index": 791,
+    "ID": "alch:mf_alchemy_mill:intestine",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:intestine,value:1]",
+    "output": "[id:alchemy_1_yellow,value:-1]",
+    "icon": "i_alchemy_1_yellow"
+  },
+  {
+    "Index": 792,
+    "ID": "alch:mf_alchemy_mill:sulfur",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:sulfur,value:1]",
+    "output": "[id:alchemy_1_yellow,value:-1]",
+    "icon": "i_alchemy_1_yellow"
+  },
+  {
+    "Index": 793,
+    "ID": "alch:mf_alchemy_mill:bat_wing",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:bat_wing,value:1]",
+    "output": "[id:alchemy_1_violet,value:-1]",
+    "icon": "i_alchemy_1_violet"
+  },
+  {
+    "Index": 794,
+    "ID": "alch:mf_alchemy_mill:butterfly",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:butterfly,value:1]",
+    "output": "[id:alchemy_1_violet,value:-1]",
+    "icon": "i_alchemy_1_violet"
+  },
+  {
+    "Index": 795,
+    "ID": "alch:mf_alchemy_mill:flw_poppy",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:flw_poppy,value:1]",
+    "output": "[id:alchemy_1_red,value:-1]",
+    "icon": "i_alchemy_1_red"
+  },
+  {
+    "Index": 796,
+    "ID": "alch:mf_alchemy_mill:onion_crop",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:onion_crop,value:1]",
+    "output": "[id:alchemy_1_red,value:-1]",
+    "icon": "i_alchemy_1_red"
+  },
+  {
+    "Index": 797,
+    "ID": "alch:mf_alchemy_mill:bee",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:bee,value:1]",
+    "output": "[id:alchemy_1_green,value:-1]",
+    "icon": "i_alchemy_1_green"
+  },
+  {
+    "Index": 798,
+    "ID": "alch:mf_alchemy_mill:faceted_emerald",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:faceted_emerald,value:1]",
+    "output": "[id:alchemy_1_green,value:-1]",
+    "icon": "i_alchemy_1_green"
+  },
+  {
+    "Index": 799,
+    "ID": "alch:mf_alchemy_mill:intestine_dark",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:intestine_dark,value:1]",
+    "output": "[id:alchemy_1_d_violet,value:-1]",
+    "icon": "i_alchemy_1_d_violet"
+  },
+  {
+    "Index": 800,
+    "ID": "alch:mf_alchemy_mill:pumpkin_crop",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:pumpkin_crop,value:1]",
+    "output": "[id:alchemy_1_d_green,value:-1]",
+    "icon": "i_alchemy_1_d_green"
+  },
+  {
+    "Index": 801,
+    "ID": "alch:mf_alchemy_mill:crop_waste",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:crop_waste,value:1]",
+    "output": "[id:alchemy_1_d_green,value:-1]",
+    "icon": "i_alchemy_1_d_green"
+  },
+  {
+    "Index": 802,
+    "ID": "alch:mf_alchemy_mill:cabbage_crop",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:cabbage_crop,value:1]",
+    "output": "[id:alchemy_1_d_green,value:-1]",
+    "icon": "i_alchemy_1_d_green"
+  },
+  {
+    "Index": 803,
+    "ID": "alch:mf_alchemy_mill:honey",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:honey,value:1]",
+    "output": "[id:alchemy_1_d_blue,value:-1]",
+    "icon": "i_alchemy_1_d_blue"
+  },
+  {
+    "Index": 804,
+    "ID": "alch:mf_alchemy_mill:hamp_crop",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:hamp_crop,value:1]",
+    "output": "[id:alchemy_1_d_blue,value:-1]",
+    "icon": "i_alchemy_1_d_blue"
+  },
+  {
+    "Index": 805,
+    "ID": "alch:mf_alchemy_mill:hop_crop",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:hop_crop,value:1]",
+    "output": "[id:alchemy_1_brown,value:-1]",
+    "icon": "i_alchemy_1_brown"
+  },
+  {
+    "Index": 806,
+    "ID": "alch:mf_alchemy_mill:pyrite",
+    "craft_in": "mf_alchemy_mill",
+    "needs": "[id:pyrite,value:1]",
+    "output": "[id:alchemy_1_brown,value:-1]",
+    "icon": "i_alchemy_1_brown"
+  },
+  {
+    "Index": 204,
+    "ID": "iron_to_small",
+    "craft_in": "mf_hammer_0",
+    "needs": "[id:ore_metal,value:1]",
+    "output": "[id:1h_ore_metal,value:5], [id:nugget_gold,value:1], [id:nugget_silver,value:2], [id:r,value:5], [id:g,value:1]",
+    "icon": "i_1h_ore_metal"
+  },
+  {
+    "Index": 205,
+    "ID": "iron_to_small_2",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:ore_metal,value:1]",
+    "output": "[id:1h_ore_metal,value:5], [id:nugget_gold,value:1], [id:nugget_silver,value:2], [id:r,value:5], [id:g,value:1]",
+    "icon": "i_1h_ore_metal"
+  },
+  {
+    "Index": 884,
+    "ID": "pray:b_village:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_village:1,value:1]",
+    "output": "[id:faith,value:1], [id:money,value:100]",
+    "icon": "b_village"
+  },
+  {
+    "Index": 885,
+    "ID": "pray:b_village:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_village:2,value:1]",
+    "output": "[id:faith,value:2], [id:money,value:200]",
+    "icon": "b_village"
+  },
+  {
+    "Index": 886,
+    "ID": "pray:b_village:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_village:3,value:1]",
+    "output": "[id:faith,value:3], [id:money,value:300]",
+    "icon": "b_village"
+  },
+  {
+    "Index": 857,
+    "ID": "pray:preach_1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:preach_1,value:1]",
+    "output": "[id:money,value:15]",
+    "icon": "b_techpoint_red"
+  },
+  {
+    "Index": 858,
+    "ID": "pray:preach_2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:preach_2,value:1]",
+    "output": "[id:candle_1,value:2], [id:candle_2,value:3]",
+    "icon": "b_techpoint_green"
+  },
+  {
+    "Index": 866,
+    "ID": "pray:b_money:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_money:1,value:1]",
+    "output": "[id:faith,value:1], [id:money,value:100]",
+    "icon": "b_money"
+  },
+  {
+    "Index": 867,
+    "ID": "pray:b_money:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_money:2,value:1]",
+    "output": "[id:faith,value:2], [id:money,value:200]",
+    "icon": "b_money"
+  },
+  {
+    "Index": 868,
+    "ID": "pray:b_money:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_money:3,value:1]",
+    "output": "[id:faith,value:3], [id:money,value:300]",
+    "icon": "b_money"
+  },
+  {
+    "Index": 863,
+    "ID": "pray:b_faith_money:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_faith_money:1,value:1]",
+    "output": "[id:faith,value:1], [id:money,value:100]",
+    "icon": "b_faith_money"
+  },
+  {
+    "Index": 864,
+    "ID": "pray:b_faith_money:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_faith_money:2,value:1]",
+    "output": "[id:faith,value:2], [id:money,value:200]",
+    "icon": "b_faith_money"
+  },
+  {
+    "Index": 865,
+    "ID": "pray:b_faith_money:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_faith_money:3,value:1]",
+    "output": "[id:faith,value:3], [id:money,value:300]",
+    "icon": "b_faith_money"
+  },
+  {
+    "Index": 860,
+    "ID": "pray:b_faith:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_faith:1,value:1]",
+    "output": "[id:faith,value:1], [id:money,value:100]",
+    "icon": "b_faith"
+  },
+  {
+    "Index": 861,
+    "ID": "pray:b_faith:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_faith:2,value:1]",
+    "output": "[id:faith,value:2], [id:money,value:200]",
+    "icon": "b_faith"
+  },
+  {
+    "Index": 862,
+    "ID": "pray:b_faith:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_faith:3,value:1]",
+    "output": "[id:faith,value:3], [id:money,value:300]",
+    "icon": "b_faith"
+  },
+  {
+    "Index": 859,
+    "ID": "pray:b_empty",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_empty,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": "b_empty"
+  },
+  {
+    "Index": 25,
+    "ID": "fish_eel_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_eel,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_red,value:1], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 26,
+    "ID": "fish_tilapia_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_tilapia,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_red,value:1], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 27,
+    "ID": "fish_tuna_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_tuna,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_red,value:2], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 28,
+    "ID": "fish_sardine_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_sardine,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_red,value:2], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 29,
+    "ID": "fish_pike_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_pike,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_blue,value:3], [id:g,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 30,
+    "ID": "fish_sturgeon_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_sturgeon,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_blue,value:2], [id:g,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 31,
+    "ID": "fish_salmon_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_salmon,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_blue,value:3], [id:g,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 32,
+    "ID": "fish_crucian_silver_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_crucian_silver,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_blue,value:4], [id:g,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 33,
+    "ID": "fish_crucian_gold_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_crucian_gold,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_blue,value:4], [id:g,value:10]",
+    "icon": ""
+  },
+  {
+    "Index": 34,
+    "ID": "fish_goldfish_fillet",
+    "craft_in": "cooking_table",
+    "needs": "[id:fish_goldfish,value:1]",
+    "output": "[id:fillet_fish:fillet_fish_blue,value:4], [id:g,value:20]",
+    "icon": ""
+  },
+  {
+    "Index": 43,
+    "ID": "onion_ring",
+    "craft_in": "oven",
+    "needs": "[id:onion_crop,value:1], [id:drop_oil,value:1]",
+    "output": "[id:snack:onion_ring,value:3], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 49,
+    "ID": "toasts",
+    "craft_in": "oven",
+    "needs": "[id:dough,value:1], [id:onion_crop,value:1]",
+    "output": "[id:snack:toasts,value:3], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 53,
+    "ID": "bowl_lentil",
+    "craft_in": "oven",
+    "needs": "[id:water,value:1], [id:lentils_crop,value:1]",
+    "output": "[id:meal:bowl_lentil,value:2], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 54,
+    "ID": "bowl_pumpkin",
+    "craft_in": "oven",
+    "needs": "[id:jug_milk,value:1], [id:pumpkin_crop,value:2]",
+    "output": "[id:meal:bowl_pumpkin,value:4], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 56,
+    "ID": "baked_salmon",
+    "craft_in": "oven",
+    "needs": "[id:cabbage_crop,value:1], [id:fillet_fish:fillet_fish_red,value:1]",
+    "output": "[id:meal:baked_salmon,value:3], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 58,
+    "ID": "baked_kebab_1",
+    "craft_in": "oven",
+    "needs": "[id:fillet_fish,value:1], [id:pumpkin_crop,value:2]",
+    "output": "[id:meal:baked_kebab_1,value:6], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 59,
+    "ID": "baked_kebab_2",
+    "craft_in": "oven",
+    "needs": "[id:fillet_fish,value:1], [id:onion_crop,value:2]",
+    "output": "[id:meal:baked_kebab_2,value:6], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 60,
+    "ID": "baked_kebab_5",
+    "craft_in": "oven",
+    "needs": "[id:fillet_fish,value:1], [id:shr_boletus,value:5]",
+    "output": "[id:meal:baked_kebab_5,value:6], [id:g,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 62,
+    "ID": "baked_pumpkin",
+    "craft_in": "oven",
+    "needs": "[id:pumpkin_crop,value:1]",
+    "output": "[id:meal:baked_pumpkin,value:3], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 63,
+    "ID": "burger",
+    "craft_in": "oven",
+    "needs": "[id:snack:bread,value:2], [id:meal:baked_meat,value:4], [id:onion_crop,value:1]",
+    "output": "[id:meal:burger,value:4], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 64,
+    "ID": "lasagne",
+    "craft_in": "oven",
+    "needs": "[id:dough,value:1], [id:lentils_crop,value:1], [id:cabbage_crop,value:1]",
+    "output": "[id:meal:lasagne,value:3], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 66,
+    "ID": "soup_red_green",
+    "craft_in": "oven",
+    "needs": "[id:cabbage_crop,value:2], [id:beet_crop,value:1], [id:onion_crop,value:1]",
+    "output": "[id:meal:soup_red_green,value:4], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 67,
+    "ID": "soup_red_yellow",
+    "craft_in": "oven",
+    "needs": "[id:beet_crop,value:1], [id:carrot_crop,value:2], [id:pumpkin_crop,value:2]",
+    "output": "[id:meal:soup_red_yellow,value:4], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 68,
+    "ID": "soup_yellow_green",
+    "craft_in": "oven",
+    "needs": "[id:cabbage_crop,value:2], [id:carrot_crop,value:2], [id:pumpkin_crop,value:2]",
+    "output": "[id:meal:soup_yellow_green,value:4], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 75,
+    "ID": "pie_2",
+    "craft_in": "oven",
+    "needs": "[id:dough_2,value:1], [id:fruit:grapes_crop,value:1]",
+    "output": "[id:dessert:pie_2,value:2], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 77,
+    "ID": "garden_fertilize_qual_2",
+    "craft_in": "garden_empty",
+    "needs": "[id:sack_star_silver,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 78,
+    "ID": "garden_fertilize_qual_3",
+    "craft_in": "garden_empty",
+    "needs": "[id:sack_star_gold,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 79,
+    "ID": "garden_fertilize_time_2",
+    "craft_in": "garden_empty",
+    "needs": "[id:sack_clock_silver,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 80,
+    "ID": "garden_fertilize_time_3",
+    "craft_in": "garden_empty",
+    "needs": "[id:sack_clock_gold,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 82,
+    "ID": "garden_stick_fertilize_qual_2",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:sack_star_silver,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 83,
+    "ID": "garden_stick_fertilize_qual_3",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:sack_star_gold,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 84,
+    "ID": "garden_stick_fertilize_time_2",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:sack_clock_silver,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 85,
+    "ID": "garden_stick_fertilize_time_3",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:sack_clock_gold,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 87,
+    "ID": "vineyard_stick_fertilize_qual_2",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:sack_star_silver,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 88,
+    "ID": "vineyard_stick_fertilize_qual_3",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:sack_star_gold,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 89,
+    "ID": "vineyard_stick_fertilize_time_2",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:sack_clock_silver,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 90,
+    "ID": "vineyard_stick_fertilize_time_3",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:sack_clock_gold,value:1]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 91,
+    "ID": "garden_wheat_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:wheat_seed,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 92,
+    "ID": "garden_cannabis_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:hamp_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 93,
+    "ID": "garden_cannabis_planting_2",
+    "craft_in": "garden_empty",
+    "needs": "[id:hamp_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 94,
+    "ID": "garden_cannabis_planting_3",
+    "craft_in": "garden_empty",
+    "needs": "[id:hamp_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 95,
+    "ID": "garden_cabbage_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:cabbage_seed,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 96,
+    "ID": "garden_carrot_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:carrot_seed,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 97,
+    "ID": "garden_beet_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:beet_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 98,
+    "ID": "garden_beet_planting_2",
+    "craft_in": "garden_empty",
+    "needs": "[id:beet_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 99,
+    "ID": "garden_beet_planting_3",
+    "craft_in": "garden_empty",
+    "needs": "[id:beet_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 100,
+    "ID": "garden_grapes_planting_1",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:grapes_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 101,
+    "ID": "garden_grapes_planting_2",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:grapes_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 102,
+    "ID": "garden_grapes_planting_3",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:grapes_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 103,
+    "ID": "garden_lentils_planting_1",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:lentils_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 104,
+    "ID": "garden_lentils_planting_2",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:lentils_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 105,
+    "ID": "garden_lentils_planting_3",
+    "craft_in": "garden_empty_stick",
+    "needs": "[id:lentils_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 106,
+    "ID": "garden_pumpkin_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:pumpkin_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 107,
+    "ID": "garden_pumpkin_planting_2",
+    "craft_in": "garden_empty",
+    "needs": "[id:pumpkin_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 108,
+    "ID": "garden_pumpkin_planting_3",
+    "craft_in": "garden_empty",
+    "needs": "[id:pumpkin_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 109,
+    "ID": "garden_onion_planting_1",
+    "craft_in": "garden_empty",
+    "needs": "[id:onion_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 110,
+    "ID": "garden_onion_planting_2",
+    "craft_in": "garden_empty",
+    "needs": "[id:onion_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 111,
+    "ID": "garden_onion_planting_3",
+    "craft_in": "garden_empty",
+    "needs": "[id:onion_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 112,
+    "ID": "garden_hop_planting_1",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:hop_seed:1,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 113,
+    "ID": "garden_hop_planting_2",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:hop_seed:2,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 114,
+    "ID": "garden_hop_planting_3",
+    "craft_in": "vineyard_grapes_stick",
+    "needs": "[id:hop_seed:3,value:4]",
+    "output": "[id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 154,
+    "ID": "pail_grape_juice",
+    "craft_in": "mf_vine_press",
+    "needs": "[id:fruit:grapes_crop,value:15]",
+    "output": "[id:pail_grape_juice,value:1], [id:r,value:1], [id:g,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 158,
+    "ID": "bottle_red_vine",
+    "craft_in": "mf_barrel_mid",
+    "needs": "[id:pail_grape_juice,value:2]",
+    "output": "[id:bottle_red_vine,value:20], [id:g,value:4]",
+    "icon": ""
+  },
+  {
+    "Index": 164,
+    "ID": "ex:mf_preparation_1:brain",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:brain,value:1], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 165,
+    "ID": "ex:mf_preparation_2:brain",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:brain,value:1], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 166,
+    "ID": "ex:mf_preparation_1:heart",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:heart,value:1], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 167,
+    "ID": "ex:mf_preparation_2:heart",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:heart,value:1], [id:g,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 186,
+    "ID": "ex:mf_preparation_1:organs",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:organs,value:1], [id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 187,
+    "ID": "ex:mf_preparation_2:organs",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:organs,value:1], [id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 188,
+    "ID": "ex:mf_preparation_1:lungs",
+    "craft_in": "mf_preparation_1",
+    "needs": "",
+    "output": "[id:lungs,value:1], [id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 189,
+    "ID": "ex:mf_preparation_2:lungs",
+    "craft_in": "mf_preparation_2",
+    "needs": "",
+    "output": "[id:lungs,value:1], [id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 263,
+    "ID": "chisel_2b",
+    "craft_in": "mf_workbench_1",
+    "needs": "[id:chisel:chisel_2,value:1], [id:detail_3,value:1], [id:lense,value:1]",
+    "output": "[id:chisel:chisel_2,value:1], [id:r,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 266,
+    "ID": "chisel_2_2b",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:chisel:chisel_2,value:1], [id:detail_3,value:1], [id:lense,value:1]",
+    "output": "[id:chisel:chisel_2,value:1], [id:r,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 305,
+    "ID": "carved_wood",
+    "craft_in": "mf_workbench_2",
+    "needs": "[id:chisel,value:1], [id:wooden_plank,value:1]",
+    "output": "[id:carved_wood,value:1], [id:r,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 324,
+    "ID": "marble_plate_3",
+    "craft_in": "mf_hammer_1",
+    "needs": "[id:chisel:chisel_2,value:1], [id:marble_plate_2,value:1], [id:faith,value:3]",
+    "output": "[id:marble_plate_3,value:1], [id:r,value:3], [id:g,value:1], [id:b,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 339,
+    "ID": "chapter",
+    "craft_in": "desk",
+    "needs": "[id:notes,value:1], [id:notes,value:1], [id:notes,value:1]",
+    "output": "[id:chapter,value:1], [id:b,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 340,
+    "ID": "chapter_2",
+    "craft_in": "desk_2",
+    "needs": "[id:notes,value:1], [id:notes,value:1], [id:notes,value:1]",
+    "output": "[id:chapter,value:1], [id:b,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 368,
+    "ID": "set_grave_bot_stn_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_bot_stn_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 369,
+    "ID": "set_grave_bot_stn_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_bot_stn_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 370,
+    "ID": "set_grave_bot_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_bot_mrb_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 371,
+    "ID": "set_grave_bot_mrb_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_bot_mrb_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 372,
+    "ID": "set_grave_top_stn_plate_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_stn_plate_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 373,
+    "ID": "set_grave_top_stn_plate_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_stn_plate_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 374,
+    "ID": "set_grave_bot_wd_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_bot_wd_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 375,
+    "ID": "set_grave_top_sarcofag_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_sarcofag_mrb_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 376,
+    "ID": "set_grave_top_stn_cross_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_stn_cross_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 377,
+    "ID": "set_grave_top_stn_cross_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_stn_cross_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 378,
+    "ID": "set_grave_top_mrb_cross_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_mrb_cross_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 379,
+    "ID": "set_grave_top_mrb_cross_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_mrb_cross_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 380,
+    "ID": "set_grave_top_sculpt_stn_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_sculpt_stn_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 381,
+    "ID": "set_grave_top_sculpt_stn_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_sculpt_stn_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 382,
+    "ID": "set_grave_top_sculpt_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_sculpt_mrb_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 383,
+    "ID": "set_grave_top_sculpt_mrb_2",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_sculpt_mrb_2,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 384,
+    "ID": "set_grave_top_stella_stn_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_stella_stn_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 385,
+    "ID": "set_grave_top_stella_mrb_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_stella_mrb_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 386,
+    "ID": "set_grave_top_wd_cross_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_wd_cross_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 387,
+    "ID": "set_grave_top_wd_tab_1",
+    "craft_in": "grave_ground",
+    "needs": "[id:grave_top_wd_tab_1,value:1]",
+    "output": "[id:r,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 690,
+    "ID": "surv:goo",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:goo,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 691,
+    "ID": "surv:alchemy_1_brown",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_brown,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 692,
+    "ID": "surv:alchemy_1_d_blue",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_d_blue,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 693,
+    "ID": "surv:alchemy_1_d_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_d_green,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 694,
+    "ID": "surv:alchemy_1_d_violet",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_d_violet,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 695,
+    "ID": "surv:alchemy_1_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_green,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 696,
+    "ID": "surv:alchemy_1_red",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_red,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 697,
+    "ID": "surv:alchemy_1_violet",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_violet,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 698,
+    "ID": "surv:alchemy_1_yellow",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_1_yellow,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 699,
+    "ID": "surv:alchemy_2_brown",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_brown,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 700,
+    "ID": "surv:alchemy_2_d_blue",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_d_blue,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 701,
+    "ID": "surv:alchemy_2_d_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_d_green,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 702,
+    "ID": "surv:alchemy_2_d_violet",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_d_violet,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 703,
+    "ID": "surv:alchemy_2_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_green,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 704,
+    "ID": "surv:alchemy_2_red",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_red,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 705,
+    "ID": "surv:alchemy_2_violet",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_violet,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 706,
+    "ID": "surv:alchemy_2_yellow",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_2_yellow,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 707,
+    "ID": "surv:alchemy_3_brown",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_brown,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 708,
+    "ID": "surv:alchemy_3_d_blue",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_d_blue,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 709,
+    "ID": "surv:alchemy_3_d_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_d_green,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 710,
+    "ID": "surv:alchemy_3_d_violet",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_d_violet,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 711,
+    "ID": "surv:alchemy_3_green",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_green,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 712,
+    "ID": "surv:alchemy_3_red",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_red,value:1]",
+    "output": "[id:g,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 713,
+    "ID": "surv:alchemy_3_violet",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_violet,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 714,
+    "ID": "surv:alchemy_3_yellow",
+    "craft_in": "mf_alchemy_survey",
+    "needs": "[id:alchemy_3_yellow,value:1]",
+    "output": "[id:b,value:5]",
+    "icon": ""
+  },
+  {
+    "Index": 869,
+    "ID": "pray:b_plant:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_plant:1,value:1]",
+    "output": "[id:faith,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 870,
+    "ID": "pray:b_plant:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_plant:2,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 871,
+    "ID": "pray:b_plant:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_plant:3,value:1]",
+    "output": "[id:faith,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 872,
+    "ID": "pray:b_shield:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_shield:1,value:1]",
+    "output": "[id:faith,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 873,
+    "ID": "pray:b_shield:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_shield:2,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 874,
+    "ID": "pray:b_shield:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_shield:3,value:1]",
+    "output": "[id:faith,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 875,
+    "ID": "pray:b_sins:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_sins:1,value:1]",
+    "output": "[id:faith,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 876,
+    "ID": "pray:b_sins:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_sins:2,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 877,
+    "ID": "pray:b_sins:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_sins:3,value:1]",
+    "output": "[id:faith,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 878,
+    "ID": "pray:b_skull:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_skull:1,value:1]",
+    "output": "[id:faith,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 879,
+    "ID": "pray:b_skull:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_skull:2,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 880,
+    "ID": "pray:b_skull:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_skull:3,value:1]",
+    "output": "[id:faith,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 881,
+    "ID": "pray:b_sword:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_sword:1,value:1]",
+    "output": "[id:faith,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 882,
+    "ID": "pray:b_sword:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_sword:2,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 883,
+    "ID": "pray:b_sword:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_sword:3,value:1]",
+    "output": "[id:faith,value:3]",
+    "icon": ""
+  },
+  {
+    "Index": 887,
+    "ID": "pray:b_pen:1",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_pen:1,value:1]",
+    "output": "[id:faith,value:1]",
+    "icon": ""
+  },
+  {
+    "Index": 888,
+    "ID": "pray:b_pen:2",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_pen:2,value:1]",
+    "output": "[id:faith,value:2]",
+    "icon": ""
+  },
+  {
+    "Index": 889,
+    "ID": "pray:b_pen:3",
+    "craft_in": "church_pulpit",
+    "needs": "[id:b_pen:3,value:1]",
+    "output": "[id:faith,value:3]",
+    "icon": ""
+  }
+]
