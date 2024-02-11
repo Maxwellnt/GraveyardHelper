@@ -1,21 +1,17 @@
 //
-//  ObjectsControler.swift
+//  ObjectRecipesStore.swift
 //  Graveyard Helper
 //
-//  Created by Pau Martinez on 31/12/23.
+//  Created by Pau Martinez on 11/2/24.
 //
 
 import Foundation
-import SwiftUI
 
-
-
-class ObjectsControler:ObservableObject{
+class ObjectRecipesStore:ObservableObject{
     
-    private let baseStringURL = "https://api.publicapis.org/entries"
+
     
-    @Published var objects = [Objecto]()
-    @Published var construciones = [Construccion]()
+    @Published var objectRecipes = [Objecto]()
 
     init(){
         print("ENTERING INIT")
@@ -38,4 +34,3 @@ class ObjectsControler:ObservableObject{
     }
     
 }
-
