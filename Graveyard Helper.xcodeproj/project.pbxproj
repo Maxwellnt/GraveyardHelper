@@ -16,6 +16,8 @@
 		16B0927B2B4440FD00B383CF /* TodoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0927A2B4440FD00B383CF /* TodoRowView.swift */; };
 		16B0D6F82B471E8800803929 /* RecipeItenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0D6F72B471E8800803929 /* RecipeItenView.swift */; };
 		16B0D6FA2B472EAE00803929 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B0D6F92B472EAE00803929 /* Task.swift */; };
+		EF538E492B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF538E472B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld */; };
+		EF538E4C2B86400900DB20D9 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = EF538E4B2B86400900DB20D9 /* db.json */; };
 		EF9111422B276F2800A2ABF3 /* Graveyard_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */; };
 		EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9111432B276F2800A2ABF3 /* ContentView.swift */; };
 		EF9111462B276F2900A2ABF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9111452B276F2900A2ABF3 /* Assets.xcassets */; };
@@ -601,6 +603,8 @@
 		16B0927A2B4440FD00B383CF /* TodoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowView.swift; sourceTree = "<group>"; };
 		16B0D6F72B471E8800803929 /* RecipeItenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItenView.swift; sourceTree = "<group>"; };
 		16B0D6F92B472EAE00803929 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EF538E482B863F7D00DB20D9 /* GraveyardHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraveyardHelper.xcdatamodel; sourceTree = "<group>"; };
+		EF538E4B2B86400900DB20D9 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		EF91113E2B276F2800A2ABF3 /* Graveyard Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graveyard Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graveyard_HelperApp.swift; sourceTree = "<group>"; };
 		EF9111432B276F2800A2ABF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1232,6 +1236,7 @@
 		EF9111402B276F2800A2ABF3 /* Graveyard Helper */ = {
 			isa = PBXGroup;
 			children = (
+				EF538E4B2B86400900DB20D9 /* db.json */,
 				EFD7C9E82B2A14B000559A24 /* GraveyardKeeperImages */,
 				EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */,
 				EF9111522B27704A00A2ABF3 /* ViewModel */,
@@ -1240,6 +1245,7 @@
 				EF9111452B276F2900A2ABF3 /* Assets.xcassets */,
 				EF91114A2B276F2900A2ABF3 /* Info.plist */,
 				EF9111472B276F2900A2ABF3 /* Preview Content */,
+				EF538E472B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld */,
 			);
 			path = "Graveyard Helper";
 			sourceTree = "<group>";
@@ -1996,6 +2002,7 @@
 				EFD7CD7E2B2A14B300559A24 /* Casual_prayer_item.png in Resources */,
 				EFD7CC7A2B2A14B200559A24 /* Furnace_III_item.png in Resources */,
 				EFD7CC2B2B2A14B200559A24 /* Marble_flagstones_item.png in Resources */,
+				EF538E4C2B86400900DB20D9 /* db.json in Resources */,
 				EFD7CD482B2A14B300559A24 /* Toasts_with_onions_item.png in Resources */,
 				EFD7CD922B2A14B300559A24 /* Golden_apple_item.png in Resources */,
 				EFD7CC882B2A14B300559A24 /* Mill_item.png in Resources */,
@@ -2496,6 +2503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF538E492B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld in Sources */,
 				16903DAD2B41F17700570B11 /* BackgroundView.swift in Sources */,
 				EF9111612B27714B00A2ABF3 /* ObjectRowView.swift in Sources */,
 				EF9111442B276F2800A2ABF3 /* ContentView.swift in Sources */,
@@ -2702,6 +2710,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF538E472B863F7D00DB20D9 /* GraveyardHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF538E482B863F7D00DB20D9 /* GraveyardHelper.xcdatamodel */,
+			);
+			currentVersion = EF538E482B863F7D00DB20D9 /* GraveyardHelper.xcdatamodel */;
+			path = GraveyardHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF9111362B276F2800A2ABF3 /* Project object */;
 }
