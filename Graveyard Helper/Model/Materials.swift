@@ -10,6 +10,6 @@ import Foundation
 
 struct Materials: Hashable, Identifiable {
     let id:UUID = UUID()
-    let object:Objects
+    let object:Objeto
     let quantity:Int
 }

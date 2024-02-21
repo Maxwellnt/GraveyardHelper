@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct RecipeItenView: View {
-    let item:Objects
-    let recipe:Recipe
+    let item:Objeto
+    //let recipe:Recipe
     var body: some View {
+        Text("TEXT")
+        /*
+         
         GroupBox(){ // Recipe Item
             
             HStack(){ // Recipe Produced
-                item.showIcon()
+                //item.showIcon()
                 Text(item.title)
                 
                 let qp = String(recipe.quantity_produced)
@@ -60,11 +63,12 @@ struct RecipeItenView: View {
             }
             
         }
+ */
     }
 }
 
 struct RecipeItenView_Previews: PreviewProvider {
         static var previews: some View {
-    RecipeItenView(item: ObjectsControler.defaultObject, recipe: ObjectsControler.defaultObject.recipe.first!)
+            RecipeItenView(item: ObjectsControler().objects[0])
 }
 }

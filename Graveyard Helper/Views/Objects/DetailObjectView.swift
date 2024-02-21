@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct DetailObjectView: View {
-    var item:Objects
+    var item:Objeto
     var body: some View {
         VStack {
             ScrollView {
@@ -20,12 +20,12 @@ struct DetailObjectView: View {
                 
                 // Item info
                 LazyVStack(alignment: .leading) {
-                    Text(item.title).font(.title)
+                    Text(item.Name).font(.title)
                     
                     HStack {
-                        Text("Herramienta")
+                        Text(item.product_types)
                         Spacer()
-                        Text(item.dlc.rawValue)
+                        Text(item.ID)
                     }
                     .font(.subheadline)
                 }
@@ -33,6 +33,7 @@ struct DetailObjectView: View {
                 
                 
                 GroupBox(label: Text("Recipes")){
+                    /*
                     if !item.recipe.isEmpty {
                         
                         ForEach(item.recipe){ recipe in
@@ -44,6 +45,7 @@ struct DetailObjectView: View {
                     }else{
                         Text("No Recipes")
                     }
+ */
                 }
                 
                 Spacer()
@@ -54,17 +56,17 @@ struct DetailObjectView: View {
     
     }
 }
-    
+
         
     
 
 
 struct DetailFruitView_Previews: PreviewProvider {
         static var previews: some View {
-            DetailObjectView(item: ObjectsControler.defaultObject)
-            DetailObjectView(item: ObjectsControler.defaultObject)
+            DetailObjectView(item: ObjectsControler().objects[0])
+            DetailObjectView(item: ObjectsControler().objects[0])
                 .preferredColorScheme(.dark)
-            DetailObjectView(item: ObjectsControler.defaultObject)
+            DetailObjectView(item: ObjectsControler().objects[0])
                 .previewLayout(.fixed(width: 480, height: 320))
         }
 }

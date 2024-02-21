@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ObjectListView: View {
-    @State private var multiSelection = Set<UUID>()
+    @State private var multiSelection: Set<Objeto> = []
     var isBuilding:Bool
     @EnvironmentObject private var taskStore:TaskStore
     @EnvironmentObject private var objectsController:ObjectsControler
@@ -18,11 +18,11 @@ struct ObjectListView: View {
     var body: some View {
         NavigationView {
             if isBuilding == false {
-                List(objectsController.items, selection: $multiSelection) { item in
+                List(objectsController.objects, id:\.ID, selection: $multiSelection) { item in
                 
-                    let index = objectsController.items.firstIndex(where: {$0.id == item.id})
+                    let index = objectsController.objects.firstIndex(where: {$0 == item})
                     
-                    ObjectRowView(object: $objectsController.items[index!])
+                    ObjectRowView(object: $objectsController.objects[index!])
                 }
                 .navigationTitle("Objetos")
                 .toolbar{
@@ -44,14 +44,14 @@ struct ObjectListView: View {
                 }
                 
                 
-                DetailObjectView(item: objectsController.items[0])
+                DetailObjectView(item: objectsController.objects[0])
             } else {
-                List(objectsController.blueprints, selection: $multiSelection) { item in
+                List(objectsController.objects, id:\.ID, selection: $multiSelection) { item in
                     
                     
-                    let index = objectsController.blueprints.firstIndex(where: {$0.id == item.id})
+                    let index = objectsController.objects.firstIndex(where: {$0.ID == item.ID})
                     
-                    ObjectRowView(object: $objectsController.blueprints[index!])
+                    ObjectRowView(object: $objectsController.objects[index!])
                 }
                 .navigationTitle("Objetos")
                 .toolbar{
@@ -73,7 +73,7 @@ struct ObjectListView: View {
                 }
                 
                 
-                DetailObjectView(item: objectsController.blueprints[0])
+                DetailObjectView(item: objectsController.objects[0])
             }
         }
         
@@ -87,12 +87,12 @@ struct ObjectListView: View {
         
         for index in multiSelection {
             if isBuilding == true {
-                if let selectedObject = objectsController.blueprints.first(where: { $0.id == index }) {
+                if let selectedObject = objectsController.objects.first(where: { $0 == index }) {
                     
                     newTask.tasks.append(Task(object: selectedObject))
                 }
             } else {
-                if let selectedObject = objectsController.items.first(where: { $0.id == index}) {
+                if let selectedObject = objectsController.objects.first(where: { $0 == index}) {
                     
                     newTask.tasks.append(Task(object: selectedObject))
                 }

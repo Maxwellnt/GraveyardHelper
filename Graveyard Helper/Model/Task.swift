@@ -9,7 +9,7 @@ import Foundation
 
 struct Task: Hashable, Identifiable {
     let id:UUID = UUID()
-    var object:Objects
+    var object:Objeto
     var finished:Bool = false
     
 

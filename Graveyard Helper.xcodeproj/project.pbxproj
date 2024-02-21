@@ -1217,6 +1217,13 @@
 			path = Tasks;
 			sourceTree = "<group>";
 		};
+		EF538E4E2B8655B500DB20D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		EF9111352B276F2800A2ABF3 = {
 			isa = PBXGroup;
 			children = (
@@ -1237,6 +1244,7 @@
 			isa = PBXGroup;
 			children = (
 				EF538E4B2B86400900DB20D9 /* db.json */,
+				EF538E4E2B8655B500DB20D9 /* Resources */,
 				EFD7C9E82B2A14B000559A24 /* GraveyardKeeperImages */,
 				EF9111412B276F2800A2ABF3 /* Graveyard_HelperApp.swift */,
 				EF9111522B27704A00A2ABF3 /* ViewModel */,

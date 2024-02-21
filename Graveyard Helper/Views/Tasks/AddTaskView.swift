@@ -32,7 +32,7 @@ struct AddTaskView: View {
                         ForEach(newTask.tasks){ task in
                             HStack {
                             task.object.showIcon()
-                                Text(task.object.title + " x\(task.object.quantity)")
+                                Text(task.object.Name + " x\(task.object.base_price)")
                             Spacer()
                             }
                             

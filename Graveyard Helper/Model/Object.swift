@@ -11,25 +11,45 @@ import Foundation
 import SwiftUI
 
 
-struct Objects: Hashable, Identifiable{
-    let id = UUID()
-    let title:String
-    let icon:String
-    var recipe:[Recipe] = []
-    let location:String
-    let dlc:dlc
-    var quantity:Int = 1
+struct Objeto: Hashable, Codable{
+    var Index:Int
+    var ID:String
+    var Name:String
+    var base_price:Float
+    var base_count: Float
+    var product_types:String
+    var quantity:Int
+    
     
     func showIcon() -> Image {
-        return Image(self.icon)
+        return Image(self.ID)
     }
     
 
 }
 
+struct Construccion:Codable{
+    var Index:Int
+    var ID:String
+    
+    func showIcon() -> Image {
+        return Image(self.ID)
+    }
+    
+
+}
+
+struct DataModel: Codable{
+    var objects: [Objeto]
+    var construciones: [Construccion]
+    
+
+}
+
+
 struct Recipe:Hashable, Identifiable{
     let id:UUID = UUID()
-    let table:Objects?
+    let table:Objeto?
     let materials:[Materials]
     let quantity_produced:Int
 }
