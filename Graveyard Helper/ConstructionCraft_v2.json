@@ -1,0 +1,494 @@
+[
+  {
+    "Index": 224,
+    "ID": "cellar_builddesk:p:barrel_brew_place",
+    "needs": "[id:flitch,value:8], [id:detail_1,value:4]",
+    "out_obj": "barrel_brew_place"
+  },
+  {
+    "Index": 11,
+    "ID": "beegarden_table:p:beehouse_place",
+    "needs": "[id:flitch,value:4], [id:nails,value:6], [id:bee,value:20]",
+    "out_obj": "beehouse_place"
+  },
+  {
+    "Index": 227,
+    "ID": "cellar_builddesk:p:brewing_stand_place",
+    "needs": "[id:stone_plate_1,value:24], [id:detail_1,value:4]",
+    "out_obj": "brewing_stand_place"
+  },
+  {
+    "Index": 1,
+    "ID": "slava_test_builder:p:bush_1_berry",
+    "needs": "[id:stick,value:1]",
+    "out_obj": "bush_1_berry"
+  },
+  {
+    "Index": 2,
+    "ID": "slava_test_builder:p:bush_2_berry",
+    "needs": "[id:stick,value:4]",
+    "out_obj": "bush_2_berry"
+  },
+  {
+    "Index": 32,
+    "ID": "tree_garden_builddesk:p:bush_berry_garden_place",
+    "needs": "[id:seedling_bush_berry,value:1], [id:peat,value:3], [id:stick,value:1]",
+    "out_obj": "bush_berry_garden_place"
+  },
+  {
+    "Index": 206,
+    "ID": "church_builddesk:p:c_obj_incense_1_place",
+    "needs": "[id:stone_plate_2,value:12], [id:detail_1,value:4]",
+    "out_obj": "c_obj_incense_1_place"
+  },
+  {
+    "Index": 209,
+    "ID": "church_builddesk:p:c_obj_incense_2_place",
+    "needs": "[id:detail_1,value:12], [id:marble_plate_2,value:6], [id:detail_2,value:4]",
+    "out_obj": "c_obj_incense_2_place"
+  },
+  {
+    "Index": 194,
+    "ID": "church_builddesk:p:candelabrum_1",
+    "needs": "[id:detail_1,value:6]",
+    "out_obj": "candelabrum_1"
+  },
+  {
+    "Index": 196,
+    "ID": "church_builddesk:p:candelabrum_2",
+    "needs": "[id:detail_1,value:4], [id:detail_2,value:4]",
+    "out_obj": "candelabrum_2"
+  },
+  {
+    "Index": 198,
+    "ID": "church_builddesk:p:candelabrum_3",
+    "needs": "[id:detail_2,value:10], [id:jewelry_detail_silver,value:4]",
+    "out_obj": "candelabrum_3"
+  },
+  {
+    "Index": 104,
+    "ID": "mf_wood_builddesk:p:chest_place",
+    "needs": "[id:flitch,value:4], [id:nails,value:4], [id:detail_1,value:2]",
+    "out_obj": "chest_place"
+  },
+  {
+    "Index": 218,
+    "ID": "church_builddesk:p:church_bench",
+    "needs": "[id:wooden_plank,value:8], [id:nails,value:8]",
+    "out_obj": "church_bench"
+  },
+  {
+    "Index": 220,
+    "ID": "church_builddesk:p:church_bench_2",
+    "needs": "[id:wooden_plank,value:8], [id:wood_constr_1,value:4], [id:detail_2,value:4]",
+    "out_obj": "church_bench_2"
+  },
+  {
+    "Index": 212,
+    "ID": "church_builddesk:p:church_budka_1_place",
+    "needs": "[id:wooden_plank,value:16], [id:detail_2,value:6]",
+    "out_obj": "church_budka_1_place"
+  },
+  {
+    "Index": 215,
+    "ID": "church_builddesk:p:church_budka_2_place",
+    "needs": "[id:wooden_plank,value:14], [id:wood_constr_1,value:4], [id:detail_2,value:6]",
+    "out_obj": "church_budka_2_place"
+  },
+  {
+    "Index": 188,
+    "ID": "church_builddesk:p:church_table_1_place",
+    "needs": "[id:wood_balk_1,value:4], [id:wooden_plank,value:4], [id:detail_1,value:4]",
+    "out_obj": "church_table_1_place"
+  },
+  {
+    "Index": 191,
+    "ID": "church_builddesk:p:church_table_2_place",
+    "needs": "[id:wood_balk_1,value:4], [id:marble_plate_3:1,value:2], [id:detail_2,value:4]",
+    "out_obj": "church_table_2_place"
+  },
+  {
+    "Index": 179,
+    "ID": "morgue_builddesk:p:corpse_bed_big_place",
+    "needs": "[id:flitch,value:20], [id:nails,value:16]",
+    "out_obj": "corpse_bed_big_place"
+  },
+  {
+    "Index": 176,
+    "ID": "morgue_builddesk:p:corpse_bed_place",
+    "needs": "[id:flitch,value:8], [id:nails,value:6]",
+    "out_obj": "corpse_bed_place"
+  },
+  {
+    "Index": 182,
+    "ID": "morgue_builddesk:p:corpse_fridge_place",
+    "needs": "[id:flitch,value:20], [id:nails,value:16], [id:detail_2,value:5]",
+    "out_obj": "corpse_fridge_place"
+  },
+  {
+    "Index": 145,
+    "ID": "alchemy_builddesk:p:desk",
+    "needs": "[id:flitch,value:8], [id:nails,value:8]",
+    "out_obj": "desk"
+  },
+  {
+    "Index": 147,
+    "ID": "alchemy_builddesk:p:desk_2",
+    "needs": "[id:wooden_plank,value:6], [id:nails,value:12], [id:lense,value:1]",
+    "out_obj": "desk_2"
+  },
+  {
+    "Index": 8,
+    "ID": "garden_builddesk:p:garden_empty_stick_place",
+    "needs": "[id:stick,value:5]",
+    "out_obj": "garden_empty_stick_place"
+  },
+  {
+    "Index": 55,
+    "ID": "alchemy_builddesk:p:mf_alchemy_craft_01_place",
+    "needs": "[id:wooden_plank,value:4], [id:detail_1,value:4], [id:glass_1,value:4]",
+    "out_obj": "mf_alchemy_craft_01_place"
+  },
+  {
+    "Index": 58,
+    "ID": "alchemy_builddesk:p:mf_alchemy_craft_02_place",
+    "needs": "[id:wooden_plank,value:6], [id:detail_2,value:3], [id:glass_2,value:2]",
+    "out_obj": "mf_alchemy_craft_02_place"
+  },
+  {
+    "Index": 61,
+    "ID": "alchemy_builddesk:p:mf_alchemy_craft_03_place",
+    "needs": "[id:wood_constr_1,value:6], [id:detail_3,value:2], [id:glass_2,value:3]",
+    "out_obj": "mf_alchemy_craft_03_place"
+  },
+  {
+    "Index": 64,
+    "ID": "alchemy_builddesk:p:mf_alchemy_mill_place",
+    "needs": "[id:stone_plate_2,value:2], [id:wooden_plank,value:6], [id:detail_1,value:4]",
+    "out_obj": "mf_alchemy_mill_place"
+  },
+  {
+    "Index": 49,
+    "ID": "alchemy_builddesk:p:mf_alchemy_stirrer_01_place",
+    "needs": "[id:wooden_plank,value:6], [id:detail_1,value:4], [id:nails,value:8]",
+    "out_obj": "mf_alchemy_stirrer_01_place"
+  },
+  {
+    "Index": 52,
+    "ID": "alchemy_builddesk:p:mf_alchemy_survey_place",
+    "needs": "[id:wooden_plank,value:6], [id:detail_1,value:4], [id:glass_1,value:3]",
+    "out_obj": "mf_alchemy_survey_place"
+  },
+  {
+    "Index": 84,
+    "ID": "mf_wood_builddesk:p:mf_anvil_1",
+    "needs": "[id:wood1,value:2], [id:detail_1,value:4]",
+    "out_obj": "mf_anvil_1"
+  },
+  {
+    "Index": 86,
+    "ID": "mf_wood_builddesk:p:mf_anvil_2",
+    "needs": "[id:ingot_metal,value:4]",
+    "out_obj": "mf_anvil_2"
+  },
+  {
+    "Index": 91,
+    "ID": "mf_wood_builddesk:p:mf_anvil_3",
+    "needs": "[id:ingot_metal,value:5], [id:ingot_steel,value:2]",
+    "out_obj": "mf_anvil_3"
+  },
+  {
+    "Index": 170,
+    "ID": "morgue_builddesk:p:mf_balsamation_1_place",
+    "needs": "[id:wooden_plank,value:8], [id:detail_2,value:4], [id:nails,value:16]",
+    "out_obj": "mf_balsamation_1_place"
+  },
+  {
+    "Index": 173,
+    "ID": "morgue_builddesk:p:mf_balsamation_2_place",
+    "needs": "[id:wooden_plank,value:14], [id:detail_3,value:4], [id:glass_2,value:4]",
+    "out_obj": "mf_balsamation_2_place"
+  },
+  {
+    "Index": 230,
+    "ID": "cellar_builddesk:p:mf_barrel_mid_place",
+    "needs": "[id:flitch,value:12], [id:detail_1,value:5], [id:nails,value:7]",
+    "out_obj": "mf_barrel_mid_place"
+  },
+  {
+    "Index": 110,
+    "ID": "mf_wood_builddesk:p:mf_beam_gantry_1_place",
+    "needs": "[id:stick,value:10]",
+    "out_obj": "mf_beam_gantry_1_place"
+  },
+  {
+    "Index": 14,
+    "ID": "garden_builddesk:p:mf_box_stuff_place",
+    "needs": "[id:flitch,value:8], [id:nails,value:8], [id:detail_1,value:2]",
+    "out_obj": "mf_box_stuff_place"
+  },
+  {
+    "Index": 15,
+    "ID": "cellar_builddesk:p:mf_box_stuff_place",
+    "needs": "[id:flitch,value:8], [id:nails,value:8], [id:detail_1,value:2]",
+    "out_obj": "mf_box_stuff_place"
+  },
+  {
+    "Index": 16,
+    "ID": "mf_wood_builddesk:p:mf_box_stuff_place",
+    "needs": "[id:flitch,value:8], [id:nails,value:8], [id:detail_1,value:2]",
+    "out_obj": "mf_box_stuff_place"
+  },
+  {
+    "Index": 102,
+    "ID": "mf_wood_builddesk:p:mf_bucket_1",
+    "needs": "[id:flitch,value:4], [id:detail_1,value:2]",
+    "out_obj": "mf_bucket_1"
+  },
+  {
+    "Index": 113,
+    "ID": "mf_wood_builddesk:p:mf_chocks_1",
+    "needs": "[id:wood1,value:5]",
+    "out_obj": "mf_chocks_1"
+  },
+  {
+    "Index": 137,
+    "ID": ":p:mf_coal_1",
+    "needs": "[id:flitch,value:4]",
+    "out_obj": "mf_coal_1"
+  },
+  {
+    "Index": 67,
+    "ID": "alchemy_builddesk:p:mf_distcube_2_clay_place",
+    "needs": "[id:stone_plate_1,value:20], [id:detail_2,value:8]",
+    "out_obj": "mf_distcube_2_clay_place"
+  },
+  {
+    "Index": 76,
+    "ID": "alchemy_builddesk:p:mf_distcube_2_cuprum_place",
+    "needs": "[id:stone_plate_1,value:30], [id:detail_2,value:4], [id:detail_3,value:4]",
+    "out_obj": "mf_distcube_2_cuprum_place"
+  },
+  {
+    "Index": 81,
+    "ID": "mf_wood_builddesk:p:mf_furnace_0_place",
+    "needs": "[id:flitch,value:4], [id:stone_plate_1,value:20], [id:detail_1,value:8]",
+    "out_obj": "mf_furnace_0_place"
+  },
+  {
+    "Index": 88,
+    "ID": "mf_wood_builddesk:p:mf_furnace_1_place",
+    "needs": "[id:stone_plate_1,value:30], [id:detail_2,value:14], [id:skroll_skin_pig,value:4]",
+    "out_obj": "mf_furnace_1_place"
+  },
+  {
+    "Index": 96,
+    "ID": "mf_wood_builddesk:p:mf_furnace_2_place",
+    "needs": "[id:stone_plate_1,value:40], [id:detail_2,value:20], [id:skroll_skin_pig,value:4]",
+    "out_obj": "mf_furnace_2_place"
+  },
+  {
+    "Index": 99,
+    "ID": "mf_wood_builddesk:p:mf_grindstone_1_place",
+    "needs": "[id:flitch,value:4], [id:stone_plate_1,value:1], [id:detail_1,value:2]",
+    "out_obj": "mf_grindstone_1_place"
+  },
+  {
+    "Index": 134,
+    "ID": "mf_wood_builddesk:p:mf_hammer_0_place",
+    "needs": "[id:flitch,value:4], [id:nails,value:4]",
+    "out_obj": "mf_hammer_0_place"
+  },
+  {
+    "Index": 142,
+    "ID": "mf_wood_builddesk:p:mf_hammer_1_place",
+    "needs": "[id:wooden_plank,value:5], [id:flitch,value:8], [id:nails,value:18]",
+    "out_obj": "mf_hammer_1_place"
+  },
+  {
+    "Index": 93,
+    "ID": "mf_wood_builddesk:p:mf_jewelry_place",
+    "needs": "[id:wood_constr_1,value:4], [id:detail_3,value:4], [id:lense,value:2]",
+    "out_obj": "mf_jewelry_place"
+  },
+  {
+    "Index": 79,
+    "ID": "mf_wood_builddesk:p:mf_ore_1_complete",
+    "needs": "[id:flitch,value:4]",
+    "out_obj": "mf_ore_1_complete"
+  },
+  {
+    "Index": 149,
+    "ID": "mf_wood_builddesk:p:mf_paper_press_place",
+    "needs": "[id:flitch,value:4], [id:detail_1,value:2], [id:nails,value:6]",
+    "out_obj": "mf_paper_press_place"
+  },
+  {
+    "Index": 139,
+    "ID": "mf_wood_builddesk:p:mf_potter_wheel_1_place",
+    "needs": "[id:flitch,value:4], [id:stone_plate_1,value:2], [id:nails,value:6]",
+    "out_obj": "mf_potter_wheel_1_place"
+  },
+  {
+    "Index": 164,
+    "ID": "morgue_builddesk:p:mf_preparation_1_place",
+    "needs": "[id:flitch,value:12], [id:detail_2,value:4], [id:nails,value:18]",
+    "out_obj": "mf_preparation_1_place"
+  },
+  {
+    "Index": 167,
+    "ID": "morgue_builddesk:p:mf_preparation_2_place",
+    "needs": "[id:wooden_plank,value:10], [id:detail_3,value:4], [id:nails,value:18]",
+    "out_obj": "mf_preparation_2_place"
+  },
+  {
+    "Index": 161,
+    "ID": "alchemy_builddesk:p:mf_printing_press_2_place",
+    "needs": "[id:wooden_plank,value:10], [id:detail_2,value:4], [id:nails,value:18]",
+    "out_obj": "mf_printing_press_2_place"
+  },
+  {
+    "Index": 158,
+    "ID": "alchemy_builddesk:p:mf_printing_press_place",
+    "needs": "[id:wooden_plank,value:6], [id:detail_1,value:4], [id:nails,value:12]",
+    "out_obj": "mf_printing_press_place"
+  },
+  {
+    "Index": 118,
+    "ID": "mf_wood_builddesk:p:mf_saw_1_place",
+    "needs": "[id:detail_2,value:10], [id:wooden_plank,value:8], [id:nails,value:4]",
+    "out_obj": "mf_saw_1_place"
+  },
+  {
+    "Index": 121,
+    "ID": "mf_wood_builddesk:p:mf_shelf_1",
+    "needs": "[id:detail_1,value:4], [id:wooden_plank,value:8], [id:nails,value:4]",
+    "out_obj": "mf_shelf_1"
+  },
+  {
+    "Index": 131,
+    "ID": "mf_wood_builddesk:p:mf_stones_1_place",
+    "needs": "[id:flitch,value:8], [id:nails,value:8]",
+    "out_obj": "mf_stones_1_place"
+  },
+  {
+    "Index": 107,
+    "ID": "mf_wood_builddesk:p:mf_timber_1_place",
+    "needs": "[id:stick,value:10], [id:flitch,value:4], [id:wood_balk_1,value:4]",
+    "out_obj": "mf_timber_1_place"
+  },
+  {
+    "Index": 126,
+    "ID": "mf_wood_builddesk:p:mf_vine_press_place",
+    "needs": "[id:flitch,value:12], [id:detail_2,value:4], [id:stone_plate_1,value:10]",
+    "out_obj": "mf_vine_press_place"
+  },
+  {
+    "Index": 127,
+    "ID": "cellar_builddesk:p:mf_vine_press_place",
+    "needs": "[id:flitch,value:12], [id:detail_2,value:4], [id:stone_plate_1,value:10]",
+    "out_obj": "mf_vine_press_place"
+  },
+  {
+    "Index": 115,
+    "ID": "mf_wood_builddesk:p:mf_workbench_1_place",
+    "needs": "[id:flitch,value:5], [id:detail_1,value:2]",
+    "out_obj": "mf_workbench_1_place"
+  },
+  {
+    "Index": 123,
+    "ID": "mf_wood_builddesk:p:mf_workbench_2_place",
+    "needs": "[id:wooden_plank,value:8], [id:detail_2,value:4], [id:wood_balk_1,value:2]",
+    "out_obj": "mf_workbench_2_place"
+  },
+  {
+    "Index": 155,
+    "ID": "alchemy_builddesk:p:obj_church_bookcase_place",
+    "needs": "[id:flitch,value:8], [id:detail_1,value:4], [id:nails,value:12]",
+    "out_obj": "obj_church_bookcase_place"
+  },
+  {
+    "Index": 152,
+    "ID": "alchemy_builddesk:p:obj_church_scroll_cabinet_place",
+    "needs": "[id:flitch,value:8], [id:detail_1,value:4], [id:nails,value:12]",
+    "out_obj": "obj_church_scroll_cabinet_place"
+  },
+  {
+    "Index": 46,
+    "ID": "graveyard_builddesk:p:pray_stand_stn_place",
+    "needs": "[id:flitch,value:4], [id:nails,value:4]",
+    "out_obj": "pray_stand_stn_place"
+  },
+  {
+    "Index": 43,
+    "ID": "graveyard_builddesk:p:pray_stand_wd_place",
+    "needs": "[id:flitch,value:4], [id:nails,value:4]",
+    "out_obj": "pray_stand_wd_place"
+  },
+  {
+    "Index": 73,
+    "ID": "alchemy_builddesk:p:rack_alchemy_place",
+    "needs": "[id:flitch,value:12], [id:nails,value:10], [id:wood_balk_1,value:4]",
+    "out_obj": "rack_alchemy_place"
+  },
+  {
+    "Index": 185,
+    "ID": "morgue_builddesk:p:rack_organs_place",
+    "needs": "[id:flitch,value:12], [id:nails,value:10], [id:wood_balk_1,value:4]",
+    "out_obj": "rack_organs_place"
+  },
+  {
+    "Index": 27,
+    "ID": "garden_builddesk:p:scarecrow",
+    "needs": "[id:stick,value:4], [id:flitch,value:4]",
+    "out_obj": "scarecrow"
+  },
+  {
+    "Index": 70,
+    "ID": "alchemy_builddesk:p:table_book_constr_place",
+    "needs": "[id:flitch,value:9], [id:nails,value:10], [id:detail_2,value:4]",
+    "out_obj": "table_book_constr_place"
+  },
+  {
+    "Index": 36,
+    "ID": "tree_garden_builddesk:p:tree_apple_garden_place",
+    "needs": "[id:seedling_tree_apple,value:1], [id:peat,value:3], [id:stick,value:2]",
+    "out_obj": "tree_apple_garden_place"
+  },
+  {
+    "Index": 130,
+    "ID": "mf_wood_builddesk::upgrade_player_buildzone",
+    "needs": "[id:detail_2,value:10], [id:wooden_plank,value:8], [id:nails,value:4]",
+    "out_obj": "upgrade_player_buildzone"
+  },
+  {
+    "Index": 29,
+    "ID": "garden_builddesk:p:v_obj_compost_heap_place",
+    "needs": "[id:stick,value:20]",
+    "out_obj": "v_obj_compost_heap_place"
+  },
+  {
+    "Index": 233,
+    "ID": "vineyard_builddesk:p:vineyard_grapes_stick_place",
+    "needs": "[id:stick,value:5]",
+    "out_obj": "vineyard_grapes_stick_place"
+  },
+  {
+    "Index": 200,
+    "ID": "church_builddesk:p:wall_candelabrum_1",
+    "needs": "[id:detail_1,value:6]",
+    "out_obj": "wall_candelabrum_1"
+  },
+  {
+    "Index": 202,
+    "ID": "church_builddesk:p:wall_candelabrum_2",
+    "needs": "[id:detail_1,value:4], [id:detail_2,value:4]",
+    "out_obj": "wall_candelabrum_2"
+  },
+  {
+    "Index": 204,
+    "ID": "church_builddesk:p:wall_candelabrum_3",
+    "needs": "[id:detail_2,value:10], [id:jewelry_detail_silver,value:4]",
+    "out_obj": "wall_candelabrum_3"
+  }
+]
